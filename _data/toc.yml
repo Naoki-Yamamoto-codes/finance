@@ -12,3 +12,8 @@
 
 - name: リンク集
   href: /contents/links/
+  items: 
+    - name: 日本 Japan
+      href: /contents/links/japan/
+    - name: スイス Swiss
+      href: /contents/links/swiss/
