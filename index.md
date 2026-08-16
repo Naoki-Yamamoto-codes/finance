@@ -11,4 +11,7 @@
 - [リンク集](./contents/links/links)
 
 # 更新履歴
-{% include_relative history.html %}
+{% capture history_include %}
+{% include_relative history.md %}
+{% endcapture %}
+{{ history_include | markdownify }}
