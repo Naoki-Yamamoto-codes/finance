@@ -1,3 +1,6 @@
+- name: Home
+  href: /
+
 - name: Private Markets
   items:
     - name: プライベートマーケット
