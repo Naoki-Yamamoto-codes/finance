@@ -7,8 +7,8 @@
 
 # 内容
 
-- [プライベートマーケット](./contents/private_markets/private_markets)
-- [リンク集](./contents/links/links)
+- [プライベートマーケット](./_contents/private_markets/private_markets)
+- [リンク集](./_contents/links/links)
 
 # 更新履歴
 {% capture history_include %}

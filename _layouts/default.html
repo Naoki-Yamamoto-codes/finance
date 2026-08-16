@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title | default: site.title }}</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    .layout {
+      display: flex;
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      width: 240px;
+      padding: 20px;
+      border-right: 1px solid #ddd;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      overflow-y: auto;
+    }
+
+    .content {
+      margin-left: 280px;
+      padding: 30px;
+      max-width: 1000px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="layout">
+
+  <aside class="sidebar">
+    {% include sidebar.html %}
+  </aside>
+
+  <main class="content">
+    {{ content }}
+  </main>
+
+</div>
+
+</body>
+</html>
