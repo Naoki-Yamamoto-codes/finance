@@ -5,5 +5,5 @@ permalink: /contents/private_markets/private_real_estate
 ---
 
 
-# 外部リンク
+# 参考になる外部リンク
 - [Blackstone プライベート不動産入門](https://www.blackstone.com/ja-jp/pws/essentials-of-private-real-estate/)
