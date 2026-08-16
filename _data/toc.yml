@@ -1,10 +1,11 @@
 - name: Home
   href: /
 
-- name: Private Markets
+- name: プライベートマーケット
+  href: /contents/private_markets/
   items:
     - name: プライベートマーケット
-      href: /contents/private_markets/private_markets/
+      href: 
 
 - name: リンク集
-  href: /contents/links/links/
+  href: /contents/links/
