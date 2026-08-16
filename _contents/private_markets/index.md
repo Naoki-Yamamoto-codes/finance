@@ -4,4 +4,4 @@ title: プライベートマーケット
 permalink: /contents/private_markets/
 ---
 
-# プライベートマーケット
+dummy
