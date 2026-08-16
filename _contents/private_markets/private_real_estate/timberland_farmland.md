@@ -7,7 +7,7 @@ title: 森林投資・農業投資 Timberland and Farmland Investments
 1回の伐採サイクルにおけるキャッシュフローから、1回の伐採サイクルの現在価値を計算する。
 
 $$
-NPV = \sum_{i=0}^{N}\left(\frac{CF_i}{(1+r)^i}\right)
+NPV = \sum_{i=0}^{N}\frac{CF_i}{(1+r)^i}
 $$
 
 |記号|意味|
@@ -26,11 +26,11 @@ NFV = (1+r)^N NPV
 $$
 
 $$
-\begin{align}
+\begin{aligned}
 LEV &= \sum_{i=1}^\infty \frac{NFV}{\left[(1+r)^N\right]^i} \\
 &= \frac{NFV}{(1+r)^N-1} \\
 &= \frac{(1+r)^N}{(1+r)^N-1} NPV 
-\end{align}
+\end{aligned}
 $$
 
 |記号|意味|
