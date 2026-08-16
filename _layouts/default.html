@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | default: site.title }}</title>
 
   <style>
@@ -30,22 +31,32 @@
       padding: 30px;
       max-width: 1000px;
     }
+
+    .sidebar ul {
+      padding-left: 20px;
+    }
+
+    .sidebar li {
+      margin: 6px 0;
+    }
+
+    .sidebar a {
+      text-decoration: none;
+    }
   </style>
 </head>
 
 <body>
+  <div class="layout">
 
-<div class="layout">
+    <aside class="sidebar">
+      {% include sidebar.html %}
+    </aside>
 
-  <aside class="sidebar">
-    {% include sidebar.html %}
-  </aside>
+    <main class="content">
+      {{ content }}
+    </main>
 
-  <main class="content">
-    {{ content }}
-  </main>
-
-</div>
-
+  </div>
 </body>
 </html>

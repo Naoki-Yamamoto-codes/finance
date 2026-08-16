@@ -1,3 +1,4 @@
 collections:
   contents:
     output: true
+    permalink: /contents/:path/

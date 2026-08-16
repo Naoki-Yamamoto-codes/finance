@@ -1,9 +1,4 @@
-<ul>
-{% for content in site.contents %}
-  <li>
-    <a href="{{ content.url | relative_url }}">
-      {{ content.title }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
+<nav class="sidebar-nav">
+  <h3>Contents</h3>
+  {% include toc.html items=site.data.toc %}
+</nav>
