@@ -13,6 +13,8 @@
 - name: リンク集
   href: /contents/links/
   items: 
+    - name: デンマーク Denmark
+      href: /contents/links/denmark/
     - name: 日本 Japan
       href: /contents/links/japan/
     - name: スイス Swiss

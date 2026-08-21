@@ -9,3 +9,4 @@ permalink: /contents/private_markets/
 - プライベートスペシャルシチュエーションズ(Private Special Situations) 
 - 私募不動産(Private Real Estate)
 - 私募インフラストラクチャー(Private Infrastructure)
+について記述する。
