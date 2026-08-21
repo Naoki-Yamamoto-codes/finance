@@ -1,6 +1,9 @@
 - name: Home
   href: /
 
+- name: 金融を知りたい人へ
+  href: /contents/for_learners/
+
 - name: プライベートマーケット
   href: /contents/private_markets/
   items:
