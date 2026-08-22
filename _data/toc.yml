@@ -4,6 +4,15 @@
 - name: 金融を知りたい人へ
   href: /contents/for_learners/
 
+- name: レポ Repos
+  href: /contents/repos/
+  items: 
+    - name: 日本の「レポ」取引 Repos in Japan
+      href: /contents/repos/repos_in_japan/
+
+- name: デリバティブ Derivatives
+  href: /contents/derivatives/
+
 - name: プライベートマーケット
   href: /contents/private_markets/
   items:
@@ -12,6 +21,9 @@
       items:
         - name: 森林投資・農地投資 Timberland and Farmland Investments
           href: /contents/private_markets/private_real_estate/timberland_farmland/
+
+- name: 規制 Regulations
+  href: /contents/regulations/
 
 - name: リンク集
   href: /contents/links/

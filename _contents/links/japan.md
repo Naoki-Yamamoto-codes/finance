@@ -23,6 +23,8 @@ title: 日本 Japan
 - [日本証券クリアリング機構 Japan Securities Clearing Corporation, JSCC](https://www.jpx.co.jp/jscc/)
   - [清算参加者情報](https://www.jpx.co.jp/jscc/sankasha.html)
 - [経済産業省 Ministry of Economy, Trade and Industry, METI](https://www.meti.go.jp/)
+- [地域経済活性化支援機構 Regional Economy Vitalization Corporation of Japan, REVIC](https://www.revic.co.jp/index.html)
+  - [支援事例集](https://www.revic.co.jp/examples/index.html)
 
 ## 業界団体
 - [日本証券業協会 Japan Securities Dealers Association, JSDA](https://www.jsda.or.jp/)
