@@ -45,14 +45,24 @@
       text-decoration: none;
     }
     .content table {
-        border-collapse: collapse;
-        margin-left: auto;
-        margin-right: auto;
+      border-collapse: collapse;
+      margin-left: auto;
+      margin-right: auto;
     }
     .content th,
     .content td {
-        border: 1px solid #ccc;
-        padding: 6px 10px;
+      border: 1px solid #ccc;
+      padding: 6px 10px;
+    }
+    .mermaid {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .mermaid svg {
+      max-width: 100%;
+      height: auto;
     }
   </style>
   <script>
@@ -65,6 +75,10 @@
   };
   </script>
   <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
 </head>
 
 <body>

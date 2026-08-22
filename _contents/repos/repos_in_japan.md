@@ -42,4 +42,7 @@ flowchart LR
 
 ## 参考
 - 東京マネーマーケット
-- [日証協　自主規制規則・債券関係](https://www.jsda.or.jp/shijyo/seido/jishukisei/web-handbook/106_saiken/index.html)
+- [自主規制規則・債券関係](https://www.jsda.or.jp/shijyo/seido/jishukisei/web-handbook/106_saiken/index.html)
+- [自主規制規則・株式関係](https://www.jsda.or.jp/shijyo/seido/jishukisei/web-handbook/105_kabushiki/index.html)
+- [現先取引の整備・拡充に向けた動きについて](https://www.boj.or.jp/research/wps_rev/mkr/kmr01j09.htm)
+- [国債決済期間短縮（T+1）化後の市場取引動向](https://www.boj.or.jp/research/brp/ron_2019/ron190530a.htm)
