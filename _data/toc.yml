@@ -25,6 +25,12 @@
 - name: 規制 Regulations
   href: /contents/regulations/
 
+- name: 業界動向 Industry Trends
+  href: /contents/industry_trends/
+  items:
+    - name: 株式のT+1化
+      href: /contents/industry_trends/equity_tplus1/
+
 - name: リンク集
   href: /contents/links/
   items: 
