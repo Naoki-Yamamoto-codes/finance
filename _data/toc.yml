@@ -28,6 +28,8 @@
 - name: 業界動向 Industry Trends
   href: /contents/industry_trends/
   items:
+    - name: ISO20022対応
+      href: /contents/industry_trends/swift_iso20022/ 
     - name: 株式のT+1化
       href: /contents/industry_trends/equity_tplus1/
 
