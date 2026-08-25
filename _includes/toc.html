@@ -3,7 +3,14 @@
   <li>
     {% if item.items %}
       <details>
-        <summary>{{ item.name }}</summary>
+        <summary>
+          {% if item.href %}
+            <a href="{{ item.href | relative_url }}">{{ item.name }}</a>
+          {% else %}
+            {{ item.name }}
+          {% endif %}
+        </summary>
+
         {% include toc.html items=item.items %}
       </details>
     {% else %}
