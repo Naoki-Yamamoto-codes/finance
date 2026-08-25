@@ -5,66 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | default: site.title }}</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: sans-serif;
-    }
-
-    .layout {
-      display: flex;
-      min-height: 100vh;
-    }
-
-    .sidebar {
-      width: 240px;
-      padding: 20px;
-      border-right: 1px solid #ddd;
-      position: fixed;
-      top: 0;
-      bottom: 0;
-      overflow-y: auto;
-    }
-
-    .content {
-      margin-left: 280px;
-      padding: 30px;
-      max-width: 1000px;
-    }
-
-    .sidebar ul {
-      list-style: none;
-      padding-left: 20px;
-    }
-
-    .sidebar li {
-      margin: 6px 0;
-    }
-
-    .sidebar a {
-      text-decoration: none;
-    }
-    .content table {
-      border-collapse: collapse;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .content th,
-    .content td {
-      border: 1px solid #ccc;
-      padding: 6px 10px;
-    }
-    .mermaid {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-    }
-
-    .mermaid svg {
-      max-width: 100%;
-      height: auto;
-    }
-  </style>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <script>
   MathJax = {
     tex: {

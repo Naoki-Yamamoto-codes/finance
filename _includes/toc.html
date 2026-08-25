@@ -1,14 +1,13 @@
 <ul>
 {% for item in include.items %}
   <li>
-    {% if item.href %}
-      <a href="{{ item.href | relative_url }}">{{ item.name }}</a>
-    {% else %}
-      <span>{{ item.name }}</span>
-    {% endif %}
-
     {% if item.items %}
-      {% include toc.html items=item.items %}
+      <details>
+        <summary>{{ item.name }}</summary>
+        {% include toc.html items=item.items %}
+      </details>
+    {% else %}
+      <a href="{{ item.href | relative_url }}">{{ item.name }}</a>
     {% endif %}
   </li>
 {% endfor %}
