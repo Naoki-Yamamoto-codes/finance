@@ -62,8 +62,9 @@ body {
 
 .sidebar summary {
     cursor: pointer;
+    padding-left: 0px;
 }
 
 .sidebar details > ul {
-    padding-left: 15px;
+    padding-left: 0px;
 }
