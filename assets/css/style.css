@@ -8,44 +8,24 @@ body {
     min-height: 100vh;
 }
 
-.sidebar {
-    width: 240px;
-    padding: 20px;
-    border-right: 1px solid #ddd;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    overflow-y: auto;
-}
-
 .content {
     margin-left: 280px;
     padding: 30px;
     max-width: 1000px;
 }
 
-.sidebar ul {
-    list-style: none;
-    padding-left: 0px;
-}
-
-.sidebar li {
-    margin: 6px 0;
-}
-
-.sidebar a {
-    text-decoration: none;
-}
 .content table {
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
 }
+
 .content th,
 .content td {
     border: 1px solid #ccc;
     padding: 6px 10px;
 }
+
 .mermaid {
     display: flex;
     justify-content: center;
@@ -55,16 +35,4 @@ body {
 .mermaid svg {
     max-width: 100%;
     height: auto;
-}
-.sidebar details {
-    margin: 4px 0;
-}
-
-.sidebar summary {
-    cursor: pointer;
-    padding-left: 0px;
-}
-
-.sidebar details > ul {
-    padding-left: 0px;
 }

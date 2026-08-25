@@ -1,0 +1,36 @@
+.sidebar {
+    width: 240px;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.sidebar li {
+    margin: 6px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+
+.sidebar summary {
+    cursor: pointer;
+    padding-left: 0px;
+}
+
+.sidebar details {
+    margin: 4px 0;
+}
+
+.sidebar details > ul {
+    padding-left: 15px;
+}
