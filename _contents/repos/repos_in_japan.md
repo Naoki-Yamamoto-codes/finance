@@ -29,6 +29,14 @@ flowchart LR
 旧現先が生まれて取引が拡大するも、短期金融市場で別の魅力的な商品が生まれ、旧現先は税やリスク管理の面から商品としての競争力を失った。
 現担レポが登場し旧現先からシフトした。その後旧現先の制度を改正し、新現先が登場。しかし、新現先へ完全に移行したわけではなく、現在は旧現先、現担レポ、新現先の3つが残っている。
 
+### 参考
+- 東京マネーマーケット
+- [日証協 自主規制規則・債券関係](https://www.jsda.or.jp/shijyo/seido/jishukisei/web-handbook/106_saiken/index.html)
+- [日証協 自主規制規則・株式関係](https://www.jsda.or.jp/shijyo/seido/jishukisei/web-handbook/105_kabushiki/index.html)
+- [日銀 現先取引の整備・拡充に向けた動きについて](https://www.boj.or.jp/research/wps_rev/mkr/kmr01j09.htm)
+- [日銀 国債決済期間短縮（T+1）化後の市場取引動向](https://www.boj.or.jp/research/brp/ron_2019/ron190530a.htm)
+
+
 ## 株式
 - 日本で株レポといった場合には、株券貸借取引（株券等の貸借取引）を表す
 - 債券の現担レポと同様に、株レポはレポと同等の経済効果を持つ貸借として普及したためである
@@ -66,13 +74,23 @@ flowchart LR
 >４ 信託の受託者である清算参加者は、自己が受託する信託に係る取引については、信託
 口で処理しなければならない。
 
-## 参考
-- 東京マネーマーケット
-- [日証協 自主規制規則・債券関係](https://www.jsda.or.jp/shijyo/seido/jishukisei/web-handbook/106_saiken/index.html)
-- [日証協 自主規制規則・株式関係](https://www.jsda.or.jp/shijyo/seido/jishukisei/web-handbook/105_kabushiki/index.html)
-- [日銀 現先取引の整備・拡充に向けた動きについて](https://www.boj.or.jp/research/wps_rev/mkr/kmr01j09.htm)
-- [日銀 国債決済期間短縮（T+1）化後の市場取引動向](https://www.boj.or.jp/research/brp/ron_2019/ron190530a.htm)
+### 参考
 - [JSCC 国債店頭 取引清算対象取引](https://www.jpx.co.jp/jscc/seisan/tentou/product.html)
 - [JSCC 規則 国債店頭取引](https://www.jpx.co.jp/jscc/kisoku/tentou.html)
   - 国債店頭取引清算業務に関する業務方法書
   - 国債店頭取引清算業務に関する業務方法書の取扱い
+
+## 取引動向
+日本のレポ取引の動向については日銀が集計したデータを公表している。
+どのようなデータがなのかは[「FSBレポ統計の日本分集計結果」の解説](https://www.boj.or.jp/statistics/outline/exp/exrepo.htm)にて説明されている。
+
+|項目|内容|
+|---|---|
+|対象取引|日本の「レポ」<br />狭義レポについては現先だけでなくMRA、GMRA、その他基本契約書<br /> 貸借取引については、日証協の貸借（債券と株券）、MSLA、GMSLA、その他基本契約書。ただし無担保貸借と制度信用取引の貸借は含まれない|
+|公表頻度|月次。翌月第15営業日|
+|公表されているデータ|ストックデータ・フローデータ<br />金融機関のサイド<br />証券種類<br />マチュリティ（取引満期）<br />取引相手の法域<br />取引相手の業態<br />GCレポ取引/SCレポ取引<br />CCP清算取引/非CCP清算取引<br />レート（貸借料率・レポレート）|
+### 参考
+- [FSBレポ統計の日本分集計結果](https://www.boj.or.jp/statistics/bis/repo/index.htm)
+- [「FSBレポ統計の日本分集計結果」の解説](https://www.boj.or.jp/statistics/outline/exp/exrepo.htm)
+- [「FSBレポ統計の日本分集計結果」の公表開始に関するお知らせ](https://www.boj.or.jp/statistics/outline/notice_2020/not200110a.htm)
+
