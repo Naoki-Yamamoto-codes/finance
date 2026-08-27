@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 現先取引（債券等の条件付売買取引）
+title: 現先取引（債券等の条件付売買取引） Gensaki
 ---
 
 日証協の基本契約書のひな型をもとに、日本の現先取引についてみる。
@@ -94,6 +94,7 @@ flowchart LR
 
 純与信額とは個別取引与信額の和から担保を差し引いた値である。
 証券の買手からみた売手への個別取引与信額は次のように計算される。
+
 $$
 \begin{aligned}
 ① &= V_{end} \times (1+h) \\
@@ -102,13 +103,16 @@ Exposure(t) &= ① - ② \\
 &= V_{end} \times (1+h) - MV_{bond}(t) \times N_{bond}
 \end{aligned}
 $$
+
 売買金額算出比率はその定義から
+
 $$
 \begin{aligned}
 h=\frac{MV_{bond}(0)}{P_{start}} - 1 \\
 P_{start} = \frac{MV_{bond}(0)}{1+h}
 \end{aligned}
 $$
+
 と表される。
 式からもわかる通り、売買金額算出比率は取引開始時に定めた、債券の時価を現金相当額に換算するために、債券の時価を割ることで減じる値である。
 すなわち、除算型のヘアカットである。
@@ -117,11 +121,14 @@ $$
 したがって$Exposure(t) \geq 0$は債券の買手に未実現利益がある状態である。
 この未実現利益を補填するために、証券の買手は売手に対して担保を請求できる。
 簡単のため1取引しかないとすると、個別取引与信額から受け取った担保の額を減じることにより、純与信額は
+
 $$
 Credit(t) = Exposure(t) - Collateral(t) = V_{end} \times (1+h) - MV_{bond}(t) \times N_{bond} - Collateral(t)
 $$
+
 と計算される。
 「純与信額が零以上となるよう担保の差入れ又は返戻を請求することができる」とは
+
 $$
 \begin{aligned}
 Credit(t) & \geq 0 \\ 
@@ -129,6 +136,7 @@ Exposure(t) - Collateral(t) & \geq 0 \\
 Exposure(t) & \geq Collateral(t)
 \end{aligned}
 $$
+
 より、証券の買手が売手に差入れの請求できる担保の額は与信額以下までということである。
 証券の買手が受け取っている担保の額が変動し与信額を超えたら、純与信額が0以下になるので、売手は純与信額が0以上になるように担保の返戻を請求することができる。
 
@@ -211,6 +219,7 @@ $$
 
 数式で表すと次の通り。
 売買金額算出比率を決めれば、スタート売買単価が決まる。
+
 $$
 \begin{aligned}
 V_{start} &= N_{bond} \times P_{start} \\
@@ -232,6 +241,7 @@ $$
 > ただし、「÷365」は、両当事者間の合意により、「÷360」とすることができる。 
 
 数式で表すと以下の通り。
+
 $$
 \begin{aligned}
 V_{end} &= N_{bond} \times P_{end} \\
@@ -247,6 +257,7 @@ $$
 |$T$|取引終了日。$t=0$に取引開始とすると取引の満期（=約定期間）|
 
 与信額は
+
 $$
 \begin{aligned}
 Exposure(t) &= V_{end} \times (1+h) - MV_{bond}(t) \times N_{bond} \\
@@ -254,15 +265,20 @@ Exposure(t) &= V_{end} \times (1+h) - MV_{bond}(t) \times N_{bond} \\
 &= N_{bond} \times \left[\left(1+r \times \frac{T}{365}\right) \times MV_{bond}(0) - MV_{bond}(t)\right] 
 \end{aligned}
 $$
+
 と書くことができる。
 フラットなイールドカーブを仮定すると、時点$t$の債券時価は債券利回り$r_{bond}$を用いて、
+
 $$
 MV_{bond}(t) = \left(1+r_{bond} \times \frac{T}{365}\right) \times MV_{bond}(0)
 $$
+
 と表せるから、与信額は
+
 $$
 Exposure(t) = N_{bond} \times \left( r - r_{bond} \right) \times \frac{T}{365} \times MV_{bond}(0)
 $$
+
 と表せる。
 現先レートと債券利回りの差分が債券の買手の利益になる。
 
