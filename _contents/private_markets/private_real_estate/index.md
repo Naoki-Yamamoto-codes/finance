@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 私募不動産 Private Real Estate
-permalink: /contents/private_markets/private_real_estate
+permalink: /contents/private_markets/private_real_estate/
 ---
 
 

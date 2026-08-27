@@ -9,6 +9,8 @@
   items: 
     - name: 日本の「レポ」取引 Repos in Japan
       href: /contents/repos/repos_in_japan/
+    - name: 現先取引（債券等の条件付売買取引） Gensaki
+      href: /contents/repos/gensaki_new/
 
 - name: デリバティブ Derivatives
   href: /contents/derivatives/
@@ -17,7 +19,7 @@
   href: /contents/private_markets/
   items:
     - name: 私募不動産 Private Real Estate
-      href: /contents/private_markets/private_real_estate
+      href: /contents/private_markets/private_real_estate/
       items:
         - name: 森林投資・農地投資 Timberland and Farmland Investments
           href: /contents/private_markets/private_real_estate/timberland_farmland/
