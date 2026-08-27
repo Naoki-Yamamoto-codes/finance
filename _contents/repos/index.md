@@ -4,6 +4,8 @@ title: レポ Repos
 permalink: /contents/repos/
 ---
 
+## レポ取引とは
+
 レポ取引(Repurchase agreement, Repo)とは一定期間後に証券を買い戻す取引である。
 証券を売ったときの価格で買い戻すわけではなく、利息を含めて買い戻す。
 
@@ -40,3 +42,7 @@ flowchart LR
 
 リバースレポ取引(Reverse repo agreement)は単にレポ取引の視点を変えただけであり、証券を売り戻す取引を指す。
 あるレポ取引は、証券を買い戻す側（上図のA）から見たらレポ取引であり、証券を売り戻す側（上図のB）からしたらリバースレポ取引である。
+
+## レポ取引に関する文書
+- [Repo market functioning](https://www.bis.org/publ/cgfs59.htm)
+- 
