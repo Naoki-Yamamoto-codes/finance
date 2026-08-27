@@ -36,3 +36,10 @@ body {
     max-width: 100%;
     height: auto;
 }
+
+blockquote {
+    border-left: 4px solid #ccc;
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    background: #f8f8f8;
+}
