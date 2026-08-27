@@ -5,7 +5,7 @@
       <details>
         <summary>
           {% if item.href %}
-            <a href="{{ item.href | relative_url }}">{{ item.name }}</a>
+            <a href="{{ item.href | relative_url }}" onclick="event.stopPropagation()">{{ item.name }}</a>
           {% else %}
             {{ item.name }}
           {% endif %}
