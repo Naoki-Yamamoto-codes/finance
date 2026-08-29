@@ -7,30 +7,12 @@
 
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/sidebar.css' | relative_url }}">
-  <script>
-  MathJax = {
-    tex: {
-      tags: 'ams',
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$', '$$'], ['\\[', '\\]']]
-    }
-  };
-  </script>
+  <link rel="stylesheet" href="{{ '/assets/css/page-toc.css' | relative_url }}">
+
+  <script src="{{ '/assets/js/mathjax.js' | relative_url }}"></script>
   <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  <script type="module">
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-    mermaid.initialize({ startOnLoad: true });
-    document.querySelectorAll('code.language-mermaid').forEach((code) => {
-      const div = document.createElement('div');
-
-      div.className = 'mermaid';
-      div.textContent = code.textContent;
-
-      code.parentElement.replaceWith(div);
-    });
-
-    await mermaid.run();
-  </script>
+  <script src="{{ '/assets/js/page-toc.js' | relative_url }}"></script>
+  <script type="module" src="{{ '/assets/js/mermaid.js' | relative_url }}"></script>
 </head>
 
 <body>
@@ -42,6 +24,9 @@
 
     <main class="content">
       <h1>{{ page.title }}</h1>
+      <div id="page-toc">
+        <strong>目次</strong>
+      </div>
       {{ content }}
     </main>
 

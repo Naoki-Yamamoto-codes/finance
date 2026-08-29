@@ -1,0 +1,17 @@
+#page-toc ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+#page-toc ul ul {
+    padding-left: 20px;
+}
+
+#page-toc li {
+    margin: 4px 0;
+}
+
+#page-toc a {
+    text-decoration: none;
+}
