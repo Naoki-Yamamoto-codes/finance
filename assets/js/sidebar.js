@@ -1,24 +1,21 @@
 document.addEventListener("DOMContentLoaded", function () {
     const details = document.querySelectorAll(".sidebar details");
+    const keyPrefix = "sidebar-open:"
 
     details.forEach(function (detail) {
         const link = detail.querySelector(":scope > summary a");
+        
         if (!link) {
             return;
         }
 
         const key = link.getAttribute("href");
-        const storageKey = "sidebar-open:" + key;
-
-        if (sessionStorage.getItem(storageKey) === "true") {
-            detail.open = true;
-        }
+        const storageKey = keyPrefix + key;
 
         detail.addEventListener("toggle", function () {
             sessionStorage.setItem(storageKey, detail.open);
         });
     });
-
     // リンククリック時に、親 details の状態を保存
     document.querySelectorAll(".sidebar a").forEach(function (link) {
         link.addEventListener("click", function () {
@@ -26,13 +23,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
             while (parent) {
                 if (parent.tagName === "DETAILS") {
-                    const key = parent.dataset.tocKey;
+                    const summaryLink = parent.querySelector(":scope > summary a");
 
-                    if (key) {
-                        sessionStorage.setItem(
-                            "sidebar-open:" + key,
-                            "true"
-                        );
+                    if (summaryLink) {
+                        const key = summaryLink.getAttribute("href");
+                        const storageKey = keyPrefix + key;
+
+                        sessionStorage.setItem(storageKey, "true");
                     }
                 }
 
