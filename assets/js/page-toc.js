@@ -1,7 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
     const toc = document.getElementById("page-toc");
-    const headings = document.querySelectorAll(
-        ".content h2, .content h3, .content h4, .content h5, .content h6"
+    const headings = Array.from(
+        document.querySelectorAll(
+            ".content h2, .content h3, .content h4, .content h5, .content h6"
+        )
     ).filter(heading => !heading.classList.contains("toc-title"));
 
     if (headings.length === 0) {
