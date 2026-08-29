@@ -37,9 +37,14 @@ body {
     height: auto;
 }
 
-blockquote {
+blockquote,
+pre {
     border-left: 4px solid #ccc;
     margin: 1em 0;
     padding: 0.5em 1em;
     background: #f8f8f8;
+}
+
+pre {
+    overflow-x: auto;
 }
