@@ -11,6 +11,8 @@
       href: /contents/repos/repos_in_japan/
     - name: 現先取引（債券等の条件付売買取引） Gensaki
       href: /contents/repos/gensaki_new/
+    - name: GMRAレポ GMRA
+      href: /contents/repos/gmra/
 
 - name: デリバティブ Derivatives
   href: /contents/derivatives/
