@@ -2,7 +2,7 @@
 {% for item in include.items %}
   <li>
     {% if item.items %}
-      <details data-toc-key="{{ item.url }}">
+      <details>
         <summary>
           {% if item.href %}
             <a href="{{ item.href | relative_url }}" onclick="event.stopPropagation()">{{ item.name }}</a>

@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const details = document.querySelectorAll(".sidebar details");
 
     details.forEach(function (detail) {
-        const key = detail.dataset.tocKey;
-
+        const link = detail.querySelector(":scope > summary a");
+        const key = link ? link.getAttribute("href") : detail.querySelector(":scope > summary").textContent.trim();
         if (!key) {
             return;
         }
