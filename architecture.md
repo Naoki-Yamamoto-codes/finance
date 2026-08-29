@@ -5,13 +5,7 @@ title: アーキテクチャ Architecture
 
 このサイトは、JekyllによってMarkdownから静的HTMLを生成し、ブラウザ上のJavaScriptによって動的な処理を追加する構成になっている。
 
-基本的には、以下のように役割を分けている。
-
-* Markdown：各ページの本文を記述する
-* `_data/toc.yml`：サイト全体のナビゲーション構造を定義する
-* Jekyll：MarkdownとテンプレートからHTMLを生成する
-* CSS：ページの見た目を定義する
-* JavaScript：サイドバーの状態管理、ページ内目次、数式、Mermaid図などのブラウザ側の処理を行う
+コンテンツ、サイト全体のナビゲーション、ページレイアウト、ブラウザ上の動作を分離することで、各機能を独立して管理できるようにしている。
 
 ## 全体構成
 
@@ -70,6 +64,7 @@ finance/
 │   └── ...
 └── assets/
     ├── css/
+    │   ├── ...
     │   └── ...
     └── js/
         ├── sidebar.js
@@ -79,43 +74,42 @@ finance/
         └── mermaid.js
 ```
 
-`_contents` に各ページのMarkdownコンテンツが置かれ、`_data/toc.yml` にサイト全体のナビゲーション構造が定義されている。
+`_contents` にはページ本文が置かれ、`_data/toc.yml` にはサイト全体のナビゲーション構造が定義されている。
 
-## 1. ページ本文
+`_config.yml` では `contents` コレクションを公開し、URLを `/contents/:path/` としている。
 
-各ページの本文はMarkdownで記述する。
+## 1. Jekyllによるページ生成
 
-JekyllはMarkdownをHTMLに変換し、レイアウトの `{{ content }}` に挿入する。
+各ページのMarkdownとJekyllのレイアウトをもとに、Jekyllが最終的なHTMLを生成する。
 
-`default.html` では、概ね以下の構造で本文を配置している。
+全体のページレイアウトは `default.html` で定義されている。
+
+`default.html` では、サイドバーと本文を配置し、本文領域にはページタイトル、ページ内目次のコンテナ、Markdownから変換された本文を配置する。
 
 ```html
 <main class="content">
-  <h1>{{ page.title }}</h1>
+  <h1>{% raw %}{{ page.title }}{% endraw %}</h1>
 
   <div id="page-toc">
     <h2 class="toc-title">目次</h2>
   </div>
 
-  {{ content }}
+  {% raw %}{{ content }}{% endraw %}
 </main>
 ```
 
-つまり、ページは、
+ここで、
 
-```text
-ページタイトル
-    ↓
-ページ内目次
-    ↓
-本文
-```
+* `{% raw %}{{ page.title }}{% endraw %}` はページタイトル
+* `{% raw %}{{ content }}{% endraw %}` はMarkdown本文をHTMLに変換した結果
 
-という構造になる。
+を表す。
 
-## 2. サイト全体の目次
+Jekyllによる生成段階では、サイドバーや本文などの静的なHTML構造が作られる。
 
-サイドバーの構造は、ページごとのMarkdownとは分離して `_data/toc.yml` で管理している。
+## 2. サイト全体のナビゲーション
+
+サイト全体のナビゲーション構造は、本文とは分離して `_data/toc.yml` で管理している。
 
 例えば、
 
@@ -125,13 +119,13 @@ JekyllはMarkdownをHTMLに変換し、レイアウトの `{{ content }}` に挿
   items:
     - name: 日本の「レポ」取引 Repos in Japan
       href: /contents/repos/repos_in_japan/
-    - name: 現先取引（債券等の条件付買取取引） Gensaki
+    - name: 現先取引（債券等の条件付売買取引） Gensaki
       href: /contents/repos/gensaki_new/
 ```
 
-のように、`items` に子項目を指定することで階層構造を表現する。
+のように、`items` を使って階層構造を表現する。
 
-このため、ナビゲーションの構造を変更しても、各ページのMarkdownを変更する必要はない。
+このため、ナビゲーションの構造を変更する場合でも、各ページのMarkdownを変更する必要がない。
 
 ## 3. サイドバーの生成
 
@@ -139,17 +133,17 @@ JekyllはMarkdownをHTMLに変換し、レイアウトの `{{ content }}` に挿
 
 ```liquid
 <aside class="sidebar">
-  {% include sidebar.html %}
+  {% raw %}{% include sidebar.html %}{% endraw %}
 </aside>
 ```
 
 `sidebar.html` では、`site.data.toc` を `toc.html` に渡す。
 
 ```liquid
-{% include toc.html items=site.data.toc %}
+{% raw %}{% include toc.html items=site.data.toc %}{% endraw %}
 ```
 
-したがって、サイドバーは、
+したがって、サイドバーの生成は、
 
 ```text
 _data/toc.yml
@@ -163,59 +157,59 @@ toc.html
 サイドバーのHTML
 ```
 
-という流れで生成される。
+という流れになる。
 
-## 4. 階層構造の生成
+## 4. toc.htmlによる階層構造の生成
 
-`toc.html` は目次データを再帰的に処理する。
+`toc.html` は渡された項目を再帰的に処理する。
 
-子項目を持つ項目については、HTMLの `<details>` と `<summary>` を使用して折りたたみ可能な項目を生成する。
+子項目を持つ場合は、`details` と `summary` を使用して折りたたみ可能な項目を生成する。
 
-```html
-<details>
-  <summary>
-    <a href="...">...</a>
-  </summary>
+```liquid
+{% raw %}{% if item.items %}
+  <details>
+    <summary>
+      {% if item.href %}
+        <a href="{{ item.href | relative_url }}">{{ item.name }}</a>
+      {% else %}
+        {{ item.name }}
+      {% endif %}
+    </summary>
 
-  ...
-</details>
+    {% include toc.html items=item.items %}
+  </details>
+{% endif %}{% endraw %}
 ```
 
-さらに、その子項目について `toc.html` を再帰的に呼び出す。
+子項目について再び `toc.html` を呼び出すため、任意の深さの階層を表現できる。
 
-その結果、
+例えば、
 
 ```text
 レポ Repos
 ├── 日本の「レポ」取引
 └── 現先取引
+
+プライベートマーケット
+└── 私募不動産
+    └── 森林投資・農地投資
 ```
 
-のような階層構造が、ネストした `<details>` / `<summary>` としてHTMLに変換される。
-
-この処理によって、サイト全体のナビゲーション構造が1つのYAMLファイルから生成される。
+のような構造が生成される。
 
 ## 5. サイドバーの状態復元
 
-サイドバーには、ページを移動しても展開状態を維持する仕組みがある。
+サイドバーの展開状態を復元するのが `sidebar-state.js` である。
 
-状態の復元を担当するのが `sidebar-state.js` である。
+このスクリプトは `sidebar.html` の最後で読み込まれる。
 
-`sidebar-state.js` は `sidebar.html` の中で、サイドバーのHTMLを生成した直後に読み込まれる。
-
-```html
-<nav class="sidebar-nav">
-  ...
-</nav>
-
-<script src="{{ '/assets/js/sidebar-state.js' | relative_url }}"></script>
+```liquid
+<script src="{% raw %}{{ '/assets/js/sidebar-state.js' | relative_url }}{% endraw %}"></script>
 ```
 
-この位置で読み込むことが重要である。
+サイドバーのHTMLが生成された直後に実行されるため、`DOMContentLoaded` を待たずに状態を復元できる。
 
-サイドバーのHTMLが存在してから実行されるため、`DOMContentLoaded` を待つ必要がない。
-
-各 `<details>` について、`summary` 内のリンクの `href` を状態管理用のキーとして利用する。
+各 `details` の直下にある `summary` 内のリンクの `href` をキーとして使用する。
 
 ```javascript
 const link = detail.querySelector(":scope > summary a");
@@ -223,23 +217,33 @@ const key = link.getAttribute("href");
 const storageKey = "sidebar-open:" + key;
 ```
 
-`sessionStorage` に保存された値が `"true"` の場合は、
+`sessionStorage` に `"true"` が保存されていれば、
 
 ```javascript
-detail.open = true;
+if (sessionStorage.getItem(storageKey) === "true") {
+    detail.open = true;
+}
 ```
 
-として `<details>` を展開する。
+として対象の `details` を開く。
 
-これによって、ページを読み込んだ段階から正しい展開状態にできる。
-
-`DOMContentLoaded` の後に復元処理を行うと、一度閉じた状態で画面が表示された後に展開される可能性がある。そのため、サイドバーのHTML生成直後に復元処理を行っている。
+この処理をサイドバーHTMLの生成直後に行うことで、ページ表示後に一度閉じた状態を表示してから開くようなちらつきを避ける。
 
 ## 6. サイドバーの状態保存
 
-状態の保存を担当するのが `sidebar.js` である。
+`sidebar.js` は、ユーザーによるサイドバーの操作を `sessionStorage` に保存する。
 
-`sidebar.js` は `DOMContentLoaded` 後にサイドバーの `<details>` を取得し、`toggle` イベントを登録する。
+保存処理は `DOMContentLoaded` 後に登録される。
+
+```javascript
+document.addEventListener("DOMContentLoaded", function () {
+    const details = document.querySelectorAll(".sidebar details");
+
+    // ...
+});
+```
+
+各 `details` に `toggle` イベントを設定し、
 
 ```javascript
 detail.addEventListener("toggle", function () {
@@ -247,9 +251,9 @@ detail.addEventListener("toggle", function () {
 });
 ```
 
-ユーザーがサイドバーを開閉すると、その時点の状態が `sessionStorage` に保存される。
+として現在の開閉状態を保存する。
 
-保存に使用するキーは、
+保存キーは、
 
 ```text
 sidebar-open:<リンクのhref>
@@ -267,7 +271,29 @@ sidebar-open:/finance/contents/repos/
 
 ## 7. リンククリック時の親details保存
 
-サイドバーでは、単に `toggle` の状態を保存するだけではなく、リンクをクリックしたときに、そのリンクを含む親 `<details>` の状態も保存する。
+ページ遷移によって現在のHTMLは破棄されるため、子ページへのリンクをクリックする際には、そのリンクを含む親 `details` の状態も保存する。
+
+`sidebar.js` はサイドバー内のリンクを監視し、クリックされたリンクから親要素を順に辿る。
+
+```text
+リンク
+ ↓
+親要素
+ ↓
+details
+ ↓
+さらに親要素
+ ↓
+details
+```
+
+見つかった各 `details` について、
+
+```javascript
+sessionStorage.setItem(storageKey, "true");
+```
+
+として展開状態を保存する。
 
 例えば、
 
@@ -276,42 +302,20 @@ sidebar-open:/finance/contents/repos/
 └── 日本の「レポ」取引
 ```
 
-という構造で「日本の『レポ』取引」をクリックした場合、ページ遷移によって現在のDOMは破棄される。
+の「日本の『レポ』取引」をクリックした場合、「レポ Repos」が開いた状態として保存される。
 
-そこでリンククリック時に親の `<details>` を調べ、
+階層がさらに深い場合も、すべての親 `details` が保存される。
 
-```text
-リンク
-  ↓
-親要素
-  ↓
-<details>
-  ↓
-さらに上の親要素
-  ↓
-<details>
-```
+そのため、子ページへ移動した後でも、それまで展開していた階層を維持できる。
 
-と上方向に辿っていく。
+## 8. sessionStorageによる状態管理
 
-見つかった親 `<details>` について、
+サイドバーの状態管理には `sessionStorage` を使用する。
 
-```javascript
-sessionStorage.setItem(storageKey, "true");
-```
-
-として展開状態を保存する。
-
-これによって、子ページへ移動した後も、そこに至るまでのサイドバーの階層を開いた状態にできる。
-
-## 8. sessionStorage
-
-サイドバーの状態には `sessionStorage` を使用している。
-
-これは、サイドバーの展開状態を永続的な設定ではなく、現在のブラウジングセッションにおけるUI状態として扱うためである。
+これは、展開状態を永続的なユーザー設定ではなく、現在のブラウジングセッションにおけるUI状態として扱うためである。
 
 ```text
-同じタブでページ移動
+同じタブでページ遷移
         ↓
 展開状態を維持
 
@@ -320,13 +324,28 @@ sessionStorage.setItem(storageKey, "true");
 状態を破棄
 ```
 
-したがって、ユーザーが別のページを閲覧しても同じタブであればサイドバーの状態を維持できる一方、タブを閉じれば状態はリセットされる。
+状態保存と復元の関係は以下の通り。
+
+```mermaid
+flowchart TD
+    A["ユーザーがdetailsを開閉"] --> B["sidebar.js"]
+    B --> C["sessionStorage"]
+
+    D["サイドバーのリンクをクリック"] --> E["sidebar.js"]
+    E --> F["親detailsを探索"]
+    F --> C
+
+    C --> G["ページ遷移"]
+    G --> H["sidebar-state.js"]
+    H --> I["sessionStorageを読み込む"]
+    I --> J["details.open = true"]
+```
 
 ## 9. ページ内目次
 
-ページ内の目次は、サイドバーとは別にJavaScriptによって生成される。
+ページ内の目次は `page-toc.js` によってブラウザ上で生成する。
 
-`default.html` には、目次を挿入するための空の要素があらかじめ用意されている。
+`default.html` には、目次を挿入するためのコンテナをあらかじめ配置している。
 
 ```html
 <div id="page-toc">
@@ -334,21 +353,25 @@ sessionStorage.setItem(storageKey, "true");
 </div>
 ```
 
-`page-toc.js` はページ読み込み後に本文中の、
+`page-toc.js` は本文中の `h2` から `h6` を取得する。
 
-```text
-h2
-h3
-h4
-h5
-h6
+```javascript
+document.querySelectorAll(
+    ".content h2, .content h3, .content h4, .content h5, .content h6"
+)
 ```
 
-を取得する。
+ただし、目次自身のタイトルである `.toc-title` は除外する。
 
-ただし、目次自身のタイトルである `h2.toc-title` は除外する。
+```javascript
+.filter(heading => !heading.classList.contains("toc-title"));
+```
 
-取得した見出しをもとに、
+なお、`querySelectorAll()` の戻り値を `Array.from()` に変換してから `filter()` を利用している。
+
+取得した見出しをもとに、ネストした `<ul>` と `<li>` を生成する。
+
+例えば、
 
 ```text
 h2
@@ -358,31 +381,49 @@ h2
 h2
 ```
 
-という見出し構造に対応したネストしたリストを生成する。
+という見出し構造から、
 
-各見出しに `id` が存在しない場合には、JavaScriptによってIDを付与し、そのIDを目次リンクのリンク先として使用する。
-
-例えば、
-
-```html
-<h2 id="heading-0">取引概要</h2>
+```text
+・h2
+  ・h3
+    ・h4
+  ・h3
+・h2
 ```
 
-に対して、
+というページ内目次を生成する。
 
-```html
-<a href="#heading-0">取引概要</a>
+見出しに `id` が存在しない場合は、
+
+```javascript
+heading.id = "heading-" + index;
 ```
 
-というリンクを生成する。
+としてIDを付与する。
 
-これによって、ページ内目次から各見出しへ移動できる。
+生成した目次リンクは、このIDをリンク先として使用する。
+
+```javascript
+a.href = "#" + heading.id;
+```
 
 ## 10. MathJax
 
-数式の描画にはMathJaxを使用している。
+数式の描画にはMathJaxを使用する。
 
-`mathjax.js` でMathJaxの設定を定義し、その後MathJax本体を読み込む。
+`mathjax.js` でMathJaxの設定を定義する。
+
+```javascript
+window.MathJax = {
+    tex: {
+        tags: 'ams',
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+};
+```
+
+`default.html` ではこの設定ファイルを先に読み込み、その後MathJax本体をCDNから読み込む。
 
 処理の流れは、
 
@@ -402,23 +443,33 @@ MathJax本体
 
 となる。
 
-MathJaxでは、インライン数式とディスプレイ数式について、`$...$`、`$$...$$` などの記法を利用できるように設定している。
-
 ## 11. Mermaid
 
-Mermaidによる図も、ブラウザ側のJavaScriptで描画する。
+Mermaid図は `mermaid.js` によってブラウザ上で描画する。
 
-Markdown中のMermaidコードは、JekyllによってコードブロックとしてHTMLに変換される。
+`default.html` では、Mermaid用スクリプトをES moduleとして読み込む。
 
-`mermaid.js` はその中から、
+```html
+<script type="module" src="{% raw %}{{ '/assets/js/mermaid.js' | relative_url }}{% endraw %}"></script>
+```
+
+`mermaid.js` はjsDelivrからMermaid 11を読み込み、
+
+```javascript
+import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+
+mermaid.initialize({ startOnLoad: true });
+```
+
+として初期化する。
+
+その後、Markdownから生成されたMermaidコードブロックを検索する。
 
 ```javascript
 document.querySelectorAll('code.language-mermaid')
 ```
 
-によってMermaidのコードブロックを検索する。
-
-そのコードブロックを、
+取得したコードブロックを、
 
 ```html
 <div class="mermaid">
@@ -426,7 +477,15 @@ document.querySelectorAll('code.language-mermaid')
 </div>
 ```
 
-に変換し、Mermaidを実行する。
+に置き換える。
+
+最後に、
+
+```javascript
+await mermaid.run();
+```
+
+を実行して図を描画する。
 
 処理の流れは、
 
@@ -435,7 +494,7 @@ Markdown
     ↓
 Mermaidコードブロック
     ↓
-HTMLのcode.language-mermaid
+code.language-mermaid
     ↓
 mermaid.js
     ↓
@@ -448,9 +507,66 @@ SVGとして描画
 
 となる。
 
-## 12. JavaScriptの役割分担
+## 12. ページレンダリングの流れ
 
-現在のJavaScriptは、機能ごとにファイルを分けている。
+以上をまとめると、ページの生成と描画は次のように分かれる。
+
+```mermaid
+flowchart TD
+    A["Markdown"] --> E["Jekyll"]
+    B["_data/toc.yml"] --> E
+    C["_layouts/default.html"] --> E
+
+    E --> F["生成されたHTML"]
+
+    F --> G["サイドバー"]
+    F --> H["本文"]
+
+    G --> I["sidebar.html"]
+    I --> J["toc.html"]
+    J --> K["details / summary"]
+
+    I --> L["sidebar-state.js"]
+    L --> M["sessionStorageから状態を復元"]
+
+    F --> N["sidebar.js"]
+    N --> O["detailsの開閉を保存"]
+    N --> P["リンククリック時に親detailsを保存"]
+    O --> Q["sessionStorage"]
+    P --> Q
+
+    H --> R["page-toc.js"]
+    R --> S["ページ内目次を生成"]
+
+    F --> T["mathjax.js"]
+    T --> U["MathJax"]
+    U --> V["数式を描画"]
+
+    F --> W["mermaid.js"]
+    W --> X["Mermaid"]
+    X --> Y["Mermaid図を描画"]
+```
+
+つまり、このサイトは大きく、
+
+```text
+Jekyll
+  ↓
+静的なHTML構造を生成
+  ↓
+ブラウザ
+  ├── サイドバー状態を復元
+  ├── サイドバー状態を保存
+  ├── ページ内目次を生成
+  ├── 数式を描画
+  └── Mermaid図を描画
+```
+
+という2段階で構成されている。
+
+## 13. JavaScriptの役割分担
+
+現在のJavaScriptは、機能ごとに責務を分離している。
 
 ```text
 sidebar-state.js
@@ -470,7 +586,7 @@ mermaid.js
     └── Mermaid図を描画
 ```
 
-特にサイドバーについては、状態の「保存」と「復元」を分離している。
+特にサイドバーについては、「状態の保存」と「状態の復元」を分離している。
 
 ```text
 ユーザー操作
@@ -486,68 +602,11 @@ sidebar-state.js
 <details>.open
 ```
 
-この分離によって、それぞれのJavaScriptの責務を明確にしている。
-
-## 13. ページレンダリングの流れ
-
-ページ全体の処理をまとめると、以下のようになる。
-
-```mermaid
-flowchart TD
-    A["Markdown"] --> E["Jekyll"]
-    B["_data/toc.yml"] --> E
-    C["_layouts/default.html"] --> E
-
-    E --> F["生成HTML"]
-
-    F --> G["サイドバー"]
-    F --> H["本文"]
-
-    G --> I["sidebar.html"]
-    I --> J["toc.html"]
-    J --> K["details / summary"]
-
-    I --> L["sidebar-state.js"]
-    L --> M["sessionStorageから状態を復元"]
-
-    F --> N["sidebar.js"]
-    N --> O["開閉状態を保存"]
-    N --> P["リンククリック時に親detailsを保存"]
-    O --> Q["sessionStorage"]
-    P --> Q
-
-    H --> R["page-toc.js"]
-    R --> S["ページ内目次を生成"]
-
-    F --> T["mathjax.js"]
-    T --> U["MathJax"]
-    U --> V["数式を描画"]
-
-    F --> W["mermaid.js"]
-    W --> X["Mermaid"]
-    X --> Y["Mermaid図を描画"]
-```
-
-つまり、このサイトでは、
-
-```text
-Jekyll
-  ↓
-静的なHTML構造を生成
-  ↓
-ブラウザ
-  ├── サイドバー状態を復元
-  ├── サイドバー状態を保存
-  ├── ページ内目次を生成
-  ├── 数式を描画
-  └── Mermaid図を描画
-```
-
-という2段階の構成になっている。
+また、`sidebar-state.js` をサイドバーHTMLの直後に配置することで、状態復元をできるだけ早い段階で行い、表示時のちらつきを抑えている。
 
 ## 14. 設計上の考え方
 
-このサイトでは、コンテンツ、サイト構造、表示、ブラウザ上の動作をできるだけ分離している。
+このサイトでは、コンテンツ、サイト構造、ページレイアウト、ブラウザ上の動作を分離している。
 
 ```text
 Markdown
@@ -556,7 +615,7 @@ Markdown
 
 _data/toc.yml
     ↓
-サイト構造
+サイト全体の構造
 
 Jekyll / Liquid
     ↓
@@ -571,8 +630,13 @@ JavaScript
 ブラウザ上の動作
 ```
 
-これにより、例えば本文を書き換える場合はMarkdownだけを編集し、サイドバーの構造を変更する場合は `_data/toc.yml` を編集すればよい。
+この分離によって、
 
-また、ページ内目次やサイドバーの状態管理など、HTMLだけでは実現しにくい機能についてはJavaScriptに分離している。
+* 本文を変更する場合はMarkdownを編集する
+* サイドバーの構造を変更する場合は`_data/toc.yml`を編集する
+* ページ全体の構造を変更する場合は`default.html`を編集する
+* ブラウザ上の動作を変更する場合は対応するJavaScriptを編集する
 
-このように、**Jekyllを静的なサイト生成、JavaScriptをブラウザ上の動的処理に使い分けることで、シンプルな構成を維持している。**
+というように、変更箇所を明確にできる。
+
+特に、サイドバー、ページ内目次、MathJax、Mermaidをそれぞれ別のJavaScriptファイルに分離することで、互いの処理が過度に依存しない構成としている。
