@@ -89,6 +89,7 @@ flowchart LR
 |対象取引|日本の「レポ」<br />狭義レポについては現先だけでなくMRA、GMRA、その他基本契約書<br /> 貸借取引については、日証協の貸借（債券と株券）、MSLA、GMSLA、その他基本契約書。ただし無担保貸借と制度信用取引の貸借は含まれない|
 |公表頻度|月次。翌月第15営業日|
 |公表されているデータ|ストックデータ・フローデータ<br />金融機関のサイド<br />証券種類<br />マチュリティ（取引満期）<br />取引相手の法域<br />取引相手の業態<br />GCレポ取引/SCレポ取引<br />CCP清算取引/非CCP清算取引<br />レート（貸借料率・レポレート）|
+
 ### 参考
 - [FSBレポ統計の日本分集計結果](https://www.boj.or.jp/statistics/bis/repo/index.htm)
 - [「FSBレポ統計の日本分集計結果」の解説](https://www.boj.or.jp/statistics/outline/exp/exrepo.htm)

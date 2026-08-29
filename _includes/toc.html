@@ -14,7 +14,7 @@
         {% include toc.html items=item.items %}
       </details>
     {% else %}
-      <a href="{{ item.href | relative_url }}">{{ item.name }}</a>
+      <a href="{{ item.href | relative_url }}" onclick="event.stopPropagation()">{{ item.name }}</a>
     {% endif %}
   </li>
 {% endfor %}

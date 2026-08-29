@@ -1,5 +1,5 @@
 #page-toc ul {
-    list-style: none;
+    list-style: disc;
     margin: 0;
     padding-left: 0;
 }
@@ -10,8 +10,4 @@
 
 #page-toc li {
     margin: 4px 0;
-}
-
-#page-toc a {
-    text-decoration: none;
 }
