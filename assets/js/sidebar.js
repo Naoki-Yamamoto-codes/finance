@@ -3,19 +3,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
     details.forEach(function (detail) {
         const link = detail.querySelector(":scope > summary a");
-        const key = link ? link.getAttribute("href") : detail.querySelector(":scope > summary").textContent.trim();
-        if (!key) {
+        if (!link) {
             return;
         }
 
+        const key = link.getAttribute("href");
         const storageKey = "sidebar-open:" + key;
 
-        if (localStorage.getItem(storageKey) === "true") {
+        if (sessionStorage.getItem(storageKey) === "true") {
             detail.open = true;
         }
 
         detail.addEventListener("toggle", function () {
-            localStorage.setItem(storageKey, detail.open);
+            sessionStorage.setItem(storageKey, detail.open);
         });
     });
 
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     const key = parent.dataset.tocKey;
 
                     if (key) {
-                        localStorage.setItem(
+                        sessionStorage.setItem(
                             "sidebar-open:" + key,
                             "true"
                         );
