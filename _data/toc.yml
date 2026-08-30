@@ -47,6 +47,8 @@
   items: 
     - name: デンマーク Denmark
       href: /contents/links/denmark/
+    - name: ユーロ Europe
+      href: /contents/links/europe/
     - name: グローバル Global
       href: /contents/links/global/
     - name: 日本 Japan
@@ -55,3 +57,7 @@
       href: /contents/links/norway/
     - name: スイス Swiss
       href: /contents/links/swiss/
+    - name: イギリス United Kingdom
+      href: /contents/links/unitedkingdom/
+    - name: アメリカ United States of America
+      href: /contents/links/unitedstates/

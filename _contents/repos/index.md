@@ -45,4 +45,4 @@ flowchart LR
 
 ## レポ取引に関する文書
 - [Repo market functioning](https://www.bis.org/publ/cgfs59.htm)
-- 
+- [Vulnerabilities in Government Bond-backed Repo Markets](https://www.fsb.org/2026/02/vulnerabilities-in-government-bond-backed-repo-markets/)

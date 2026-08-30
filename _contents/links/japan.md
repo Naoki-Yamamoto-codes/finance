@@ -23,6 +23,8 @@ title: 日本 Japan
 - [日本証券クリアリング機構 Japan Securities Clearing Corporation, JSCC](https://www.jpx.co.jp/jscc/)
   - [清算参加者情報](https://www.jpx.co.jp/jscc/sankasha.html)
 - [経済産業省 Ministry of Economy, Trade and Industry, METI](https://www.meti.go.jp/)
+- [財務省 Ministry of Finance, Japan, MOF](https://www.mof.go.jp/index.htm)
+  - [国債（国の発行する債券）](https://www.mof.go.jp/jgbs/index.html)
 - [地域経済活性化支援機構 Regional Economy Vitalization Corporation of Japan, REVIC](https://www.revic.co.jp/index.html)
   - [支援事例集](https://www.revic.co.jp/examples/index.html)
 
@@ -31,7 +33,7 @@ title: 日本 Japan
   - [制度・ガイドライン・諸規則等](https://www.jsda.or.jp/shijyo/seido/)
   - [統計・調査・報告書](https://www.jsda.or.jp/statistics/)
 
-## 研究機関
+## 調査・研究機関
 - [大和総研 Daiwa Institute of Research, DIR](https://www.dir.co.jp/index.html)
   - [金融資本市場分析](https://www.dir.co.jp/report/research/capital-mkt/index.html)
   - [法律・制度](https://www.dir.co.jp/report/research/law-research/index.html)
