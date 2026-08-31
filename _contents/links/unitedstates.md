@@ -36,8 +36,6 @@ title: アメリカ United States of America
 - [Federal Deposit Insurance Corporation, FDIC](https://www.fdic.gov/)
 - [Pension Benefit Guaranty Corporation, PBGC](https://www.pbgc.gov/)
 
-
-
 ## 業会団体
 - [Securities Industry and Financial Markets Association, SIFMA](https://www.sifma.org/)
   - [Issues](https://www.sifma.org/issues)
@@ -45,6 +43,8 @@ title: アメリカ United States of America
       - [Treasury Clearing](https://www.sifma.org/issues/financial-risk-management/treasury-clearing)
 
 ## 取引所
+- [Cboe](https://www.cboe.com/)
+  - [Cboe Market Data Services](https://www.cboe.com/data/market-data-services)
 - [Chicago Mercantile Exchange, CME](https://www.cmegroup.com/)
 
 ## 金融情報ベンダー

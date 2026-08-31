@@ -45,6 +45,8 @@
 - name: リンク集
   href: /contents/links/
   items: 
+    - name: ベルギー Belgium
+      href: /contents/links/belgium/
     - name: デンマーク Denmark
       href: /contents/links/denmark/
     - name: ユーロ Europe

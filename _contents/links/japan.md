@@ -18,20 +18,25 @@ title: 日本 Japan
 ## 機構、省庁
 - [預金保険機構 Deposit Insurance Corporation of Japan, DICJ](https://www.dic.go.jp/)
 - [内閣府経済社会総合研究所 Economic and Social Research Institute, ESRI](https://www.esri.cao.go.jp/index.html)
-- [証券保管振替機構 Japanese Securities Depository Center, Incorporated, JASDEC](https://www.jasdec.com/)
-  - [短期社債等平均発行レート（日次）](https://www.jasdec.com/statistics/cprate/cprate_page.html)
-- [日本証券クリアリング機構 Japan Securities Clearing Corporation, JSCC](https://www.jpx.co.jp/jscc/)
-  - [清算参加者情報](https://www.jpx.co.jp/jscc/sankasha.html)
 - [経済産業省 Ministry of Economy, Trade and Industry, METI](https://www.meti.go.jp/)
 - [財務省 Ministry of Finance, Japan, MOF](https://www.mof.go.jp/index.htm)
   - [国債（国の発行する債券）](https://www.mof.go.jp/jgbs/index.html)
 - [地域経済活性化支援機構 Regional Economy Vitalization Corporation of Japan, REVIC](https://www.revic.co.jp/index.html)
   - [支援事例集](https://www.revic.co.jp/examples/index.html)
 
+## 金融市場インフラ
+- [証券保管振替機構 Japanese Securities Depository Center, Incorporated, JASDEC](https://www.jasdec.com/)
+  - [短期社債等平均発行レート（日次）](https://www.jasdec.com/statistics/cprate/cprate_page.html)
+- [日本証券クリアリング機構 Japan Securities Clearing Corporation, JSCC](https://www.jpx.co.jp/jscc/)
+  - [清算参加者情報](https://www.jpx.co.jp/jscc/sankasha.html)
+
 ## 業界団体
 - [日本証券業協会 Japan Securities Dealers Association, JSDA](https://www.jsda.or.jp/)
   - [制度・ガイドライン・諸規則等](https://www.jsda.or.jp/shijyo/seido/)
   - [統計・調査・報告書](https://www.jsda.or.jp/statistics/)
+
+## 短資会社
+- [東京短資株式会社](https://www.tokyotanshi.co)
 
 ## 調査・研究機関
 - [大和総研 Daiwa Institute of Research, DIR](https://www.dir.co.jp/index.html)
