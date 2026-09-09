@@ -42,6 +42,11 @@
     - name: 日本国債のブロックチェーン化
       href: /contents/industry_trends/jgb_on_blockchain/
 
+- name: 金融機関 Financial Institutions
+  items: 
+    - name: みずほフィナンシャルグループ 2026/03
+      href: /contents/financial_institutions/mizuho_fg_202603/
+
 - name: リンク集
   href: /contents/links/
   items: 

@@ -1,5 +1,8 @@
 import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-mermaid.initialize({ startOnLoad: true });
+mermaid.initialize({ 
+    startOnLoad: true, 
+    securityLevel: 'loose' 
+});
 document.querySelectorAll('code.language-mermaid').forEach((code) => {
     const div = document.createElement('div');
 

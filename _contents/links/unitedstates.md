@@ -37,6 +37,8 @@ title: アメリカ United States of America
 - [Pension Benefit Guaranty Corporation, PBGC](https://www.pbgc.gov/)
 
 ## 業会団体
+- [Financial Industry Regulatory Authority, FINRA](https://www.finra.org/)
+  - [BrokerCheck](https://brokercheck.finra.org/)
 - [Securities Industry and Financial Markets Association, SIFMA](https://www.sifma.org/)
   - [Issues](https://www.sifma.org/issues)
     - Risk Management
