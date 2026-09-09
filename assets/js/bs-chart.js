@@ -25,10 +25,10 @@ async function loadBSChart(canvas) {
         let items;
 
         if (canvas.id === "assetChart") {
-            items = bs.Assets;
+            items = bs.assets;
         }
         else if (canvas.id === "liabilityChart") {
-            items = bs.LiabilitiesAndEquity;
+            items = bs.liabilitiesAndEquity;
         }
         else {
             console.warn(`Unknown BS chart: ${canvas.id}`);
