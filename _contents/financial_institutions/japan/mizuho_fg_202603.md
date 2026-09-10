@@ -424,4 +424,8 @@ flowchart LR
 
 ## 連結キャッシュ・フロー計算書
 ### 2026/03/31
+<canvas data-json="/finance/assets/data/mizuho_fg_202603.json" data-date="2026-03-31" data-chart-type="waterfall" data-name="Cashflow"> </canvas>
+
 ### 2025/03/31
+<canvas data-json="/finance/assets/data/mizuho_fg_202603.json" data-date="2025-03-31" data-chart-type="waterfall" data-name="Cashflow"> </canvas>
+
