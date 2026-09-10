@@ -50,12 +50,34 @@ function createBSChart(canvas, items) {
     // 円 → 百万円
     const values = validItems.map(item => item.value / 1_000_000);
 
+    const valueLabelPlugin = {
+        id: "valueLabel",
+        afterDatasetsDraw(chart) {
+            const { ctx } = chart;
+            ctx.save();
+            ctx.font = "12px sans-serif";
+            ctx.textBaseline = "middle";
+            chart.getDatasetMeta(0).data.forEach((bar, index) => {
+                const value = values[index];
+                const text = value.toLocaleString("ja-JP", {
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2
+                }) + "百万円";
+                const x = value >= 0 ? bar.x + 6 : bar.x - ctx.measureText(text).width - 6;
+                ctx.textAlign = value >= 0 ? "left" : "right";
+                ctx.fillText(text, x, bar.y);
+            });
+            ctx.restore();
+        }
+    };
+
     new Chart(canvas, {
         type: "bar",
         data: {
             labels: labels,
             datasets: [ { data: values } ]
         },
+        plugins: [valueLabelPlugin],
         options: {
             indexAxis: "y",
             responsive: true,
