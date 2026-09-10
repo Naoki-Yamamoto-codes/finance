@@ -1636,7 +1636,7 @@
         "date": "2025-03-31",
         "items": [
           {
-            "label_jp": "現金及び現金同等物の残高",
+            "label_jp": "現金及び現金同等物の残高（期首）",
             "label_en": "CashAndCashEquivalents",
             "element_id": "jppfs_cor:CashAndCashEquivalents",
             "value": 71165815000000.0,
@@ -2126,7 +2126,7 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "現金及び現金同等物の残高",
+            "label_jp": "現金及び現金同等物の残高（期末）",
             "label_en": "CashAndCashEquivalents",
             "element_id": "jppfs_cor:CashAndCashEquivalents",
             "value": 70723361000000.0,
@@ -2138,7 +2138,7 @@
         "date": "2026-03-31",
         "items": [
           {
-            "label_jp": "現金及び現金同等物の残高",
+            "label_jp": "現金及び現金同等物の残高（期首）",
             "label_en": "CashAndCashEquivalents",
             "element_id": "jppfs_cor:CashAndCashEquivalents",
             "value": 70723361000000.0,
@@ -2628,7 +2628,7 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "現金及び現金同等物の残高",
+            "label_jp": "現金及び現金同等物の残高（期末）",
             "label_en": "CashAndCashEquivalents",
             "element_id": "jppfs_cor:CashAndCashEquivalents",
             "value": 59677580000000.0,
