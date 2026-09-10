@@ -149,7 +149,7 @@ async function loadWaterfallChart(canvas) {
 }
 
 function createWaterfallChart(canvas, items) {
-    let current = items[0].value;
+    let current = items[0].value / 1_000_000;
 
     const labels = [items[0].label_jp];
     const base = [0];
@@ -157,7 +157,7 @@ function createWaterfallChart(canvas, items) {
 
     // 中間項目
     for (let i = 1; i < items.length - 1; i++) {
-        const value = items[i].value;
+        const value = items[i].value / 1_000_000;
         labels.push(items[i].label_jp);
 
         if (value >= 0) {
@@ -171,10 +171,30 @@ function createWaterfallChart(canvas, items) {
     }
     // 最終値
     const last = items[items.length - 1];
-
     labels.push(last.label_jp);
     base.push(0);
-    values.push(last.value);
+    values.push(last.value / 1_000_000);
+
+    const valueLabelPlugin = {
+        id: "valueLabel",
+        afterDatasetsDraw(chart) {
+            const { ctx } = chart;
+            ctx.save();
+            ctx.font = "12px sans-serif";
+            ctx.textAlign = "center";
+            ctx.textBaseline = "bottom";
+            const meta = chart.getDatasetMeta(1);
+            meta.data.forEach((bar, index) => {
+                const value = items[index].value / 1_000_000;
+                const text = value.toLocaleString("ja-JP", {
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2
+                }) + "百万円";
+                ctx.fillText(text, bar.x, bar.y - 4);
+            });
+            ctx.restore();
+        }
+    };
 
     new Chart(canvas, {
         type: "bar",
@@ -196,13 +216,18 @@ function createWaterfallChart(canvas, items) {
                 }
             ]
         },
+        plugins: [valueLabelPlugin],
         options: {
             plugins: { legend: { display: false } },
             scales: {
                 x: { stacked: true },
                 y: {
                     stacked: true,
-                    beginAtZero: true
+                    beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: "百万円"
+                    }
                 }
             }
         }

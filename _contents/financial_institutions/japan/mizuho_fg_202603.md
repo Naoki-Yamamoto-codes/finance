@@ -417,8 +417,11 @@ flowchart LR
 
 ## 連結損益計算書及び連結包括利益計算書
 ### 2026/03/31
-
+<canvas data-json="/finance/assets/data/mizuho_fg_202603.json" data-date="2026-03-31" data-chart-type="waterfall" data-name="Profit and Loss"> </canvas>
 
 ### 2025/03/31
 <canvas data-json="/finance/assets/data/mizuho_fg_202603.json" data-date="2025-03-31" data-chart-type="waterfall" data-name="Profit and Loss"> </canvas>
 
+## 連結キャッシュ・フロー計算書
+### 2026/03/31
+### 2025/03/31
