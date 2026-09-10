@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const canvases = document.querySelectorAll("canvas[data-json]");
+    const canvases = document.querySelectorAll("canvas[data-json][data-date]");
 
     canvases.forEach(canvas => {
         loadBSChart(canvas);
@@ -19,8 +19,7 @@ async function loadBSChart(canvas) {
         }
 
         const data = await response.json();
-
-        const bs = data.filter(item => item.itemName === "Balance Sheet").items.filter(item => item.date === date);
+        const bs = data.find(item => item.itemName === "Balance Sheet").items.find(item => item.date === date);
 
         // canvas の id で資産・負債を判定
         let bsItems;
