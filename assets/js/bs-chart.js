@@ -63,7 +63,7 @@ function createBSChart(canvas, items) {
                     minimumFractionDigits: 2,
                     maximumFractionDigits: 2
                 }) + "百万円";
-                const x = value >= 0 ? bar.x + 6 : bar.x - ctx.measureText(text).width - 6;
+                const x = value >= 0 ? bar.x + 6 : bar.x - 6;
                 ctx.textAlign = value >= 0 ? "left" : "right";
                 ctx.fillText(text, x, bar.y);
             });
