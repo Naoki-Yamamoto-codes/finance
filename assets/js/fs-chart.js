@@ -151,14 +151,14 @@ async function loadWaterfallChart(canvas) {
 function createWaterfallChart(canvas, items) {
     let current = items[0].value;
 
-    const labels = [items[0].label];
+    const labels = [items[0].label_jp];
     const base = [0];
-    const values = [items[0].value];
+    const values = [current];
 
     // 中間項目
     for (let i = 1; i < items.length - 1; i++) {
         const value = items[i].value;
-        labels.push(items[i].label);
+        labels.push(items[i].label_jp);
 
         if (value >= 0) {
             base.push(current);
@@ -172,7 +172,7 @@ function createWaterfallChart(canvas, items) {
     // 最終値
     const last = items[items.length - 1];
 
-    labels.push(last.label);
+    labels.push(last.label_jp);
     base.push(0);
     values.push(last.value);
 
