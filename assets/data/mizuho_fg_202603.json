@@ -1965,24 +1965,10 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "小計、営業活動によるキャッシュ・フロー",
-            "label_en": "SubtotalOpeCF",
-            "element_id": "jppfs_cor:SubtotalOpeCF",
-            "value": -3696692000000.0,
-            "unit": "JPY"
-          },
-          {
             "label_jp": "法人税等の支払額又は還付額（△は支払）、営業活動によるキャッシュ・フロー",
             "label_en": "IncomeTaxesPaidRefundOpeCF",
             "element_id": "jppfs_cor:IncomeTaxesPaidRefundOpeCF",
             "value": -124107000000.0,
-            "unit": "JPY"
-          },
-          {
-            "label_jp": "営業活動によるキャッシュ・フロー",
-            "label_en": "NetCashProvidedByUsedInOperatingActivities",
-            "element_id": "jppfs_cor:NetCashProvidedByUsedInOperatingActivities",
-            "value": -3820800000000.0,
             "unit": "JPY"
           },
           {
@@ -2070,13 +2056,6 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "投資活動によるキャッシュ・フロー",
-            "label_en": "NetCashProvidedByUsedInInvestmentActivities",
-            "element_id": "jppfs_cor:NetCashProvidedByUsedInInvestmentActivities",
-            "value": 3793092000000.0,
-            "unit": "JPY"
-          },
-          {
             "label_jp": "劣後特約付借入れによる収入、財務活動によるキャッシュ・フロー、銀行業",
             "label_en": "IncreaseInSubordinatedBorrowingsFinCFBNK",
             "element_id": "jppfs_cor:IncreaseInSubordinatedBorrowingsFinCFBNK",
@@ -2140,24 +2119,10 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "財務活動によるキャッシュ・フロー",
-            "label_en": "NetCashProvidedByUsedInFinancingActivities",
-            "element_id": "jppfs_cor:NetCashProvidedByUsedInFinancingActivities",
-            "value": -299030000000.0,
-            "unit": "JPY"
-          },
-          {
             "label_jp": "現金及び現金同等物に係る換算差額",
             "label_en": "EffectOfExchangeRateChangeOnCashAndCashEquivalents",
             "element_id": "jppfs_cor:EffectOfExchangeRateChangeOnCashAndCashEquivalents",
             "value": -115716000000.0,
-            "unit": "JPY"
-          },
-          {
-            "label_jp": "現金及び現金同等物の増減額（△は減少）",
-            "label_en": "NetIncreaseDecreaseInCashAndCashEquivalents",
-            "element_id": "jppfs_cor:NetIncreaseDecreaseInCashAndCashEquivalents",
-            "value": -442454000000.0,
             "unit": "JPY"
           },
           {
@@ -2502,24 +2467,10 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "小計、営業活動によるキャッシュ・フロー",
-            "label_en": "SubtotalOpeCF",
-            "element_id": "jppfs_cor:SubtotalOpeCF",
-            "value": -4521113000000.0,
-            "unit": "JPY"
-          },
-          {
             "label_jp": "法人税等の支払額又は還付額（△は支払）、営業活動によるキャッシュ・フロー",
             "label_en": "IncomeTaxesPaidRefundOpeCF",
             "element_id": "jppfs_cor:IncomeTaxesPaidRefundOpeCF",
             "value": -317420000000.0,
-            "unit": "JPY"
-          },
-          {
-            "label_jp": "営業活動によるキャッシュ・フロー",
-            "label_en": "NetCashProvidedByUsedInOperatingActivities",
-            "element_id": "jppfs_cor:NetCashProvidedByUsedInOperatingActivities",
-            "value": -4838533000000.0,
             "unit": "JPY"
           },
           {
@@ -2607,13 +2558,6 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "投資活動によるキャッシュ・フロー",
-            "label_en": "NetCashProvidedByUsedInInvestmentActivities",
-            "element_id": "jppfs_cor:NetCashProvidedByUsedInInvestmentActivities",
-            "value": -6668376000000.0,
-            "unit": "JPY"
-          },
-          {
             "label_jp": "劣後特約付借入れによる収入、財務活動によるキャッシュ・フロー、銀行業",
             "label_en": "IncreaseInSubordinatedBorrowingsFinCFBNK",
             "element_id": "jppfs_cor:IncreaseInSubordinatedBorrowingsFinCFBNK",
@@ -2677,24 +2621,10 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "財務活動によるキャッシュ・フロー",
-            "label_en": "NetCashProvidedByUsedInFinancingActivities",
-            "element_id": "jppfs_cor:NetCashProvidedByUsedInFinancingActivities",
-            "value": -523153000000.0,
-            "unit": "JPY"
-          },
-          {
             "label_jp": "現金及び現金同等物に係る換算差額",
             "label_en": "EffectOfExchangeRateChangeOnCashAndCashEquivalents",
             "element_id": "jppfs_cor:EffectOfExchangeRateChangeOnCashAndCashEquivalents",
             "value": 984282000000.0,
-            "unit": "JPY"
-          },
-          {
-            "label_jp": "現金及び現金同等物の増減額（△は減少）",
-            "label_en": "NetIncreaseDecreaseInCashAndCashEquivalents",
-            "element_id": "jppfs_cor:NetIncreaseDecreaseInCashAndCashEquivalents",
-            "value": -11045780000000.0,
             "unit": "JPY"
           },
           {
