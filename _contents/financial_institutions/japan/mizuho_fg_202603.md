@@ -5,6 +5,13 @@ title: みずほフィナンシャルグループ 2026/03
 
 2026/03の有価証券報告書をもとにみずほフィナンシャルグループを見る。
 
+## データの出典
+会社のホームページ又はEDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/week0010.aspx）に提出された有価証券報告書より抜粋して作成
+- [有価証券報告書](https://www.mizuho-fg.co.jp/investors/financial/report/index.html)
+  - みずほフィナンシャルグループ
+  - みずほ銀行
+- [有価証券報告書/四半期報告書](https://www.mizuho-ls.co.jp/ja/ir/library/securities.html)
+
 ## 事業系統図(2026/04/01)
 - 株式会社は省略
 - 実線は子会社、点線は持分法適用関連会社を表す
@@ -396,14 +403,15 @@ flowchart LR
 ```
 
 ## 貸借対照表
-### 資産
-<canvas id="assetChart" data-json="/finance/assets/data/mizuho_fg_202603.json"> </canvas>
+### 資産(2026/03/31)
+<canvas id="assetChart" data-json="/finance/assets/data/mizuho_fg_202603.json" data-date="2026-03-31"> </canvas>
 
-### 負債・純資産 
-<canvas id="liabilityChart" data-json="/finance/assets/data/mizuho_fg_202603.json"> </canvas>
+### 資産(2025/03/31)
+<canvas id="assetChart" data-json="/finance/assets/data/mizuho_fg_202603.json" data-date="2025-03-31"> </canvas>
 
-## 参考
-- [有価証券報告書](https://www.mizuho-fg.co.jp/investors/financial/report/index.html)
-  - みずほフィナンシャルグループ
-  - みずほ銀行
-- [有価証券報告書/四半期報告書](https://www.mizuho-ls.co.jp/ja/ir/library/securities.html)
+### 負債・純資産(2026/03/31)
+<canvas id="liabilityChart" data-json="/finance/assets/data/mizuho_fg_202603.json" data-date="2026-03-31"> </canvas>
+
+### 負債・純資産(2025/03/31)
+<canvas id="liabilityChart" data-json="/finance/assets/data/mizuho_fg_202603.json" data-date="2025-03-31"> </canvas>
+

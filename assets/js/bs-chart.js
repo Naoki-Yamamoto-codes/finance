@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 async function loadBSChart(canvas) {
     const jsonPath = canvas.dataset.json;
+    const date = canvas.dataset.date;
 
     try {
         const response = await fetch(jsonPath);
@@ -19,23 +20,23 @@ async function loadBSChart(canvas) {
 
         const data = await response.json();
 
-        const bs = data.items[0];
+        const bs = data.filter(item => item.itemName === "Balance Sheet").items.filter(item => item.date === date);
 
         // canvas の id で資産・負債を判定
-        let items;
+        let bsItems;
 
         if (canvas.id === "assetChart") {
-            items = bs.assets;
+            bsItems = bs.assets;
         }
         else if (canvas.id === "liabilityChart") {
-            items = bs.liabilitiesAndEquity;
+            bsItems = bs.liabilitiesAndEquity;
         }
         else {
             console.warn(`Unknown BS chart: ${canvas.id}`);
             return;
         }
 
-        createBSChart(canvas, items);
+        createBSChart(canvas, bsItems);
 
     } catch (error) {
         console.error(`Failed to load BS data: ${jsonPath}`, error);
@@ -45,17 +46,10 @@ async function loadBSChart(canvas) {
 
 function createBSChart(canvas, items) {
     // null の値は除外
-    const validItems = items.filter(item =>
-        item.value !== null &&
-        item.value !== undefined
-    );
-
+    const validItems = items.filter(item => item.value !== null && item.value !== undefined);
     const labels = validItems.map(item => item.label_jp);
-
     // 円 → 百万円
-    const values = validItems.map(item =>
-        item.value / 1_000_000
-    );
+    const values = validItems.map(item => item.value / 1_000_000);
 
     new Chart(canvas, {
         type: "bar",
