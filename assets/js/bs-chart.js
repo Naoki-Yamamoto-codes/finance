@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 async function loadBSChart(canvas) {
     const jsonPath = canvas.dataset.json;
     const date = canvas.dataset.date;
-    const type = canvas.dataset.type;
+    const side = canvas.dataset.side;
 
     try {
         const response = await fetch(jsonPath);
@@ -25,14 +25,14 @@ async function loadBSChart(canvas) {
         // canvas の id で資産・負債を判定
         let bsItems;
 
-        if (type === "asset") {
+        if (side === "asset") {
             bsItems = bs.assets;
         }
-        else if (type === "liability") {
+        else if (side === "liability") {
             bsItems = bs.liabilitiesAndEquity;
         }
         else {
-            console.warn(`Unknown BS chart: ${type}`);
+            console.warn(`Unknown BS chart: ${side}`);
             return;
         }
 

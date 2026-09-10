@@ -404,16 +404,16 @@ flowchart LR
 
 ## 連結貸借対照表
 ### 資産(2026/03/31)
-<canvas data-json="/finance/assets/data/mizuho_fg_202603.json" data-date="2026-03-31" data-type="asset" > </canvas>
+<canvas data-json="/finance/assets/data/mizuho_fg_202603.json" data-date="2026-03-31" data-side="asset" > </canvas>
 
 ### 資産(2025/03/31)
-<canvas data-json="/finance/assets/data/mizuho_fg_202603.json" data-date="2025-03-31" data-type="asset" > </canvas>
+<canvas data-json="/finance/assets/data/mizuho_fg_202603.json" data-date="2025-03-31" data-side="asset" > </canvas>
 
 ### 負債・純資産(2026/03/31)
-<canvas data-json="/finance/assets/data/mizuho_fg_202603.json" data-date="2026-03-31" data-type="liability"> </canvas>
+<canvas data-json="/finance/assets/data/mizuho_fg_202603.json" data-date="2026-03-31" data-side="liability"> </canvas>
 
 ### 負債・純資産(2025/03/31)
-<canvas data-json="/finance/assets/data/mizuho_fg_202603.json" data-date="2025-03-31" data-type="liability"> </canvas>
+<canvas data-json="/finance/assets/data/mizuho_fg_202603.json" data-date="2025-03-31" data-side="liability"> </canvas>
 
 ## 連結損益計算書及び連結包括利益計算書
 ### 2026/03/31
