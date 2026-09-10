@@ -47,7 +47,7 @@ function createBSChart(canvas, items) {
     // null の値は除外
     const validItems = items.filter(item => item.value !== null && item.value !== undefined);
     // 項目数に応じて高さを調整
-    const heightPerItem = 35;
+    const heightPerItem = 25;
     canvas.parentElement.style.height = `${validItems.length * heightPerItem}px`;
 
     const labels = validItems.map(item => item.label_jp);
