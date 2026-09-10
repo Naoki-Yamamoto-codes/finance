@@ -1,8 +1,16 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const canvases = document.querySelectorAll("canvas[data-json][data-date][data-side]");
+    const canvases = document.querySelectorAll("canvas[data-json][data-date][data-chart-type][data-name]");
 
     canvases.forEach(canvas => {
-        loadBSChart(canvas);
+        switch (canvas.dataset.chartType) {
+            case "bar":
+                loadBSChart(canvas);
+                break;
+
+            case "waterfall":
+                loadWaterfallChart(canvas);
+                break;
+        }
     });
 });
 
@@ -10,6 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 async function loadBSChart(canvas) {
     const jsonPath = canvas.dataset.json;
     const date = canvas.dataset.date;
+    const itemName = canvas.dataset.name;
     const side = canvas.dataset.side;
 
     try {
@@ -20,7 +29,7 @@ async function loadBSChart(canvas) {
         }
 
         const data = await response.json();
-        const bs = data.find(item => item.itemName === "Balance Sheet").items.find(item => item.date === date);
+        const bs = data.find(item => item.itemName === itemName).items.find(item => item.date === date);
 
         // canvas の id で資産・負債を判定
         let bsItems;
@@ -42,7 +51,6 @@ async function loadBSChart(canvas) {
         console.error(`Failed to load BS data: ${jsonPath}`, error);
     }
 }
-
 
 function createBSChart(canvas, items) {
     // null の値は除外
@@ -113,6 +121,86 @@ function createBSChart(canvas, items) {
                     suggestedMax: Math.max(...values) * 1.15,
                 },
                 y: { ticks: { autoSkip: false } }
+            }
+        }
+    });
+}
+
+async function loadWaterfallChart(canvas) {
+    const jsonPath = canvas.dataset.json;
+    const date = canvas.dataset.date;
+    const itemName = canvas.dataset.name;
+
+    try {
+        const response = await fetch(jsonPath);
+
+        if (!response.ok) {
+            throw new Error(`Failed to load JSON: ${response.status}`);
+        }
+
+        const data = await response.json();
+        const plcf = data.find(item => item.itemName === itemName).items.find(item => item.date === date);
+
+        createWaterfallChart(canvas, plcf);
+
+    } catch (error) {
+        console.error(`Failed to load BS data: ${jsonPath}`, error);
+    }
+}
+
+function createWaterfallChart(canvas, items) {
+    let current = items[0].value;
+
+    const labels = [items[0].label];
+    const base = [0];
+    const values = [items[0].value];
+
+    // 中間項目
+    for (let i = 1; i < items.length - 1; i++) {
+        const value = items[i].value;
+        labels.push(items[i].label);
+
+        if (value >= 0) {
+            base.push(current);
+            values.push(value);
+        } else {
+            base.push(current + value);
+            values.push(-value);
+        }
+        current += value;
+    }
+    // 最終値
+    const last = items[items.length - 1];
+
+    labels.push(last.label);
+    base.push(0);
+    values.push(last.value);
+
+    new Chart(canvas, {
+        type: "bar",
+        data: {
+            labels: labels,
+            datasets: [
+                {
+                    data: base,
+                    backgroundColor: "transparent",
+                    borderWidth: 0,
+                    stack: "waterfall"
+                },
+                {
+                    data: values,
+                    stack: "waterfall"
+                }
+            ]
+        },
+        options: {
+            plugins: { legend: { display: false } },
+            scales: {
+                x: { stacked: true },
+                y: {
+                    stacked: true,
+                    beginAtZero: true
+                }
             }
         }
     });
