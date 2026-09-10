@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const canvases = document.querySelectorAll("canvas[data-json][data-date]");
+    const canvases = document.querySelectorAll("canvas[data-json][data-date][data-type]");
 
     canvases.forEach(canvas => {
         loadBSChart(canvas);
@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 async function loadBSChart(canvas) {
     const jsonPath = canvas.dataset.json;
     const date = canvas.dataset.date;
+    const type = canvas.dataset.type;
 
     try {
         const response = await fetch(jsonPath);
@@ -24,14 +25,14 @@ async function loadBSChart(canvas) {
         // canvas の id で資産・負債を判定
         let bsItems;
 
-        if (canvas.id === "assetChart") {
+        if (type === "asset") {
             bsItems = bs.assets;
         }
-        else if (canvas.id === "liabilityChart") {
+        else if (type === "liability") {
             bsItems = bs.liabilitiesAndEquity;
         }
         else {
-            console.warn(`Unknown BS chart: ${canvas.id}`);
+            console.warn(`Unknown BS chart: ${type}`);
             return;
         }
 
@@ -47,9 +48,10 @@ function createBSChart(canvas, items) {
     // null の値は除外
     const validItems = items.filter(item => item.value !== null && item.value !== undefined);
     // 項目数に応じて高さを調整
-    const heightPerItem = 25;
-    canvas.parentElement.style.height = `${validItems.length * heightPerItem}px`;
-
+    const heightPerItem = 15;
+    canvas.style.height = `${validItems.length * heightPerItem}px`;
+    canvas.style.width = "100%";
+    
     const labels = validItems.map(item => item.label_jp);
     // 円 → 百万円
     const values = validItems.map(item => item.value / 1_000_000);
