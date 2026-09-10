@@ -48,9 +48,9 @@ function createBSChart(canvas, items) {
     // null の値は除外
     const validItems = items.filter(item => item.value !== null && item.value !== undefined);
     // 項目数に応じて高さを調整
-    const heightPerItem = 15;
-    canvas.style.height = `${validItems.length * heightPerItem}px`;
-    canvas.style.width = "100%";
+    // const heightPerItem = 15;
+    // canvas.style.height = `${validItems.length * heightPerItem}px`;
+    // canvas.style.width = "100%";
     
     const labels = validItems.map(item => item.label_jp);
     // 円 → 百万円
@@ -86,7 +86,7 @@ function createBSChart(canvas, items) {
         options: {
             indexAxis: "y",
             responsive: true,
-            maintainAspectRatio: false,
+            // maintainAspectRatio: false,
             plugins: {
                 legend: { display: false },
                 tooltip: {
