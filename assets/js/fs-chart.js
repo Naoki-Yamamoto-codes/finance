@@ -139,7 +139,7 @@ async function loadWaterfallChart(canvas) {
         }
 
         const data = await response.json();
-        const plcf = data.find(item => item.itemName === itemName).items.find(item => item.date === date);
+        const plcf = data.find(item => item.itemName === itemName).items.find(item => item.date === date).items;
 
         createWaterfallChart(canvas, plcf);
 
