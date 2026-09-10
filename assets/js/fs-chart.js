@@ -175,26 +175,26 @@ function createWaterfallChart(canvas, items) {
     base.push(0);
     values.push(last.value / 1_000_000);
 
-    const valueLabelPlugin = {
-        id: "valueLabel",
-        afterDatasetsDraw(chart) {
-            const { ctx } = chart;
-            ctx.save();
-            ctx.font = "12px sans-serif";
-            ctx.textAlign = "center";
-            ctx.textBaseline = "bottom";
-            const meta = chart.getDatasetMeta(1);
-            meta.data.forEach((bar, index) => {
-                const value = items[index].value / 1_000_000;
-                const text = value.toLocaleString("ja-JP", {
-                    minimumFractionDigits: 2,
-                    maximumFractionDigits: 2
-                }) + "百万円";
-                ctx.fillText(text, bar.x, bar.y - 4);
-            });
-            ctx.restore();
-        }
-    };
+    // const valueLabelPlugin = {
+    //     id: "valueLabel",
+    //     afterDatasetsDraw(chart) {
+    //         const { ctx } = chart;
+    //         ctx.save();
+    //         ctx.font = "12px sans-serif";
+    //         ctx.textAlign = "center";
+    //         ctx.textBaseline = "bottom";
+    //         const meta = chart.getDatasetMeta(1);
+    //         meta.data.forEach((bar, index) => {
+    //             const value = items[index].value / 1_000_000;
+    //             const text = value.toLocaleString("ja-JP", {
+    //                 minimumFractionDigits: 2,
+    //                 maximumFractionDigits: 2
+    //             }) + "百万円";
+    //             ctx.fillText(text, bar.x, bar.y - 4);
+    //         });
+    //         ctx.restore();
+    //     }
+    // };
 
     new Chart(canvas, {
         type: "bar",
@@ -216,7 +216,7 @@ function createWaterfallChart(canvas, items) {
                 }
             ]
         },
-        plugins: [valueLabelPlugin],
+        // plugins: [valueLabelPlugin],
         options: {
             plugins: { legend: { display: false } },
             scales: {
