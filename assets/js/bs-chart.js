@@ -103,7 +103,8 @@ function createBSChart(canvas, items) {
                         display: true,
                         text: "百万円"
                     },
-                    beginAtZero: true
+                    beginAtZero: true,
+                    suggestedMax: Math.max(...values) * 1.15,
                 },
                 y: { ticks: { autoSkip: false } }
             }
