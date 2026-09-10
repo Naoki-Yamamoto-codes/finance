@@ -46,10 +46,13 @@ async function loadBSChart(canvas) {
 function createBSChart(canvas, items) {
     // null の値は除外
     const validItems = items.filter(item => item.value !== null && item.value !== undefined);
+    // 項目数に応じて高さを調整
+    const heightPerItem = 35;
+    canvas.parentElement.style.height = `${validItems.length * heightPerItem}px`;
+
     const labels = validItems.map(item => item.label_jp);
     // 円 → 百万円
     const values = validItems.map(item => item.value / 1_000_000);
-
     const valueLabelPlugin = {
         id: "valueLabel",
         afterDatasetsDraw(chart) {
@@ -81,6 +84,7 @@ function createBSChart(canvas, items) {
         options: {
             indexAxis: "y",
             responsive: true,
+            maintainAspectRatio: false,
             plugins: {
                 legend: { display: false },
                 tooltip: {
