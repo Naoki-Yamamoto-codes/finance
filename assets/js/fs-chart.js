@@ -189,6 +189,9 @@ function createWaterfallChart(canvas, items) {
                 },
                 {
                     data: values,
+                    backgroundColor: "steelblue",
+                    borderColor: "steelblue",
+                    borderWidth: 1,
                     stack: "waterfall"
                 }
             ]
