@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const canvases = document.querySelectorAll("canvas[data-json][data-date][data-type]");
+    const canvases = document.querySelectorAll("canvas[data-json][data-date][data-side]");
 
     canvases.forEach(canvas => {
         loadBSChart(canvas);
