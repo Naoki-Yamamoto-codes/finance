@@ -43,6 +43,24 @@ flowchart LR
 リバースレポ取引(Reverse repo agreement)は単にレポ取引の視点を変えただけであり、証券を売り戻す取引を指す。
 あるレポ取引は、証券を買い戻す側（上図のA）から見たらレポ取引であり、証券を売り戻す側（上図のB）からしたらリバースレポ取引である。
 
+## レポとデリバティブ
+CCPで清算されるデリバティブを取引すると、CCPにVM(変動証拠金)とIM(変動証拠金)を入れる必要がある。
+相対のデリバティブを取引するとVMが必要になり、当事者が大きい金融機関だとIMも必要になる。
+VMはキャッシュが多く、IMはキャッシュやHQLA(High Quality Liquid Asset)、最近では社債のこともある。
+VMやIMとして授受する担保の調達がレポを含む短期金融市場で行われる。
+```mermaid
+flowchart LR
+  A -->|"VM, IM"| CCP
+  B -->|"VM, IM"| CCP
+  A <-->|"VM"| B
+  A -->|"IM"| Custody
+  B -->|"IM"| Custody
+```
+デリバティブの原資産のボラティリティが高まると、VMやIMが大きくなり、VMやIMのための担保をレポ市場で調達しようとするため、レポ市場が動く。
+デリバティブの原資産と担保の相関が小さいうちは問題ないが、相関が高くなってくると、レポ市場の動きがデリバティブの時価に影響を与えVMやIMがさらに大きくなる。
+そうすると担保をまたレポ市場で調達しようとするので、さらにレポ市場が動く。
+デリバ→レポ→デリバ→レポ→...という負のスパイラルに陥ることがある。
+
 ## レポ取引に関する文書
 - [Repo market functioning](https://www.bis.org/publ/cgfs59.htm)
 - [Vulnerabilities in Government Bond-backed Repo Markets](https://www.fsb.org/2026/02/vulnerabilities-in-government-bond-backed-repo-markets/)
