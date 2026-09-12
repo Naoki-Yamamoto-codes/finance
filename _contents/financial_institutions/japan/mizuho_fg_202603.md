@@ -256,12 +256,97 @@ flowchart LR
   subgraph GCIB["グローバルコーポレート＆インベストメントバンキング"]
     US("Mizuho Americas LLC")
     RUS("AO Mizuho Bank(Moscow)")
-    AMOUS("Asset Management One USA Inc.")
-    click AMOUS https://www.am-one-usa.com/
     AUGUSTA("Augusta & Co Limited")
     BR("Banco Mizuho do Brasil S.A.")
     CAPA("Capstone Advisors SA")
     CAPHD("CH Capstone Holding Sarl")
+    CN("瑞穂銀行（中国）有限公司")
+    MAL("Mizuho Bank (Malaysia) Berhad")
+    BKEUR("Mizuho Bank Europe N.V.")
+    BKMEX("Mizuho Bank Mexico, S.A.")
+    GSIND("Mizuho Global Services India Private Limited")
+    click GSIND https://www.mizuhogroup.com/asia-pacific/mizuho-global-services/about-us
+    INTL("Mizuho International plc")
+    MFUTSGP("Mizuho Markets Futures Singapore Pte. Ltd.")
+    MEAH("Mizuho MEA Regional Headquarters Company")
+    MORT("Mizuho Mortgage Securities LLC")
+    SAUDI("Mizuho Saudi Arabia Company")
+    click SAUDI https://www.mizuhogroup.com/emea/saudi-arabia/about
+    SCCN("瑞穂証券（中国）有限公司")
+    SCSGP("Mizuho Securities (Singapore) Pte. Ltd.")
+    click SCSGP https://www.mizuhogroup.com/asia-pacific/securities/singapore/about-us
+    SCASIA("Mizuho Securities Asia Limited")
+    click SCASIA https://www.mizuhogroup.com/asia-pacific/securities/hk/about
+    SCIND("Mizuho Securities India Private Limited")
+    click SCIND https://www.mizuhogroup.com/asia-pacific/securities/india/about
+    SUNSHINE("Mizuho Sunshine Investment Ltd.")
+    BKINDN("PT. Bank Mizuho Indonesia")
+    BKVN("Joint Stock Commercial Bank for Foreign Trade of Vietnam")
+    BKTHAI("MHCB Consulting (Thailand) Co., Ltd.")
+    CSINDN("PT. MHCT Consulting Indonesia")
+    SATHI("Sathinee Company Limited")
+    XXX("?(親会社不明)")
+  end
+　BK -->|"100%"| US
+　BK -->|"100%"| RUS
+　INTL -->|"100%"| AUGUSTA
+　BK -->|"100%"| BR
+　XXX -->|"100%"| CAPA
+　XXX -->|"100%"| CAPHD
+　BK -->|"100%"| CN
+　BK -->|"100%"| MAL
+　BK -->|"100%"| BKEUR
+　BK -->|"100%"| BKMEX
+　BK -->|"100%"| GSIND
+　SC -->|"100%"| INTL
+　SC -->|"100%"| MFUTSGP
+　BK -->|"100%"| MEAH
+　XXX -->|"100%"| MORT
+　BK -->|"85.1%"| SAUDI
+　SC -->|"14.9%"| SAUDI
+　SC -->|"100%"| SCCN
+　SC -->|"100%"| SCSGP
+　BK -."30%".-> SCASIA
+　SC -->|"70%"| SCASIA
+　SC -->|"100%"| SCIND
+　BK -->|"100%"| SUNSHINE
+　BK -->|"98.9%"| BKINDN
+　BK -."98.9%".-> BKVN
+　BK -."9.9%".-> BKTHAI
+　BK -."4.0%".-> SATHI
+　BK -->|"100%"| XXX
+```
+Mizuho Americasは次の通り。
+```mermaid
+flowchart LR
+    US("Mizuho Americas LLC")
+    AMOUS("Asset Management One USA Inc.")
+    click AMOUS https://www.am-one-usa.com/
+    GREENINC("Greenhill & Co., Inc.")
+    USLEASE("Mizuho America Leasing LLC")
+    USSERVICE("Mizuho Americas Services LLC")
+    BKUS("Mizuho Bank (USA)")
+    CAPM("Mizuho Capital Markets LLC")
+    EMEACS("Mizuho EMEA Corporate Services Limited")
+    MUS("Mizuho Markets Americas LLC")
+    SCCAN("Mizuho Securities Canada Inc.")
+    SCUS("Mizuho Securities USA LLC")
+
+　US -->|"51%"| AMOUS
+　US -->|"100%"| GREENINC
+　US -->|"100%"| USLEASE
+　US -->|"100%"| USSERVICE
+　US -->|"100%"| BKUS
+　US -->|"100%"| CAPM
+　US -->|"100%"| EMEACS
+　US -->|"100%"| MUS
+　US -->|"100%"| SCCAN
+　US -->|"100%"| SCUS
+```
+
+Greenhillは次の通り。
+```mermaid
+flowchart LR
     GREENSGP("Greenhill & Co. Asia (Singapore) Pte. Ltd.")
     GREENASIA("Greenhill & Co. Asia Limited")
     GREENAUSHD("Greenhill & Co. Australia Holdings Pty Ltd")
@@ -275,48 +360,7 @@ flowchart LR
     GREENLLC("Greenhill & Co., LLC")
     GREENEUR("Greenhill Europe GmbH & Co. KG")
     GREENGER("Greenhill Germany GmbH")
-    USLEASE("Mizuho America Leasing LLC")
-    USSERVICE("Mizuho Americas Services LLC")
-    CN("瑞穂銀行（中国）有限公司")
-    MAL("Mizuho Bank (Malaysia) Berhad")
-    BKUS("Mizuho Bank (USA)")
-    BKEUR("Mizuho Bank Europe N.V.")
-    BKMEX("Mizuho Bank Mexico, S.A.")
-    CAPM("Mizuho Capital Markets LLC")
-    EMEACS("Mizuho EMEA Corporate Services Limited")
-    GSIND("Mizuho Global Services India Private Limited")
-    click GSIND https://www.mizuhogroup.com/asia-pacific/mizuho-global-services/about-us
-    INTL("Mizuho International plc")
-    MUS("Mizuho Markets Americas LLC")
-    MFUTSGP("Mizuho Markets Futures Singapore Pte. Ltd.")
-    MEAH("Mizuho MEA Regional Headquarters Company")
-    MORT("Mizuho Mortgage Securities LLC")
-    SAUDI("Mizuho Saudi Arabia Company")
-    click SAUDI https://www.mizuhogroup.com/emea/saudi-arabia/about
-    SCCN("瑞穂証券（中国）有限公司")
-    SCSGP("Mizuho Securities (Singapore) Pte. Ltd.")
-    click SCSGP https://www.mizuhogroup.com/asia-pacific/securities/singapore/about-us
-    SCASIA("Mizuho Securities Asia Limited")
-    click SCASIA https://www.mizuhogroup.com/asia-pacific/securities/hk/about
-    SCCAN("Mizuho Securities Canada Inc.")
-    SCIND("Mizuho Securities India Private Limited")
-    click SCIND https://www.mizuhogroup.com/asia-pacific/securities/india/about
-    SCUS("Mizuho Securities USA LLC")
-    SUNSHINE("Mizuho Sunshine Investment Ltd.")
-    BKINDN("PT. Bank Mizuho Indonesia")
-    BKVN("Joint Stock Commercial Bank for Foreign Trade of Vietnam")
-    BKTHAI("MHCB Consulting (Thailand) Co., Ltd.")
-    CSINDN("PT. MHCT Consulting Indonesia")
-    SATHI("Sathinee Company Limited")
-    XXX("?(親会社不明)")
-  end
-　BK -->|"100%"| US
-　BK -->|"100%"| RUS
-　US -->|"51%"| AMOUS
-　INTL -->|"100%"| AUGUSTA
-　BK -->|"100%"| BR
-　XXX -->|"100%"| CAPA
-　XXX -->|"100%"| CAPHD
+
 　GREENINC -->|"100%"| GREENSGP
 　GREENINC -->|"100%"| GREENASIA
 　GREENINC -->|"100%"| GREENAUSHD
@@ -326,40 +370,9 @@ flowchart LR
 　GREENINC -->|"100%"| GREENEURHD
 　GREENINC -->|"100%"| GREENCADHD
 　GREENINC -->|"100%"| GREENSWE
-　US -->|"100%"| GREENINC
 　GREENINC -->|"100%"| GREENLLC
 　GREENEURHD -->|"100%"| GREENEUR
 　GREENEUR -->|"100%"| GREENGER
-　US -->|"100%"| USLEASE
-　US -->|"100%"| USSERVICE
-　BK -->|"100%"| CN
-　BK -->|"100%"| MAL
-　US -->|"100%"| BKUS
-　BK -->|"100%"| BKEUR
-　BK -->|"100%"| BKMEX
-　US -->|"100%"| CAPM
-　US -->|"100%"| EMEACS
-　BK -->|"100%"| GSIND
-　SC -->|"100%"| INTL
-　US -->|"100%"| MUS
-　SC -->|"100%"| MFUTSGP
-　BK -->|"100%"| MEAH
-　XXX -->|"100%"| MORT
-　BK -->|"85.1%"| SAUDI
-　SC -->|"14.9%"| SAUDI
-　SC -->|"100%"| SCCN
-　SC -->|"100%"| SCSGP
-　BK -."30%".-> SCASIA
-　SC -->|"70%"| SCASIA
-　US -->|"100%"| SCCAN
-　SC -->|"100%"| SCIND
-　US -->|"100%"| SCUS
-　BK -->|"100%"| SUNSHINE
-　BK -->|"98.9%"| BKINDN
-　BK -."98.9%".-> BKVN
-　BK -."9.9%".-> BKTHAI
-　BK -."4.0%".-> SATHI
-　BK -->|"100%"| XXX
 ```
 
 ### アセットマネジメントカンパニー

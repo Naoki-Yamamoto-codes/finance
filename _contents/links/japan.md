@@ -14,6 +14,7 @@ title: 日本 Japan
   - [報道発表資料](https://www.fsa.go.jp/news/index.html)
   - [政策テーマ等一覧](https://www.fsa.go.jp/policy/index_sonota.html)
   - [国際関係情報](https://www.fsa.go.jp/inter/index.html)
+  - [EDINET](https://disclosure2.edinet-fsa.go.jp/week0010.aspx)
 
 ## 機構、省庁
 - [預金保険機構 Deposit Insurance Corporation of Japan, DICJ](https://www.dic.go.jp/)
