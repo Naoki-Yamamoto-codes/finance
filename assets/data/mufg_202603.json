@@ -172,8 +172,7 @@
             "element_id": "jppfs_cor:AllowanceForLoanLossesAssetsBNK",
             "value": -1214870000000.0,
             "unit": "JPY"
-          },
-          null
+          }
         ],
         "liabilitiesAndEquity": [
           {
@@ -260,7 +259,6 @@
             "value": 2903438000000.0,
             "unit": "JPY"
           },
-          null,
           {
             "label_jp": "その他負債、負債の部、銀行業",
             "label_en": "OtherLiabilitiesLiabilitiesBNK",
@@ -275,7 +273,20 @@
             "value": 293548000000.0,
             "unit": "JPY"
           },
-          null,
+          {
+            "label_jp": "役員賞与引当金",
+            "label_en": "ProvisionForDirectorsBonuses",
+            "element_id": "jppfs_cor:ProvisionForDirectorsBonuses",
+            "value": 3978000000.0,
+            "unit": "JPY"
+          },
+          {
+            "label_jp": "ReserveForStocksPaymentLiabilities",
+            "label_en": "ReserveForStocksPaymentLiabilities",
+            "element_id": "jpcrp030000-asr_E03606-000:ReserveForStocksPaymentLiabilities",
+            "value": 14287000000.0,
+            "unit": "JPY"
+          },
           {
             "label_jp": "退職給付に係る負債",
             "label_en": "NetDefinedBenefitLiability",
@@ -609,8 +620,7 @@
             "element_id": "jppfs_cor:AllowanceForLoanLossesAssetsBNK",
             "value": -1229947000000.0,
             "unit": "JPY"
-          },
-          null
+          }
         ],
         "liabilitiesAndEquity": [
           {
@@ -697,7 +707,6 @@
             "value": 2903438000000.0,
             "unit": "JPY"
           },
-          null,
           {
             "label_jp": "その他負債、負債の部、銀行業",
             "label_en": "OtherLiabilitiesLiabilitiesBNK",
@@ -712,7 +721,20 @@
             "value": 293548000000.0,
             "unit": "JPY"
           },
-          null,
+          {
+            "label_jp": "役員賞与引当金",
+            "label_en": "ProvisionForDirectorsBonuses",
+            "element_id": "jppfs_cor:ProvisionForDirectorsBonuses",
+            "value": 3978000000.0,
+            "unit": "JPY"
+          },
+          {
+            "label_jp": "ReserveForStocksPaymentLiabilities",
+            "label_en": "ReserveForStocksPaymentLiabilities",
+            "element_id": "jpcrp030000-asr_E03606-000:ReserveForStocksPaymentLiabilities",
+            "value": 14287000000.0,
+            "unit": "JPY"
+          },
           {
             "label_jp": "退職給付に係る負債",
             "label_en": "NetDefinedBenefitLiability",
@@ -1746,7 +1768,20 @@
             "value": -2000000.0,
             "unit": "JPY"
           },
-          null,
+          {
+            "label_jp": "ポイント引当金の増減額（△は減少）、営業活動によるキャッシュ・フロー",
+            "label_en": "IncreaseDecreaseInProvisionForPointCardCertificatesOpeCF",
+            "element_id": "jppfs_cor:IncreaseDecreaseInProvisionForPointCardCertificatesOpeCF",
+            "value": -10824000000.0,
+            "unit": "JPY"
+          },
+          {
+            "label_jp": "資金運用収益、営業活動によるキャッシュ・フロー、銀行業",
+            "label_en": "GainOnFundManagementOpeCFBNK",
+            "element_id": "jppfs_cor:GainOnFundManagementOpeCFBNK",
+            "value": -8467719000000.0,
+            "unit": "JPY"
+          },
           {
             "label_jp": "資金調達費用、営業活動によるキャッシュ・フロー、銀行業",
             "label_en": "FinancingExpensesOpeCFBNK",
@@ -1929,7 +1964,13 @@
             "value": -464398000000.0,
             "unit": "JPY"
           },
-          null,
+          {
+            "label_jp": "法人税等の還付額、営業活動によるキャッシュ・フロー",
+            "label_en": "IncomeTaxesRefundOpeCF",
+            "element_id": "jppfs_cor:IncomeTaxesRefundOpeCF",
+            "value": 134711000000.0,
+            "unit": "JPY"
+          },
           {
             "label_jp": "有価証券の取得による支出、投資活動によるキャッシュ・フロー、銀行業",
             "label_en": "PurchaseOfSecuritiesInvCFBNK",
@@ -2201,7 +2242,20 @@
             "value": 734000000.0,
             "unit": "JPY"
           },
-          null,
+          {
+            "label_jp": "ポイント引当金の増減額（△は減少）、営業活動によるキャッシュ・フロー",
+            "label_en": "IncreaseDecreaseInProvisionForPointCardCertificatesOpeCF",
+            "element_id": "jppfs_cor:IncreaseDecreaseInProvisionForPointCardCertificatesOpeCF",
+            "value": 1171000000.0,
+            "unit": "JPY"
+          },
+          {
+            "label_jp": "資金運用収益、営業活動によるキャッシュ・フロー、銀行業",
+            "label_en": "GainOnFundManagementOpeCFBNK",
+            "element_id": "jppfs_cor:GainOnFundManagementOpeCFBNK",
+            "value": -8723940000000.0,
+            "unit": "JPY"
+          },
           {
             "label_jp": "資金調達費用、営業活動によるキャッシュ・フロー、銀行業",
             "label_en": "FinancingExpensesOpeCFBNK",
@@ -2384,7 +2438,13 @@
             "value": -509413000000.0,
             "unit": "JPY"
           },
-          null,
+          {
+            "label_jp": "法人税等の還付額、営業活動によるキャッシュ・フロー",
+            "label_en": "IncomeTaxesRefundOpeCF",
+            "element_id": "jppfs_cor:IncomeTaxesRefundOpeCF",
+            "value": 70448000000.0,
+            "unit": "JPY"
+          },
           {
             "label_jp": "有価証券の取得による支出、投資活動によるキャッシュ・フロー、銀行業",
             "label_en": "PurchaseOfSecuritiesInvCFBNK",
