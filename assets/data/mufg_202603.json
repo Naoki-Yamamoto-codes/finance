@@ -1271,13 +1271,6 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "その他の包括利益",
-            "label_en": "OtherComprehensiveIncome",
-            "element_id": "jppfs_cor:OtherComprehensiveIncome",
-            "value": 128182000000.0,
-            "unit": "JPY"
-          },
-          {
             "label_jp": "包括利益",
             "label_en": "ComprehensiveIncome",
             "element_id": "jppfs_cor:ComprehensiveIncome",
@@ -1651,13 +1644,6 @@
             "label_en": "ShareOfOtherComprehensiveIncomeOfAssociatesAccountedForUsingEquityMethodOCI",
             "element_id": "jppfs_cor:ShareOfOtherComprehensiveIncomeOfAssociatesAccountedForUsingEquityMethodOCI",
             "value": 256999000000.0,
-            "unit": "JPY"
-          },
-          {
-            "label_jp": "その他の包括利益",
-            "label_en": "OtherComprehensiveIncome",
-            "element_id": "jppfs_cor:OtherComprehensiveIncome",
-            "value": 710734000000.0,
             "unit": "JPY"
           },
           {
