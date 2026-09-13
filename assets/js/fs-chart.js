@@ -174,7 +174,7 @@ function createWaterfallChart(canvas, items) {
     labels.push(last.label_jp);
     base.push(0);
     values.push(last.value / 1_000_000);
-
+    barColors = items.map(item => item.value >=0 ? "steelblue" : "tomato")
     // const valueLabelPlugin = {
     //     id: "valueLabel",
     //     afterDatasetsDraw(chart) {
@@ -209,8 +209,7 @@ function createWaterfallChart(canvas, items) {
                 },
                 {
                     data: values,
-                    backgroundColor: "steelblue",
-                    borderColor: "steelblue",
+                    backgroundColor: barColors,
                     borderWidth: 1,
                     stack: "waterfall"
                 }
