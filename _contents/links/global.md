@@ -20,6 +20,7 @@ title: グローバル global
   - [CCyB and G-SIB buffer](https://www.bis.org/bcbs/ccyb_gsib/index.htm)
   - [Publications](https://www.bis.org/bcbs/publications.htm)
 - [Financial Accounting Standards Board, FASB](https://www.fasb.org/)
+- [International Association of Insurance Supervisors, IAIS](https://www.iais.org/)
 - [International Organization Of Securities Commissions, IOSCO](https://www.iosco.org/)
 
 
