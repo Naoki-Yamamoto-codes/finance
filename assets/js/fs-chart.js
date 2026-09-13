@@ -163,7 +163,7 @@ function createWaterfallChart(canvas, items) {
         labels.push(items[i].label_jp);
         const start = current;
         const end = current + value;
-        data.push([start, end])
+        barData.push([start, end])
         current = end;
         // if (value >= 0) {
         //     base.push(current);
