@@ -149,31 +149,37 @@ async function loadWaterfallChart(canvas) {
 }
 
 function createWaterfallChart(canvas, items) {
+    const barData = []
     let current = items[0].value / 1_000_000;
+    barData.push([0, current])
 
     const labels = [items[0].label_jp];
-    const base = [0];
-    const values = [current];
+    // const base = [0];
+    // const values = [current];
 
     // 中間項目
     for (let i = 1; i < items.length - 1; i++) {
         const value = items[i].value / 1_000_000;
         labels.push(items[i].label_jp);
-
-        if (value >= 0) {
-            base.push(current);
-            values.push(value);
-        } else {
-            base.push(current + value);
-            values.push(-value);
-        }
-        current += value;
+        const start = current;
+        const end = current + value;
+        data.push([start, end])
+        current = end;
+        // if (value >= 0) {
+        //     base.push(current);
+        //     values.push(value);
+        // } else {
+        //     base.push(current + value);
+        //     values.push(-value);
+        // }
+        // current += value;
     }
     // 最終値
     const last = items[items.length - 1];
     labels.push(last.label_jp);
-    base.push(0);
-    values.push(last.value / 1_000_000);
+    barData.push([0 ,last]);
+    // base.push(0);
+    // values.push(last.value / 1_000_000);
     barColors = items.map(item => item.value >=0 ? "steelblue" : "tomato")
     // const valueLabelPlugin = {
     //     id: "valueLabel",
@@ -201,17 +207,18 @@ function createWaterfallChart(canvas, items) {
         data: {
             labels: labels,
             datasets: [
+                // {
+                //     data: base,
+                //     backgroundColor: "transparent",
+                //     borderWidth: 0,
+                //     stack: "waterfall"
+                // },
                 {
-                    data: base,
-                    backgroundColor: "transparent",
-                    borderWidth: 0,
-                    stack: "waterfall"
-                },
-                {
-                    data: values,
+                    data: barData,
+                    // data: values,
                     backgroundColor: barColors,
                     borderWidth: 1,
-                    stack: "waterfall"
+                    // stack: "waterfall"
                 }
             ]
         },
@@ -219,10 +226,10 @@ function createWaterfallChart(canvas, items) {
         options: {
             plugins: { legend: { display: false } },
             scales: {
-                x: { stacked: true },
+                // x: { stacked: true },
                 y: {
-                    stacked: true,
-                    beginAtZero: true,
+                    // stacked: true,
+                    // beginAtZero: true,
                     title: {
                         display: true,
                         text: "百万円"
