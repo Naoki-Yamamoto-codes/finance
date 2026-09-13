@@ -177,7 +177,7 @@ function createWaterfallChart(canvas, items) {
     // 最終値
     const last = items[items.length - 1];
     labels.push(last.label_jp);
-    barData.push([0 ,last]);
+    barData.push([0 ,last.value / 1_000_000]);
     // base.push(0);
     // values.push(last.value / 1_000_000);
     barColors = items.map(item => item.value >=0 ? "steelblue" : "tomato")
