@@ -10,6 +10,10 @@ document.addEventListener("DOMContentLoaded", () => {
             case "double-line":
                 drawDobleAxisLineChart(canvas);
                 break;
+            
+            case "pie":
+                drawPieChart(canvas);
+                break;    
         }
     });
 });
@@ -123,4 +127,37 @@ async function drawDobleAxisLineChart(canvas)
             }
         }
     });
+}
+
+async function drawPieChart(canvas) {
+    const jsonPath = canvas.dataset.json;
+    const response = await fetch(jsonPath);
+    const json = await response.json();
+    const key = canvas.dataset.key;
+    const sliceKey = canvas.sliceKey;
+    const slice = json[key][sliceKey];
+
+    const data = {
+        labels: slice.items.map(x => x.label),
+        datasets: [{
+            data: slice.items.map(x => x.value)
+        }]
+    };
+
+    new Chart(canvas,
+        {
+            type: "pie",
+            data: data,
+            options: {
+                responsive: true,
+                plugins: { 
+                    title: {
+                        display: true,
+                        text: slice.title
+                    },
+                    legend: { position: "right" } 
+                }
+            }
+        }
+    );
 }
