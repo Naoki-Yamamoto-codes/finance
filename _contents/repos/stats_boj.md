@@ -68,6 +68,17 @@ title: FSBレポ統計の日本分集計結果 Statistics on Securities Financin
 
 <canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_lending_equity" data-chart-type="line" > </canvas>
 
+株式調達サイド取引相手別(2026/07)
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_lending_equity_cp"> </canvas>
+
+株式調達サイド当初マチュリティ別(2026/07)
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" > </canvas>
+
+株式調達サイド貸借料率別(2026/07)
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" > </canvas>
+
+
+
 ### 取引レート レポレート
 
 > 現先取引の場合は当該レートを、証券貸借取引の場合は担保金利率と貸借料率として報告を受けたレートの差を、取引金額で加重平均
