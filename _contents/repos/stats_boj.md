@@ -35,6 +35,18 @@ title: FSBレポ統計の日本分集計結果 Statistics on Securities Financin
 
 <canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_jpy" data-chart-type="line" > </canvas>
 
+資金調達サイド本邦居住者(2026/07)
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_jpy_borrowing_res"> </canvas>
+
+資金調達サイド非居住者等(2026/07)
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_jpy_borrowing_nonres"> </canvas>
+
+資金運用サイド本邦居住者(2026/07)
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_jpy_lending_res"> </canvas>
+
+資金運用サイド非居住者等(2026/07)
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_jpy_lending_nonres"> </canvas>
+
 ### 現先取引及び証券貸借取引 外貨取引
 
 > 現金通貨が外貨の取引
@@ -43,6 +55,14 @@ title: FSBレポ統計の日本分集計結果 Statistics on Securities Financin
 
 <canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_for_ccy" data-chart-type="line" > </canvas>
 
+資金調達サイド非居住者等(2026/07)
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_for_ccy_borrowing"> </canvas>
+
+資金調達サイド通貨別(2026/07)
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_repo_for_ccy_borrowing"> </canvas>
+
+資金運用サイド通貨別(2026/07)
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_repo_for_ccy_lending"> </canvas>
 
 ### 現先取引 日本円／日本国債等
 
@@ -50,11 +70,29 @@ title: FSBレポ統計の日本分集計結果 Statistics on Securities Financin
 
 <canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_repo_jpy_jgb" data-chart-type="line" > </canvas>
 
+資金運用サイドGCレポ取引取引相手別(2026/07)
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_repo_jpy_jgb_gc_cp"> </canvas>
+
+資金運用サイドGCレポ取引当初マチュリティ別(2026/07)
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_repo_jpy_jgb_gc_maturity"> </canvas>
+
+資金運用サイドGCレポ取引清算別(2026/07)
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_repo_jpy_jgb_gc_clearing"> </canvas>
+
+資金運用サイドSCレポ取引取引相手別(2026/07)
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_repo_jpy_jgb_sc_cp"> </canvas>
+
+資金運用サイドSCレポ取引清算別(2026/07)
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_repo_jpy_jgb_sc_clearing"> </canvas>
+
 ### 現先取引 外貨／債券
 
 > 担保（取引対象債券等）を債券に限定し、かつ、現金通貨が外貨の取引
 
 <canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_repo_for_ccy" data-chart-type="line" > </canvas>
+
+資金調達サイド外貨建て債券(2026/07)
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_repo_for_ccy_sec"> </canvas>
 
 ### 証券貸借取引 日本国債／日本円
 
@@ -63,7 +101,7 @@ title: FSBレポ統計の日本分集計結果 Statistics on Securities Financin
 <canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_lending_jgb" data-chart-type="line" > </canvas>
 
 資金運用サイドGCレポ取引取引相手別(2026/07)
-<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="sstock_lending_jgb_gc_cp"> </canvas>
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_lending_jgb_gc_cp"> </canvas>
 
 資金運用サイドGCレポ取引当初マチュリティ別(2026/07)
 <canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_lending_jgb_gc_maturity"> </canvas>
