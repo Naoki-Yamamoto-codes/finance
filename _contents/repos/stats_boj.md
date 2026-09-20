@@ -7,6 +7,8 @@ title: FSBレポ統計の日本分集計結果 Statistics on Securities Financin
 [FSBレポ統計の日本分集計結果](https://www.boj.or.jp/statistics/bis/repo/index.htm)で公表されているデータより抜粋して作成
 データの意味については[「FSBレポ統計の日本分集計結果」の解説](https://www.boj.or.jp/statistics/outline/exp/exrepo.htm)を参照。
 
+> 取引金額は、取引通貨に応じた報告計数を「準備預金制度事務における邦貨換算率」で円に換算した後、億円単位
+
 
 <script src="/finance/assets/js/boj-repo-chart.js"></script>
 
