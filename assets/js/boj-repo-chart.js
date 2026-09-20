@@ -77,7 +77,7 @@ async function drawDobleAxisLineChart(canvas)
                     label: items[0].title,
                     data: items[0].values.map(x => ({
                         x: x.date,
-                        y: x.amount
+                        y: x.value
                     })),
                     yAxisID: "y",
                     borderWidth: 2,
@@ -87,7 +87,7 @@ async function drawDobleAxisLineChart(canvas)
                     label: items[1].title,
                     data: items[1].values.map(x => ({
                         x: x.date,
-                        y: x.rate
+                        y: x.value
                     })),
                     yAxisID: "y1",
                     borderWidth: 2,
