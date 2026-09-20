@@ -132,10 +132,10 @@ async function drawDobleAxisLineChart(canvas)
 async function drawPieChart(canvas) {
     const jsonPath = canvas.dataset.json;
     const response = await fetch(jsonPath);
-    const json = await response.json();
+    const jsonData = await response.json();
     const key = canvas.dataset.key;
-    const sliceKey = canvas.sliceKey;
-    const slice = json[key][sliceKey];
+    const sliceKey = canvas.dataset.sliceKey;
+    const slice = jsonData[key][sliceKey];
 
     const data = {
         labels: slice.items.map(x => x.label),

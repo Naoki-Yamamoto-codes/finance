@@ -62,6 +62,21 @@ title: FSBレポ統計の日本分集計結果 Statistics on Securities Financin
 
 <canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_lending_jgb" data-chart-type="line" > </canvas>
 
+資金運用サイドGCレポ取引取引相手別(2026/07)
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="sstock_lending_jgb_gc_cp"> </canvas>
+
+資金運用サイドGCレポ取引当初マチュリティ別(2026/07)
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_lending_jgb_gc_maturity"> </canvas>
+
+資金運用サイドGCレポ取引清算別(2026/07)
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_lending_jgb_gc_clearing"> </canvas>
+
+資金運用サイドSCレポ取引取引相手別(2026/07)
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_lending_jgb_sc_cp"> </canvas>
+
+資金運用サイドSCレポ取引清算別(2026/07)
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_lending_jgb_sc_clearing"> </canvas>
+
 ### 証券貸借取引 日本株／現金及び代用有価証券
 
 > 集計される証券貸借取引は、日本株を貸借する証券貸借取引を公表対象とします。この際、現金を担保とした取引及び代用有価証券を担保とした取引を合算
@@ -72,10 +87,10 @@ title: FSBレポ統計の日本分集計結果 Statistics on Securities Financin
 <canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_lending_equity_cp"> </canvas>
 
 株式調達サイド当初マチュリティ別(2026/07)
-<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" > </canvas>
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_lending_equity_maturity"> </canvas>
 
 株式調達サイド貸借料率別(2026/07)
-<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" > </canvas>
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_lending_equity_fee"> </canvas>
 
 
 
