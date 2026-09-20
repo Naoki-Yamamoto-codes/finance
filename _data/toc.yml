@@ -9,6 +9,8 @@
   items: 
     - name: 日本の「レポ」取引 Repos in Japan
       href: /contents/repos/repos_in_japan/
+    - name: FSBレポ統計の日本分集計結果 Statistics on Securities Financing Transactions in Japan
+      href: /contents/repos/stats_boj/
     - name: 現先取引（債券等の条件付売買取引） Gensaki
       href: /contents/repos/gensaki_new/
     - name: 2016/07以前の新現先取引
