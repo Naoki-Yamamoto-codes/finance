@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     canvases.forEach(canvas => {
         switch (canvas.dataset.chartType) {
             case "line":
-                drawRepoChart(canvas);
+                drawLineChart(canvas);
                 break;
 
             case "double-line":
