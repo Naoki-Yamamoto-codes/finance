@@ -144,14 +144,12 @@ async function drawPieChart(canvas) {
         }]
     };
 
-    canvas.width = 300;
-    canvas.height = 300;
     new Chart(canvas,
         {
             type: "pie",
             data: data,
             options: {
-                responsive: true,
+                responsive: false,
                 plugins: { 
                     title: {
                         display: true,
