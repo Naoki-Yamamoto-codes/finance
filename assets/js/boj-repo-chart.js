@@ -144,6 +144,9 @@ async function drawPieChart(canvas) {
         }]
     };
 
+    canvas.width = 400;
+    canvas.height = 400;
+
     new Chart(canvas,
         {
             type: "pie",
