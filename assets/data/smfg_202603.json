@@ -186,259 +186,259 @@
             "label_jp": "預金、負債の部、銀行業",
             "label_en": "DepositsLiabilitiesBNK",
             "element_id": "jppfs_cor:DepositsLiabilitiesBNK",
-            "value": 185674241000000.0,
+            "value": 171498651000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "譲渡性預金、負債の部、銀行業",
             "label_en": "NegotiableCertificatesOfDepositLiabilitiesBNK",
             "element_id": "jppfs_cor:NegotiableCertificatesOfDepositLiabilitiesBNK",
-            "value": 15667132000000.0,
+            "value": 17175391000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "コールマネー及び売渡手形、負債の部、銀行業",
             "label_en": "CallMoneyAndBillsSoldLiabilitiesBNK",
             "element_id": "jppfs_cor:CallMoneyAndBillsSoldLiabilitiesBNK",
-            "value": 3656736000000.0,
+            "value": 4378276000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "売現先勘定、負債の部、銀行業",
             "label_en": "PayablesUnderRepurchaseAgreementsLiabilitiesBNK",
             "element_id": "jppfs_cor:PayablesUnderRepurchaseAgreementsLiabilitiesBNK",
-            "value": 23764473000000.0,
+            "value": 25797136000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "債券貸借取引受入担保金、負債の部、銀行業",
             "label_en": "PayablesUnderSecuritiesLendingTransactionsLiabilitiesBNK",
             "element_id": "jppfs_cor:PayablesUnderSecuritiesLendingTransactionsLiabilitiesBNK",
-            "value": 1136833000000.0,
+            "value": 2183655000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "コマーシャル・ペーパー",
             "label_en": "CommercialPapersLiabilities",
             "element_id": "jppfs_cor:CommercialPapersLiabilities",
-            "value": 3380389000000.0,
+            "value": 2686483000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "特定取引負債、負債の部、銀行業",
             "label_en": "TradingLiabilitiesLiabilitiesBNK",
             "element_id": "jppfs_cor:TradingLiabilitiesLiabilitiesBNK",
-            "value": 13089960000000.0,
+            "value": 9726615000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "借用金、負債の部、銀行業",
             "label_en": "BorrowedMoneyLiabilitiesBNK",
             "element_id": "jppfs_cor:BorrowedMoneyLiabilitiesBNK",
-            "value": 9370996000000.0,
+            "value": 11355209000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "外国為替、負債の部、銀行業",
             "label_en": "ForeignExchangesLiabilitiesBNK",
             "element_id": "jppfs_cor:ForeignExchangesLiabilitiesBNK",
-            "value": 1436381000000.0,
+            "value": 1771839000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "短期社債",
             "label_en": "ShortTermBondsPayable",
             "element_id": "jppfs_cor:ShortTermBondsPayable",
-            "value": 773500000000.0,
+            "value": 728200000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "社債",
             "label_en": "BondsPayable",
             "element_id": "jppfs_cor:BondsPayable",
-            "value": 15369164000000.0,
+            "value": 13352392000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "信託勘定借、負債の部、銀行業",
             "label_en": "BorrowedMoneyFromTrustAccountLiabilitiesBNK",
             "element_id": "jppfs_cor:BorrowedMoneyFromTrustAccountLiabilitiesBNK",
-            "value": 956169000000.0,
+            "value": 1041660000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "その他負債、負債の部、銀行業",
             "label_en": "OtherLiabilitiesLiabilitiesBNK",
             "element_id": "jppfs_cor:OtherLiabilitiesLiabilitiesBNK",
-            "value": 20103338000000.0,
+            "value": 13700199000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "賞与引当金",
             "label_en": "ProvisionForBonuses",
             "element_id": "jppfs_cor:ProvisionForBonuses",
-            "value": 146303000000.0,
+            "value": 130464000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "役員賞与引当金",
             "label_en": "ProvisionForDirectorsBonuses",
             "element_id": "jppfs_cor:ProvisionForDirectorsBonuses",
-            "value": 5973000000.0,
+            "value": 5433000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "退職給付に係る負債",
             "label_en": "NetDefinedBenefitLiability",
             "element_id": "jppfs_cor:NetDefinedBenefitLiability",
-            "value": 34317000000.0,
+            "value": 33890000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "役員退職慰労引当金",
             "label_en": "ProvisionForDirectorsRetirementBenefits",
             "element_id": "jppfs_cor:ProvisionForDirectorsRetirementBenefits",
-            "value": 907000000.0,
+            "value": 1007000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "ポイント引当金、流動負債",
             "label_en": "ProvisionForPointCardCertificatesCL",
             "element_id": "jppfs_cor:ProvisionForPointCardCertificatesCL",
-            "value": 63254000000.0,
+            "value": 32656000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "睡眠預金払戻損失引当金、負債の部、銀行業",
             "label_en": "ProvisionForReimbursementOfDepositsLiabilitiesBNK",
             "element_id": "jppfs_cor:ProvisionForReimbursementOfDepositsLiabilitiesBNK",
-            "value": 35806000000.0,
+            "value": 5573000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "利息返還損失引当金、負債の部、銀行業",
             "label_en": "ProvisionForLossOnInterestRepaymentLiabilitiesBNK",
             "element_id": "jppfs_cor:ProvisionForLossOnInterestRepaymentLiabilitiesBNK",
-            "value": 226742000000.0,
+            "value": 242127000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "特別法上の引当金",
             "label_en": "ReservesUnderTheSpecialLaws2",
             "element_id": "jppfs_cor:ReservesUnderTheSpecialLaws2",
-            "value": 6737000000.0,
+            "value": 5365000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "繰延税金負債",
             "label_en": "DeferredTaxLiabilities",
             "element_id": "jppfs_cor:DeferredTaxLiabilities",
-            "value": 619716000000.0,
+            "value": 422050000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "再評価に係る繰延税金負債",
             "label_en": "DeferredTaxLiabilitiesForLandRevaluation",
             "element_id": "jppfs_cor:DeferredTaxLiabilitiesForLandRevaluation",
-            "value": 25750000000.0,
+            "value": 26424000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "支払承諾、負債の部、銀行業",
             "label_en": "AcceptancesAndGuaranteesLiabilitiesBNK",
             "element_id": "jppfs_cor:AcceptancesAndGuaranteesLiabilitiesBNK",
-            "value": 17033172000000.0,
+            "value": 15139799000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "資本金",
             "label_en": "CapitalStock",
             "element_id": "jppfs_cor:CapitalStock",
-            "value": 2346888000000.0,
+            "value": 2345960000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "資本剰余金",
             "label_en": "CapitalSurplus",
             "element_id": "jppfs_cor:CapitalSurplus",
-            "value": 582909000000.0,
+            "value": 611423000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "利益剰余金",
             "label_en": "RetainedEarnings",
             "element_id": "jppfs_cor:RetainedEarnings",
-            "value": 8871065000000.0,
+            "value": 8290170000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "自己株式",
             "label_en": "TreasuryStock",
             "element_id": "jppfs_cor:TreasuryStock",
-            "value": -48851000000.0,
+            "value": -38512000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "株主資本",
             "label_en": "ShareholdersEquity",
             "element_id": "jppfs_cor:ShareholdersEquity",
-            "value": 11752012000000.0,
+            "value": 11209042000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "その他有価証券評価差額金",
             "label_en": "ValuationDifferenceOnAvailableForSaleSecurities",
             "element_id": "jppfs_cor:ValuationDifferenceOnAvailableForSaleSecurities",
-            "value": 2185092000000.0,
+            "value": 1930834000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "繰延ヘッジ損益",
             "label_en": "DeferredGainsOrLossesOnHedges",
             "element_id": "jppfs_cor:DeferredGainsOrLossesOnHedges",
-            "value": -300715000000.0,
+            "value": -168604000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "土地再評価差額金",
             "label_en": "RevaluationReserveForLand",
             "element_id": "jppfs_cor:RevaluationReserveForLand",
-            "value": 29133000000.0,
+            "value": 32849000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "為替換算調整勘定",
             "label_en": "ForeignCurrencyTranslationAdjustment",
             "element_id": "jppfs_cor:ForeignCurrencyTranslationAdjustment",
-            "value": 1706949000000.0,
+            "value": 1411827000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "退職給付に係る調整累計額",
             "label_en": "RemeasurementsOfDefinedBenefitPlans",
             "element_id": "jppfs_cor:RemeasurementsOfDefinedBenefitPlans",
-            "value": 412985000000.0,
+            "value": 287487000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "評価・換算差額等",
             "label_en": "ValuationAndTranslationAdjustments",
             "element_id": "jppfs_cor:ValuationAndTranslationAdjustments",
-            "value": 4033445000000.0,
+            "value": 3494393000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "新株予約権",
             "label_en": "SubscriptionRightsToShares",
             "element_id": "jppfs_cor:SubscriptionRightsToShares",
-            "value": 594000000.0,
+            "value": 767000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "非支配株主持分",
             "label_en": "NonControllingInterests",
             "element_id": "jppfs_cor:NonControllingInterests",
-            "value": 147092000000.0,
+            "value": 137306000000.0,
             "unit": "JPY"
           }
         ]
