@@ -935,15 +935,15 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "jpcrp030000-asr_E03614-000:InterestOnLeaseTransactionsOIBNK",
-            "label_en": "jpcrp030000-asr_E03614-000:InterestOnLeaseTransactionsOIBNK",
+            "label_jp": "InterestOnLeaseTransactionsOIBNK",
+            "label_en": "InterestOnLeaseTransactionsOIBNK",
             "element_id": "jpcrp030000-asr_E03614-000:InterestOnLeaseTransactionsOIBNK",
             "value": 12185000000.0,
             "unit": "JPY"
           },
           {
-            "label_jp": "jpcrp030000-asr_E03614-000:DeferredInterestInterestIncome",
-            "label_en": "jpcrp030000-asr_E03614-000:DeferredInterestInterestIncome",
+            "label_jp": "DeferredInterestInterestIncome",
+            "label_en": "DeferredInterestInterestIncome",
             "element_id": "jpcrp030000-asr_E03614-000:DeferredInterestInterestIncome",
             "value": 22320000000.0,
             "unit": "JPY"
@@ -1255,15 +1255,15 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "jpcrp030000-asr_E03614-000:InterestOnLeaseTransactionsOIBNK",
-            "label_en": "jpcrp030000-asr_E03614-000:InterestOnLeaseTransactionsOIBNK",
+            "label_jp": "InterestOnLeaseTransactionsOIBNK",
+            "label_en": "InterestOnLeaseTransactionsOIBNK",
             "element_id": "jpcrp030000-asr_E03614-000:InterestOnLeaseTransactionsOIBNK",
             "value": 11571000000.0,
             "unit": "JPY"
           },
           {
-            "label_jp": "jpcrp030000-asr_E03614-000:DeferredInterestInterestIncome",
-            "label_en": "jpcrp030000-asr_E03614-000:DeferredInterestInterestIncome",
+            "label_jp": "DeferredInterestInterestIncome",
+            "label_en": "DeferredInterestInterestIncome",
             "element_id": "jpcrp030000-asr_E03614-000:DeferredInterestInterestIncome",
             "value": 23452000000.0,
             "unit": "JPY"
@@ -1573,8 +1573,8 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "jpcrp030000-asr_E03614-000:LossesFromSalesOfUSBankingSubsidiariesOpeCF",
-            "label_en": "jpcrp030000-asr_E03614-000:LossesFromSalesOfUSBankingSubsidiariesOpeCF",
+            "label_jp": "LossesFromSalesOfUSBankingSubsidiariesOpeCF",
+            "label_en": "LossesFromSalesOfUSBankingSubsidiariesOpeCF",
             "element_id": "jpcrp030000-asr_E03614-000:LossesFromSalesOfUSBankingSubsidiariesOpeCF",
             "value": null,
             "unit": "JPY"
@@ -1615,8 +1615,8 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "jpcrp030000-asr_E03614-000:IncreaseDecreaseForRetirementBenefitsAssetLiabilityOpeCF",
-            "label_en": "jpcrp030000-asr_E03614-000:IncreaseDecreaseForRetirementBenefitsAssetLiabilityOpeCF",
+            "label_jp": "IncreaseDecreaseForRetirementBenefitsAssetLiabilityOpeCF",
+            "label_en": "IncreaseDecreaseForRetirementBenefitsAssetLiabilityOpeCF",
             "element_id": "jpcrp030000-asr_E03614-000:IncreaseDecreaseForRetirementBenefitsAssetLiabilityOpeCF",
             "value": -76526000000.0,
             "unit": "JPY"
@@ -1636,8 +1636,8 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "jpcrp030000-asr_E03614-000:NetChangeInReserveForReimbursementOfDepositsOpeCF",
-            "label_en": "jpcrp030000-asr_E03614-000:NetChangeInReserveForReimbursementOfDepositsOpeCF",
+            "label_jp": "NetChangeInReserveForReimbursementOfDepositsOpeCF",
+            "label_en": "NetChangeInReserveForReimbursementOfDepositsOpeCF",
             "element_id": "jpcrp030000-asr_E03614-000:NetChangeInReserveForReimbursementOfDepositsOpeCF",
             "value": -3655000000.0,
             "unit": "JPY"
@@ -1986,8 +1986,8 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "jpcrp030000-asr_E03614-000:ProceedsFromSalesOfTreasuryStockOfSubsidiariesFinCF",
-            "label_en": "jpcrp030000-asr_E03614-000:ProceedsFromSalesOfTreasuryStockOfSubsidiariesFinCF",
+            "label_jp": "ProceedsFromSalesOfTreasuryStockOfSubsidiariesFinCF",
+            "label_en": "ProceedsFromSalesOfTreasuryStockOfSubsidiariesFinCF",
             "element_id": "jpcrp030000-asr_E03614-000:ProceedsFromSalesOfTreasuryStockOfSubsidiariesFinCF",
             "value": 0.0,
             "unit": "JPY"
@@ -2061,8 +2061,8 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "jpcrp030000-asr_E03614-000:LossesFromSalesOfUSBankingSubsidiariesOpeCF",
-            "label_en": "jpcrp030000-asr_E03614-000:LossesFromSalesOfUSBankingSubsidiariesOpeCF",
+            "label_jp": "LossesFromSalesOfUSBankingSubsidiariesOpeCF",
+            "label_en": "LossesFromSalesOfUSBankingSubsidiariesOpeCF",
             "element_id": "jpcrp030000-asr_E03614-000:LossesFromSalesOfUSBankingSubsidiariesOpeCF",
             "value": 46112000000.0,
             "unit": "JPY"
@@ -2103,8 +2103,8 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "jpcrp030000-asr_E03614-000:IncreaseDecreaseForRetirementBenefitsAssetLiabilityOpeCF",
-            "label_en": "jpcrp030000-asr_E03614-000:IncreaseDecreaseForRetirementBenefitsAssetLiabilityOpeCF",
+            "label_jp": "IncreaseDecreaseForRetirementBenefitsAssetLiabilityOpeCF",
+            "label_en": "IncreaseDecreaseForRetirementBenefitsAssetLiabilityOpeCF",
             "element_id": "jpcrp030000-asr_E03614-000:IncreaseDecreaseForRetirementBenefitsAssetLiabilityOpeCF",
             "value": -311682000000.0,
             "unit": "JPY"
@@ -2124,8 +2124,8 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "jpcrp030000-asr_E03614-000:NetChangeInReserveForReimbursementOfDepositsOpeCF",
-            "label_en": "jpcrp030000-asr_E03614-000:NetChangeInReserveForReimbursementOfDepositsOpeCF",
+            "label_jp": "NetChangeInReserveForReimbursementOfDepositsOpeCF",
+            "label_en": "NetChangeInReserveForReimbursementOfDepositsOpeCF",
             "element_id": "jpcrp030000-asr_E03614-000:NetChangeInReserveForReimbursementOfDepositsOpeCF",
             "value": 30232000000.0,
             "unit": "JPY"
@@ -2474,8 +2474,8 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "jpcrp030000-asr_E03614-000:ProceedsFromSalesOfTreasuryStockOfSubsidiariesFinCF",
-            "label_en": "jpcrp030000-asr_E03614-000:ProceedsFromSalesOfTreasuryStockOfSubsidiariesFinCF",
+            "label_jp": "ProceedsFromSalesOfTreasuryStockOfSubsidiariesFinCF",
+            "label_en": "ProceedsFromSalesOfTreasuryStockOfSubsidiariesFinCF",
             "element_id": "jpcrp030000-asr_E03614-000:ProceedsFromSalesOfTreasuryStockOfSubsidiariesFinCF",
             "value": null,
             "unit": "JPY"
