@@ -1078,35 +1078,35 @@
             "label_jp": "取引関係費、販売費及び一般管理費、第一種金融商品取引業",
             "label_en": "TradingRelatedExpensesSGASEC",
             "element_id": "jppfs_cor:TradingRelatedExpensesSGASEC",
-            "value": 91756000000.0,
+            "value": -91756000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "人件費、販売費及び一般管理費",
             "label_en": "PersonalExpensesSGA",
             "element_id": "jppfs_cor:PersonalExpensesSGA",
-            "value": 245001000000.0,
+            "value": -245001000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "不動産関係費、販売費及び一般管理費、第一種金融商品取引業",
             "label_en": "RealEstateExpensesSGASEC",
             "element_id": "jppfs_cor:RealEstateExpensesSGASEC",
-            "value": 43808000000.0,
+            "value": -43808000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "事務費、販売費及び一般管理費",
             "label_en": "OfficeCostSGA",
             "element_id": "jppfs_cor:OfficeCostSGA",
-            "value": 28449000000.0,
+            "value": -28449000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "減価償却費、販売費及び一般管理費",
             "label_en": "DepreciationSGA",
             "element_id": "jppfs_cor:DepreciationSGA",
-            "value": 34313000000.0,
+            "value": -34313000000.0,
             "unit": "JPY"
           },
           {
@@ -1127,7 +1127,7 @@
             "label_jp": "その他、販売費及び一般管理費",
             "label_en": "OtherSGA",
             "element_id": "jppfs_cor:OtherSGA",
-            "value": 21661000000.0,
+            "value": -21661000000.0,
             "unit": "JPY"
           },
           {
@@ -1191,13 +1191,6 @@
             "label_en": "OtherNOE",
             "element_id": "jppfs_cor:OtherNOE",
             "value": -2051000000.0,
-            "unit": "JPY"
-          },
-          {
-            "label_jp": "営業外費用",
-            "label_en": "NonOperatingExpenses",
-            "element_id": "jppfs_cor:NonOperatingExpenses",
-            "value": 5042000000.0,
             "unit": "JPY"
           },
           {
@@ -1295,7 +1288,7 @@
             "label_jp": "金融商品取引責任準備金繰入れ、特別損失、第一種金融商品取引業",
             "label_en": "ProvisionOfReserveForFinancialProductsTransactionLiabilitiesELSEC",
             "element_id": "jppfs_cor:ProvisionOfReserveForFinancialProductsTransactionLiabilitiesELSEC",
-            "value": 636000000.0,
+            "value": -636000000.0,
             "unit": "JPY"
           },
           {
@@ -1447,35 +1440,35 @@
             "label_jp": "取引関係費、販売費及び一般管理費、第一種金融商品取引業",
             "label_en": "TradingRelatedExpensesSGASEC",
             "element_id": "jppfs_cor:TradingRelatedExpensesSGASEC",
-            "value": 100165000000.0,
+            "value": -100165000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "人件費、販売費及び一般管理費",
             "label_en": "PersonalExpensesSGA",
             "element_id": "jppfs_cor:PersonalExpensesSGA",
-            "value": 256197000000.0,
+            "value": -256197000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "不動産関係費、販売費及び一般管理費、第一種金融商品取引業",
             "label_en": "RealEstateExpensesSGASEC",
             "element_id": "jppfs_cor:RealEstateExpensesSGASEC",
-            "value": 47245000000.0,
+            "value": -47245000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "事務費、販売費及び一般管理費",
             "label_en": "OfficeCostSGA",
             "element_id": "jppfs_cor:OfficeCostSGA",
-            "value": 35047000000.0,
+            "value": -35047000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "減価償却費、販売費及び一般管理費",
             "label_en": "DepreciationSGA",
             "element_id": "jppfs_cor:DepreciationSGA",
-            "value": 33980000000.0,
+            "value": -33980000000.0,
             "unit": "JPY"
           },
           {
@@ -1489,14 +1482,14 @@
             "label_jp": "貸倒引当金繰入額、販売費及び一般管理費",
             "label_en": "ProvisionOfAllowanceForDoubtfulAccountsSGA",
             "element_id": "jppfs_cor:ProvisionOfAllowanceForDoubtfulAccountsSGA",
-            "value": 180000000.0,
+            "value": -180000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "その他、販売費及び一般管理費",
             "label_en": "OtherSGA",
             "element_id": "jppfs_cor:OtherSGA",
-            "value": 23597000000.0,
+            "value": -23597000000.0,
             "unit": "JPY"
           },
           {
@@ -1560,13 +1553,6 @@
             "label_en": "OtherNOE",
             "element_id": "jppfs_cor:OtherNOE",
             "value": -4099000000.0,
-            "unit": "JPY"
-          },
-          {
-            "label_jp": "営業外費用",
-            "label_en": "NonOperatingExpenses",
-            "element_id": "jppfs_cor:NonOperatingExpenses",
-            "value": 10534000000.0,
             "unit": "JPY"
           },
           {
@@ -1664,7 +1650,7 @@
             "label_jp": "金融商品取引責任準備金繰入れ、特別損失、第一種金融商品取引業",
             "label_en": "ProvisionOfReserveForFinancialProductsTransactionLiabilitiesELSEC",
             "element_id": "jppfs_cor:ProvisionOfReserveForFinancialProductsTransactionLiabilitiesELSEC",
-            "value": 2002000000.0,
+            "value": -2002000000.0,
             "unit": "JPY"
           },
           {
