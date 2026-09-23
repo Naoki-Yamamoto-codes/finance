@@ -48,6 +48,8 @@
   items: 
     - name: 日本 Japan
       items: 
+        - name: 大和証券グループ本社 2026/03
+          href: /contents/financial_institutions/japan/daiwa_sec_group_202603/
         - name: みずほフィナンシャルグループ 2026/03
           href: /contents/financial_institutions/japan/mizuho_fg_202603/
         - name: 三菱UFJフィナンシャル・グループ 2026/03
