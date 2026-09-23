@@ -1064,14 +1064,14 @@
             "label_jp": "金融費用、第一種金融商品取引業",
             "label_en": "FinancialExpensesSEC",
             "element_id": "jppfs_cor:FinancialExpensesSEC",
-            "value": 603940000000.0,
+            "value": -603940000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "OtherOperatingExpenses",
             "label_en": "OtherOperatingExpenses",
             "element_id": "jpcrp030000-asr_E03753-000:OtherOperatingExpenses",
-            "value": 122084000000.0,
+            "value": -122084000000.0,
             "unit": "JPY"
           },
           {
@@ -1426,14 +1426,14 @@
             "label_jp": "金融費用、第一種金融商品取引業",
             "label_en": "FinancialExpensesSEC",
             "element_id": "jppfs_cor:FinancialExpensesSEC",
-            "value": 597866000000.0,
+            "value": -597866000000.0,
             "unit": "JPY"
           },
           {
             "label_jp": "OtherOperatingExpenses",
             "label_en": "OtherOperatingExpenses",
             "element_id": "jpcrp030000-asr_E03753-000:OtherOperatingExpenses",
-            "value": 149689000000.0,
+            "value": -149689000000.0,
             "unit": "JPY"
           },
           {
