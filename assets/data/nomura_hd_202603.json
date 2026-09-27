@@ -848,7 +848,7 @@
             "label_jp": "AdjustmentsOnAllowanceForCreditLosses",
             "label_en": "AdjustmentsOnAllowanceForCreditLosses",
             "element_id": "nmr:AdjustmentsOnAllowanceForCreditLosses",
-            "value": -1060000000,
+            "value": 1060000000,
             "unit": "JPY"
           },
           {
@@ -862,28 +862,28 @@
             "label_jp": "GainLossOnInvestments",
             "label_en": "GainLossOnInvestments",
             "element_id": "us-gaap:GainLossOnInvestments",
-            "value": 444000000,
+            "value": -444000000,
             "unit": "JPY"
           },
           {
             "label_jp": "GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee",
             "label_en": "GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee",
             "element_id": "us-gaap:GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee",
-            "value": 205000000,
+            "value": -205000000,
             "unit": "JPY"
           },
           {
             "label_jp": "IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions",
             "label_en": "IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions",
             "element_id": "us-gaap:IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions",
-            "value": 34605000000,
+            "value": -34605000000,
             "unit": "JPY"
           },
           {
             "label_jp": "GainLossOnSaleOfPropertyPlantEquipment",
             "label_en": "GainLossOnSaleOfPropertyPlantEquipment",
             "element_id": "us-gaap:GainLossOnSaleOfPropertyPlantEquipment",
-            "value": -2344000000,
+            "value": 2344000000,
             "unit": "JPY"
           },
           {
@@ -897,14 +897,14 @@
             "label_jp": "IncreaseDecreaseDepositsStockExchangesAndOtherCash",
             "label_en": "IncreaseDecreaseDepositsStockExchangesAndOtherCash",
             "element_id": "nmr:IncreaseDecreaseDepositsStockExchangesAndOtherCash",
-            "value": 144542000000,
+            "value": -144542000000,
             "unit": "JPY"
           },
           {
             "label_jp": "IncreaseDecreaseInFinancialInstrumentsUsedInOperatingActivities",
             "label_en": "IncreaseDecreaseInFinancialInstrumentsUsedInOperatingActivities",
             "element_id": "us-gaap:IncreaseDecreaseInFinancialInstrumentsUsedInOperatingActivities",
-            "value": 3026277000000,
+            "value": -3026277000000,
             "unit": "JPY"
           },
           {
@@ -925,14 +925,14 @@
             "label_jp": "IncreaseDecreaseInSecuritiesBorrowed",
             "label_en": "IncreaseDecreaseInSecuritiesBorrowed",
             "element_id": "us-gaap:IncreaseDecreaseInSecuritiesBorrowed",
-            "value": -526233000000,
+            "value": 526233000000,
             "unit": "JPY"
           },
           {
             "label_jp": "IncreaseDecreaseInReceivables",
             "label_en": "IncreaseDecreaseInReceivables",
             "element_id": "us-gaap:IncreaseDecreaseInReceivables",
-            "value": 179668000000,
+            "value": -179668000000,
             "unit": "JPY"
           },
           {
@@ -960,7 +960,7 @@
             "label_jp": "IncreaseDecreaseInOtherOperatingCapitalNet",
             "label_en": "IncreaseDecreaseInOtherOperatingCapitalNet",
             "element_id": "us-gaap:IncreaseDecreaseInOtherOperatingCapitalNet",
-            "value": -8503000000,
+            "value": 8503000000,
             "unit": "JPY"
           },
           {
@@ -1231,7 +1231,7 @@
             "label_jp": "AdjustmentsOnAllowanceForCreditLosses",
             "label_en": "AdjustmentsOnAllowanceForCreditLosses",
             "element_id": "nmr:AdjustmentsOnAllowanceForCreditLosses",
-            "value": 248000000,
+            "value": -248000000,
             "unit": "JPY"
           },
           {
@@ -1245,28 +1245,28 @@
             "label_jp": "GainLossOnInvestments",
             "label_en": "GainLossOnInvestments",
             "element_id": "us-gaap:GainLossOnInvestments",
-            "value": 13066000000,
+            "value": -13066000000,
             "unit": "JPY"
           },
           {
             "label_jp": "GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee",
             "label_en": "GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee",
             "element_id": "us-gaap:GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee",
-            "value": -11995000000,
+            "value": 11995000000,
             "unit": "JPY"
           },
           {
             "label_jp": "IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions",
             "label_en": "IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions",
             "element_id": "us-gaap:IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions",
-            "value": 18662000000,
+            "value": -18662000000,
             "unit": "JPY"
           },
           {
             "label_jp": "GainLossOnSaleOfPropertyPlantEquipment",
             "label_en": "GainLossOnSaleOfPropertyPlantEquipment",
             "element_id": "us-gaap:GainLossOnSaleOfPropertyPlantEquipment",
-            "value": 58744000000,
+            "value": -58744000000,
             "unit": "JPY"
           },
           {
@@ -1280,14 +1280,14 @@
             "label_jp": "IncreaseDecreaseDepositsStockExchangesAndOtherCash",
             "label_en": "IncreaseDecreaseDepositsStockExchangesAndOtherCash",
             "element_id": "nmr:IncreaseDecreaseDepositsStockExchangesAndOtherCash",
-            "value": 133311000000,
+            "value": -133311000000,
             "unit": "JPY"
           },
           {
             "label_jp": "IncreaseDecreaseInFinancialInstrumentsUsedInOperatingActivities",
             "label_en": "IncreaseDecreaseInFinancialInstrumentsUsedInOperatingActivities",
             "element_id": "us-gaap:IncreaseDecreaseInFinancialInstrumentsUsedInOperatingActivities",
-            "value": 2861869000000,
+            "value": -2861869000000,
             "unit": "JPY"
           },
           {
@@ -1308,14 +1308,14 @@
             "label_jp": "IncreaseDecreaseInSecuritiesBorrowed",
             "label_en": "IncreaseDecreaseInSecuritiesBorrowed",
             "element_id": "us-gaap:IncreaseDecreaseInSecuritiesBorrowed",
-            "value": -882237000000,
+            "value": 882237000000,
             "unit": "JPY"
           },
           {
             "label_jp": "IncreaseDecreaseInReceivables",
             "label_en": "IncreaseDecreaseInReceivables",
             "element_id": "us-gaap:IncreaseDecreaseInReceivables",
-            "value": 653334000000,
+            "value": -653334000000,
             "unit": "JPY"
           },
           {
@@ -1343,7 +1343,7 @@
             "label_jp": "IncreaseDecreaseInOtherOperatingCapitalNet",
             "label_en": "IncreaseDecreaseInOtherOperatingCapitalNet",
             "element_id": "us-gaap:IncreaseDecreaseInOtherOperatingCapitalNet",
-            "value": -46664000000,
+            "value": 46664000000,
             "unit": "JPY"
           },
           {
