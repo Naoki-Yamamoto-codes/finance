@@ -894,14 +894,14 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "IncreaseDecreaseDepositsStockExchangesAndOtherCash",
+            "label_jp": "取引所預託金およびその他の顧客分別金",
             "label_en": "IncreaseDecreaseDepositsStockExchangesAndOtherCash",
             "element_id": "nmr:IncreaseDecreaseDepositsStockExchangesAndOtherCash",
             "value": -144542000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "IncreaseDecreaseInFinancialInstrumentsUsedInOperatingActivities",
+            "label_jp": "トレーディング資産およびプライベートエクイティ・デット投資",
             "label_en": "IncreaseDecreaseInFinancialInstrumentsUsedInOperatingActivities",
             "element_id": "us-gaap:IncreaseDecreaseInFinancialInstrumentsUsedInOperatingActivities",
             "value": -3026277000000,
@@ -915,59 +915,52 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "IncreaseDecreaseInSecuritiesPurchasedUnderAgreementsToResellPayablesUnderRepurchaseAgreements",
+            "label_jp": "売戻条件付買入有価証券および買戻条件付売却有価証券（純額）",
             "label_en": "IncreaseDecreaseInSecuritiesPurchasedUnderAgreementsToResellPayablesUnderRepurchaseAgreements",
             "element_id": "nmr:IncreaseDecreaseInSecuritiesPurchasedUnderAgreementsToResellPayablesUnderRepurchaseAgreements",
             "value": 1108828000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "IncreaseDecreaseInSecuritiesBorrowed",
+            "label_jp": "借入有価証券担保金および貸付有価証券担保金（純額）",
             "label_en": "IncreaseDecreaseInSecuritiesBorrowed",
             "element_id": "us-gaap:IncreaseDecreaseInSecuritiesBorrowed",
             "value": 526233000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "IncreaseDecreaseInReceivables",
+            "label_jp": "信用取引貸付金および受取債権",
             "label_en": "IncreaseDecreaseInReceivables",
             "element_id": "us-gaap:IncreaseDecreaseInReceivables",
             "value": -179668000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "IncreaseDecreaseInAccountsPayable",
+            "label_jp": "支払債務",
             "label_en": "IncreaseDecreaseInAccountsPayable",
             "element_id": "us-gaap:IncreaseDecreaseInAccountsPayable",
             "value": -16725000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "IncreaseDecreaseInEmployeeRelatedLiabilities",
+            "label_jp": "賞与引当金",
             "label_en": "IncreaseDecreaseInEmployeeRelatedLiabilities",
             "element_id": "us-gaap:IncreaseDecreaseInEmployeeRelatedLiabilities",
             "value": 26496000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "IncreaseDecreaseInAccruedIncomeTaxesPayable",
+            "label_jp": "未払法人所得税（純額）",
             "label_en": "IncreaseDecreaseInAccruedIncomeTaxesPayable",
             "element_id": "us-gaap:IncreaseDecreaseInAccruedIncomeTaxesPayable",
             "value": 19235000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "IncreaseDecreaseInOtherOperatingCapitalNet",
+            "label_jp": "その他（純額）",
             "label_en": "IncreaseDecreaseInOtherOperatingCapitalNet",
             "element_id": "us-gaap:IncreaseDecreaseInOtherOperatingCapitalNet",
             "value": 8503000000,
-            "unit": "JPY"
-          },
-          {
-            "label_jp": "NetCashProvidedByUsedInOperatingActivities",
-            "label_en": "NetCashProvidedByUsedInOperatingActivities",
-            "element_id": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-            "value": -678611000000,
             "unit": "JPY"
           },
           {
@@ -1090,17 +1083,17 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsFromIssuanceOfLongTermDebt",
+            "label_jp": "長期借入の実行による収入",
             "label_en": "ProceedsFromIssuanceOfLongTermDebt",
             "element_id": "us-gaap:ProceedsFromIssuanceOfLongTermDebt",
             "value": 4334376000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "RepaymentsOfLongTermDebt",
+            "label_jp": "長期借入の返済による支出",
             "label_en": "RepaymentsOfLongTermDebt",
             "element_id": "us-gaap:RepaymentsOfLongTermDebt",
-            "value": 3313452000000,
+            "value": -3313452000000,
             "unit": "JPY"
           },
           {
@@ -1277,14 +1270,14 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "IncreaseDecreaseDepositsStockExchangesAndOtherCash",
+            "label_jp": "取引所預託金およびその他の顧客分別金",
             "label_en": "IncreaseDecreaseDepositsStockExchangesAndOtherCash",
             "element_id": "nmr:IncreaseDecreaseDepositsStockExchangesAndOtherCash",
             "value": -133311000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "IncreaseDecreaseInFinancialInstrumentsUsedInOperatingActivities",
+            "label_jp": "トレーディング資産およびプライベートエクイティ・デット投資",
             "label_en": "IncreaseDecreaseInFinancialInstrumentsUsedInOperatingActivities",
             "element_id": "us-gaap:IncreaseDecreaseInFinancialInstrumentsUsedInOperatingActivities",
             "value": -2861869000000,
@@ -1298,59 +1291,52 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "IncreaseDecreaseInSecuritiesPurchasedUnderAgreementsToResellPayablesUnderRepurchaseAgreements",
+            "label_jp": "売戻条件付買入有価証券および買戻条件付売却有価証券（純額）",
             "label_en": "IncreaseDecreaseInSecuritiesPurchasedUnderAgreementsToResellPayablesUnderRepurchaseAgreements",
             "element_id": "nmr:IncreaseDecreaseInSecuritiesPurchasedUnderAgreementsToResellPayablesUnderRepurchaseAgreements",
             "value": -441013000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "IncreaseDecreaseInSecuritiesBorrowed",
+            "label_jp": "借入有価証券担保金および貸付有価証券担保金（純額）",
             "label_en": "IncreaseDecreaseInSecuritiesBorrowed",
             "element_id": "us-gaap:IncreaseDecreaseInSecuritiesBorrowed",
             "value": 882237000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "IncreaseDecreaseInReceivables",
+            "label_jp": "信用取引貸付金および受取債権",
             "label_en": "IncreaseDecreaseInReceivables",
             "element_id": "us-gaap:IncreaseDecreaseInReceivables",
             "value": -653334000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "IncreaseDecreaseInAccountsPayable",
+            "label_jp": "支払債務",
             "label_en": "IncreaseDecreaseInAccountsPayable",
             "element_id": "us-gaap:IncreaseDecreaseInAccountsPayable",
             "value": 703622000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "IncreaseDecreaseInEmployeeRelatedLiabilities",
+            "label_jp": "賞与引当金",
             "label_en": "IncreaseDecreaseInEmployeeRelatedLiabilities",
             "element_id": "us-gaap:IncreaseDecreaseInEmployeeRelatedLiabilities",
             "value": 63422000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "IncreaseDecreaseInAccruedIncomeTaxesPayable",
+            "label_jp": "未払法人所得税（純額）",
             "label_en": "IncreaseDecreaseInAccruedIncomeTaxesPayable",
             "element_id": "us-gaap:IncreaseDecreaseInAccruedIncomeTaxesPayable",
             "value": 25684000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "IncreaseDecreaseInOtherOperatingCapitalNet",
+            "label_jp": "その他（純額）",
             "label_en": "IncreaseDecreaseInOtherOperatingCapitalNet",
             "element_id": "us-gaap:IncreaseDecreaseInOtherOperatingCapitalNet",
             "value": 46664000000,
-            "unit": "JPY"
-          },
-          {
-            "label_jp": "NetCashProvidedByUsedInOperatingActivities",
-            "label_en": "NetCashProvidedByUsedInOperatingActivities",
-            "element_id": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
-            "value": -842960000000,
             "unit": "JPY"
           },
           {
@@ -1438,10 +1424,10 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "PaymentsToAcquireBusinessesNetOfCashAcquired",
+            "label_jp": "事業の取得による純支出",
             "label_en": "PaymentsToAcquireBusinessesNetOfCashAcquired",
             "element_id": "us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired",
-            "value": 275014000000,
+            "value": -275014000000,
             "unit": "JPY"
           },
           {
@@ -1473,17 +1459,17 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsFromIssuanceOfLongTermDebt",
+            "label_jp": "長期借入の実行による収入",
             "label_en": "ProceedsFromIssuanceOfLongTermDebt",
             "element_id": "us-gaap:ProceedsFromIssuanceOfLongTermDebt",
             "value": 4611984000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "RepaymentsOfLongTermDebt",
+            "label_jp": "長期借入の返済による支出",
             "label_en": "RepaymentsOfLongTermDebt",
             "element_id": "us-gaap:RepaymentsOfLongTermDebt",
-            "value": 3174186000000,
+            "value": -3174186000000,
             "unit": "JPY"
           },
           {
