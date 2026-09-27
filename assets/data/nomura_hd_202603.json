@@ -824,7 +824,7 @@
         "date": "2025-03-31",
         "items": [
           {
-            "label_jp": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+            "label_jp": "現金、現金同等物、制限付き現金および制限付き現金同等物の期首残高",
             "label_en": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
             "element_id": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
             "value": 4299022000000,
@@ -1195,7 +1195,7 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+            "label_jp": "現金、現金同等物、制限付き現金および制限付き現金同等物の期末残高",
             "label_en": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
             "element_id": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
             "value": 4425441000000,
@@ -1207,7 +1207,7 @@
         "date": "2026-03-31",
         "items": [
           {
-            "label_jp": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+            "label_jp": "現金、現金同等物、制限付き現金および制限付き現金同等物の期首残高",
             "label_en": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
             "element_id": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
             "value": 4425441000000,
@@ -1578,7 +1578,7 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+            "label_jp": "現金、現金同等物、制限付き現金および制限付き現金同等物の期末残高",
             "label_en": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
             "element_id": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
             "value": 4318722000000,
