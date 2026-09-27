@@ -908,7 +908,7 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "IncreaseDecreaseInTradingLiabilities",
+            "label_jp": "トレーディング負債",
             "label_en": "IncreaseDecreaseInTradingLiabilities",
             "element_id": "us-gaap:IncreaseDecreaseInTradingLiabilities",
             "value": 574231000000,
@@ -1097,91 +1097,91 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsFromShortTermDebt",
+            "label_jp": "短期借入の実行による収入",
             "label_en": "ProceedsFromShortTermDebt",
             "element_id": "us-gaap:ProceedsFromShortTermDebt",
             "value": 1850155000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "RepaymentsOfShortTermDebt",
+            "label_jp": "短期借入の返済による支出",
             "label_en": "RepaymentsOfShortTermDebt",
             "element_id": "us-gaap:RepaymentsOfShortTermDebt",
-            "value": 1876894000000,
+            "value": -1876894000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsPaymentsFromInterbankMoneyMarketBorrowings",
+            "label_jp": "インターバンク短期金融市場借入金の増加による収入（純額）",
             "label_en": "ProceedsPaymentsFromInterbankMoneyMarketBorrowings",
             "element_id": "nmr:ProceedsPaymentsFromInterbankMoneyMarketBorrowings",
             "value": 130455000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsFromRepaymentsOfOtherDebt",
+            "label_jp": "その他の担保付借入の減少（純額）",
             "label_en": "ProceedsFromRepaymentsOfOtherDebt",
             "element_id": "us-gaap:ProceedsFromRepaymentsOfOtherDebt",
             "value": -23560000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "IncreaseDecreaseInDeposits",
+            "label_jp": "受入銀行預金の増加による収入（純額）",
             "label_en": "IncreaseDecreaseInDeposits",
             "element_id": "us-gaap:IncreaseDecreaseInDeposits",
             "value": 785385000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PaymentsRelatedToTaxWithholdingForShareBasedCompensation",
+            "label_jp": "株式報酬に関する源泉税の支払",
             "label_en": "PaymentsRelatedToTaxWithholdingForShareBasedCompensation",
             "element_id": "us-gaap:PaymentsRelatedToTaxWithholdingForShareBasedCompensation",
-            "value": 20583000000,
+            "value": -20583000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsFromSaleOfTreasuryStock",
+            "label_jp": "自己株式の売却に伴う収入",
             "label_en": "ProceedsFromSaleOfTreasuryStock",
             "element_id": "us-gaap:ProceedsFromSaleOfTreasuryStock",
             "value": 1412000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PaymentsForRepurchaseOfCommonStock",
+            "label_jp": "自己株式の取得に伴う支払",
             "label_en": "PaymentsForRepurchaseOfCommonStock",
             "element_id": "us-gaap:PaymentsForRepurchaseOfCommonStock",
-            "value": 59006000000,
+            "value": -59006000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PaymentsOfDividends",
+            "label_jp": "配当金の支払",
             "label_en": "PaymentsOfDividends",
             "element_id": "us-gaap:PaymentsOfDividends",
-            "value": 112541000000,
+            "value": -112541000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsFromMinorityShareholders",
+            "label_jp": "非支配持分からの出資",
             "label_en": "ProceedsFromMinorityShareholders",
             "element_id": "us-gaap:ProceedsFromMinorityShareholders",
             "value": 64549000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PaymentsToMinorityShareholders",
+            "label_jp": "非支配持分への分配",
             "label_en": "PaymentsToMinorityShareholders",
             "element_id": "us-gaap:PaymentsToMinorityShareholders",
-            "value": 80599000000,
+            "value": -80599000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+            "label_jp": "現金、現金同等物、制限付き現金および制限付き現金同等物に対する為替相場変動の影響額",
             "label_en": "EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
             "element_id": "us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
             "value": -26020000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+            "label_jp": "現金、現金同等物、制限付き現金および制限付き現金同等物の増加（△減少）額",
             "label_en": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
             "element_id": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
             "value": 126419000000,
@@ -1284,7 +1284,7 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "IncreaseDecreaseInTradingLiabilities",
+            "label_jp": "トレーディング負債",
             "label_en": "IncreaseDecreaseInTradingLiabilities",
             "element_id": "us-gaap:IncreaseDecreaseInTradingLiabilities",
             "value": 1111331000000,
@@ -1473,91 +1473,91 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsFromShortTermDebt",
+            "label_jp": "短期借入の実行による収入",
             "label_en": "ProceedsFromShortTermDebt",
             "element_id": "us-gaap:ProceedsFromShortTermDebt",
             "value": 2468863000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "RepaymentsOfShortTermDebt",
+            "label_jp": "短期借入の返済による支出",
             "label_en": "RepaymentsOfShortTermDebt",
             "element_id": "us-gaap:RepaymentsOfShortTermDebt",
-            "value": 2358223000000,
+            "value": -2358223000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsPaymentsFromInterbankMoneyMarketBorrowings",
+            "label_jp": "インターバンク短期金融市場借入金の増加による収入（純額）",
             "label_en": "ProceedsPaymentsFromInterbankMoneyMarketBorrowings",
             "element_id": "nmr:ProceedsPaymentsFromInterbankMoneyMarketBorrowings",
             "value": 443081000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsFromRepaymentsOfOtherDebt",
+            "label_jp": "その他の担保付借入の減少（純額）",
             "label_en": "ProceedsFromRepaymentsOfOtherDebt",
             "element_id": "us-gaap:ProceedsFromRepaymentsOfOtherDebt",
             "value": -7649000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "IncreaseDecreaseInDeposits",
+            "label_jp": "受入銀行預金の増加による収入（純額）",
             "label_en": "IncreaseDecreaseInDeposits",
             "element_id": "us-gaap:IncreaseDecreaseInDeposits",
             "value": 387377000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PaymentsRelatedToTaxWithholdingForShareBasedCompensation",
+            "label_jp": "株式報酬に関する源泉税の支払",
             "label_en": "PaymentsRelatedToTaxWithholdingForShareBasedCompensation",
             "element_id": "us-gaap:PaymentsRelatedToTaxWithholdingForShareBasedCompensation",
-            "value": 18214000000,
+            "value": -18214000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsFromSaleOfTreasuryStock",
+            "label_jp": "自己株式の売却に伴う収入",
             "label_en": "ProceedsFromSaleOfTreasuryStock",
             "element_id": "us-gaap:ProceedsFromSaleOfTreasuryStock",
             "value": 422000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PaymentsForRepurchaseOfCommonStock",
+            "label_jp": "自己株式の取得に伴う支払",
             "label_en": "PaymentsForRepurchaseOfCommonStock",
             "element_id": "us-gaap:PaymentsForRepurchaseOfCommonStock",
-            "value": 101499000000,
+            "value": -101499000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PaymentsOfDividends",
+            "label_jp": "配当金の支払",
             "label_en": "PaymentsOfDividends",
             "element_id": "us-gaap:PaymentsOfDividends",
-            "value": 179742000000,
+            "value": -179742000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsFromMinorityShareholders",
+            "label_jp": "非支配持分からの出資",
             "label_en": "ProceedsFromMinorityShareholders",
             "element_id": "us-gaap:ProceedsFromMinorityShareholders",
             "value": 122335000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PaymentsToMinorityShareholders",
+            "label_jp": "非支配持分への分配",
             "label_en": "PaymentsToMinorityShareholders",
             "element_id": "us-gaap:PaymentsToMinorityShareholders",
-            "value": 98698000000,
+            "value": -98698000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+            "label_jp": "現金、現金同等物、制限付き現金および制限付き現金同等物に対する為替相場変動の影響額",
             "label_en": "EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
             "element_id": "us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
             "value": 139313000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+            "label_jp": "現金、現金同等物、制限付き現金および制限付き現金同等物の増加（△減少）額",
             "label_en": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
             "element_id": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
             "value": -106719000000,
