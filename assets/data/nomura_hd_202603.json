@@ -51,7 +51,7 @@
             "label_jp": "AllowanceForDoubtfulAccountsReceivable",
             "label_en": "AllowanceForDoubtfulAccountsReceivable",
             "element_id": "us-gaap:AllowanceForDoubtfulAccountsReceivable",
-            "value": 16920000000,
+            "value": -16920000000,
             "unit": "JPY"
           },
           {
@@ -221,7 +221,7 @@
             "label_jp": "TreasuryStockValue",
             "label_en": "TreasuryStockValue",
             "element_id": "us-gaap:TreasuryStockValue",
-            "value": 143678000000,
+            "value": -143678000000,
             "unit": "JPY"
           }
         ]
@@ -275,7 +275,7 @@
             "label_jp": "AllowanceForDoubtfulAccountsReceivable",
             "label_en": "AllowanceForDoubtfulAccountsReceivable",
             "element_id": "us-gaap:AllowanceForDoubtfulAccountsReceivable",
-            "value": 18381000000,
+            "value": -18381000000,
             "unit": "JPY"
           },
           {
@@ -445,7 +445,7 @@
             "label_jp": "TreasuryStockValue",
             "label_en": "TreasuryStockValue",
             "element_id": "us-gaap:TreasuryStockValue",
-            "value": 155093000000,
+            "value": -155093000000,
             "unit": "JPY"
           }
         ]
@@ -564,13 +564,6 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
-            "label_en": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
-            "element_id": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
-            "value": 471964000000,
-            "unit": "JPY"
-          },
-          {
             "label_jp": "IncomeTaxExpenseBenefit",
             "label_en": "IncomeTaxExpenseBenefit",
             "element_id": "us-gaap:IncomeTaxExpenseBenefit",
@@ -602,7 +595,7 @@
             "label_jp": "OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansTax",
             "label_en": "OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansTax",
             "element_id": "us-gaap:OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansTax",
-            "value": 5327000000,
+            "value": -5327000000,
             "unit": "JPY"
           },
           {
@@ -751,13 +744,6 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
-            "label_en": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
-            "element_id": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
-            "value": 539821000000,
-            "unit": "JPY"
-          },
-          {
             "label_jp": "IncomeTaxExpenseBenefit",
             "label_en": "IncomeTaxExpenseBenefit",
             "element_id": "us-gaap:IncomeTaxExpenseBenefit",
@@ -789,7 +775,7 @@
             "label_jp": "OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansTax",
             "label_en": "OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansTax",
             "element_id": "us-gaap:OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansTax",
-            "value": 4670000000,
+            "value": -4670000000,
             "unit": "JPY"
           },
           {
