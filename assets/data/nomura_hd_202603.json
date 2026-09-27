@@ -831,63 +831,63 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "ProfitLoss",
+            "label_jp": "当期純利益",
             "label_en": "ProfitLoss",
             "element_id": "us-gaap:ProfitLoss",
             "value": 347255000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "DepreciationAndAmortization",
+            "label_jp": "減価償却費および償却費",
             "label_en": "DepreciationAndAmortization",
             "element_id": "us-gaap:DepreciationAndAmortization",
             "value": 61653000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "AdjustmentsOnAllowanceForCreditLosses",
+            "label_jp": "貸倒引当金繰入額（戻入益）",
             "label_en": "AdjustmentsOnAllowanceForCreditLosses",
             "element_id": "nmr:AdjustmentsOnAllowanceForCreditLosses",
             "value": 1060000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ShareBasedCompensation",
+            "label_jp": "株式報酬費用",
             "label_en": "ShareBasedCompensation",
             "element_id": "us-gaap:ShareBasedCompensation",
             "value": 38578000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "GainLossOnInvestments",
+            "label_jp": "投資持分証券関連損益",
             "label_en": "GainLossOnInvestments",
             "element_id": "us-gaap:GainLossOnInvestments",
             "value": -444000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee",
+            "label_jp": "子会社および関係会社株式売却損益等",
             "label_en": "GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee",
             "element_id": "us-gaap:GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee",
             "value": -205000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions",
+            "label_jp": "持分法投資損益（受取配当金控除後）",
             "label_en": "IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions",
             "element_id": "us-gaap:IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions",
             "value": -34605000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "GainLossOnSaleOfPropertyPlantEquipment",
+            "label_jp": "建物、土地、器具備品および設備の処分損益",
             "label_en": "GainLossOnSaleOfPropertyPlantEquipment",
             "element_id": "us-gaap:GainLossOnSaleOfPropertyPlantEquipment",
             "value": 2344000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "DeferredIncomeTaxExpenseBenefit",
+            "label_jp": "繰延税額",
             "label_en": "DeferredIncomeTaxExpenseBenefit",
             "element_id": "us-gaap:DeferredIncomeTaxExpenseBenefit",
             "value": 11559000000,
@@ -971,122 +971,122 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "PaymentsForPlacementsOfTimeDeposits",
+            "label_jp": "定期預金の預入による支出",
             "label_en": "PaymentsForPlacementsOfTimeDeposits",
             "element_id": "nmr:PaymentsForPlacementsOfTimeDeposits",
-            "value": 679945000000,
+            "value": -679945000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsFromRedemptionOrMaturityOfTimeDeposits",
+            "label_jp": "定期預金の払戻による収入",
             "label_en": "ProceedsFromRedemptionOrMaturityOfTimeDeposits",
             "element_id": "nmr:ProceedsFromRedemptionOrMaturityOfTimeDeposits",
             "value": 572947000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "label_jp": "建物、土地、器具備品および設備の購入",
             "label_en": "PaymentsToAcquirePropertyPlantAndEquipment",
             "element_id": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-            "value": 189971000000,
+            "value": -189971000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsFromSaleOfPropertyPlantAndEquipment",
+            "label_jp": "建物、土地、器具備品および設備の売却",
             "label_en": "ProceedsFromSaleOfPropertyPlantAndEquipment",
             "element_id": "us-gaap:ProceedsFromSaleOfPropertyPlantAndEquipment",
             "value": 131078000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PaymentsToAcquireOtherInvestments",
+            "label_jp": "エクイティ投資の購入による支出",
             "label_en": "PaymentsToAcquireOtherInvestments",
             "element_id": "us-gaap:PaymentsToAcquireOtherInvestments",
-            "value": 10712000000,
+            "value": -10712000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsFromSalesOfInvestmentsInEquitySecurities",
+            "label_jp": "エクイティ投資の売却による収入",
             "label_en": "ProceedsFromSalesOfInvestmentsInEquitySecurities",
             "element_id": "nmr:ProceedsFromSalesOfInvestmentsInEquitySecurities",
             "value": 8112000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PaymentsForProceedsFromLoansReceivable",
+            "label_jp": "銀行業務貸付金の増加（純額）",
             "label_en": "PaymentsForProceedsFromLoansReceivable",
             "element_id": "us-gaap:PaymentsForProceedsFromLoansReceivable",
-            "value": 129829000000,
+            "value": -129829000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OriginationOfNotesReceivableFromRelatedParties",
+            "label_jp": "トレーディング目的以外の貸付金の増加",
             "label_en": "OriginationOfNotesReceivableFromRelatedParties",
             "element_id": "us-gaap:OriginationOfNotesReceivableFromRelatedParties",
-            "value": 5939225000000,
+            "value": -5939225000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "RepaymentOfNotesReceivableFromRelatedParties",
+            "label_jp": "トレーディング目的以外の貸付金の減少",
             "label_en": "RepaymentOfNotesReceivableFromRelatedParties",
             "element_id": "us-gaap:RepaymentOfNotesReceivableFromRelatedParties",
             "value": 5530064000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PaymentsToAcquireAvailableForSaleSecuritiesDebt",
+            "label_jp": "売却可能負債証券の購入",
             "label_en": "PaymentsToAcquireAvailableForSaleSecuritiesDebt",
             "element_id": "us-gaap:PaymentsToAcquireAvailableForSaleSecuritiesDebt",
-            "value": 113702000000,
+            "value": -113702000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsFromSaleAndMaturityOfHeldToMaturitySecurities",
+            "label_jp": "売却可能負債証券の売却",
             "label_en": "ProceedsFromSaleAndMaturityOfHeldToMaturitySecurities",
             "element_id": "us-gaap:ProceedsFromSaleAndMaturityOfHeldToMaturitySecurities",
             "value": 4982000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PaymentsToAcquireHeldToMaturitySecurities",
+            "label_jp": "その他トレーディング目的以外の負債証券の増加",
             "label_en": "PaymentsToAcquireHeldToMaturitySecurities",
             "element_id": "us-gaap:PaymentsToAcquireHeldToMaturitySecurities",
-            "value": 179032000000,
+            "value": -179032000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsFromSaleAndMaturityOfAvailableForSaleSecurities",
+            "label_jp": "その他トレーディング目的以外の負債証券の減少",
             "label_en": "ProceedsFromSaleAndMaturityOfAvailableForSaleSecurities",
             "element_id": "us-gaap:ProceedsFromSaleAndMaturityOfAvailableForSaleSecurities",
             "value": 131200000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsFromDivestitureOfBusinessesNetOfCashDivested",
+            "label_jp": "事業の売却等による純収入",
             "label_en": "ProceedsFromDivestitureOfBusinessesNetOfCashDivested",
             "element_id": "us-gaap:ProceedsFromDivestitureOfBusinessesNetOfCashDivested",
             "value": 8141000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "IncreaseInInvestmentsInAffiliatedCompanies",
+            "label_jp": "関連会社に対する投資の購入による支出",
             "label_en": "IncreaseInInvestmentsInAffiliatedCompanies",
             "element_id": "nmr:IncreaseInInvestmentsInAffiliatedCompanies",
             "value": -19007000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsFromDivestitureOfInterestInSubsidiariesAndAffiliates",
+            "label_jp": "関連会社に対する投資の売却による収入",
             "label_en": "ProceedsFromDivestitureOfInterestInSubsidiariesAndAffiliates",
             "element_id": "us-gaap:ProceedsFromDivestitureOfInterestInSubsidiariesAndAffiliates",
             "value": 10098000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PaymentsForProceedsFromOtherInvestingActivities",
+            "label_jp": "その他（純額）",
             "label_en": "PaymentsForProceedsFromOtherInvestingActivities",
             "element_id": "us-gaap:PaymentsForProceedsFromOtherInvestingActivities",
-            "value": -16154000000,
+            "value": 16154000000,
             "unit": "JPY"
           },
           {
@@ -1214,63 +1214,63 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "ProfitLoss",
+            "label_jp": "当期純利益",
             "label_en": "ProfitLoss",
             "element_id": "us-gaap:ProfitLoss",
             "value": 374382000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "DepreciationAndAmortization",
+            "label_jp": "減価償却費および償却費",
             "label_en": "DepreciationAndAmortization",
             "element_id": "us-gaap:DepreciationAndAmortization",
             "value": 68269000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "AdjustmentsOnAllowanceForCreditLosses",
+            "label_jp": "貸倒引当金繰入額（戻入益）",
             "label_en": "AdjustmentsOnAllowanceForCreditLosses",
             "element_id": "nmr:AdjustmentsOnAllowanceForCreditLosses",
             "value": -248000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ShareBasedCompensation",
+            "label_jp": "株式報酬費用",
             "label_en": "ShareBasedCompensation",
             "element_id": "us-gaap:ShareBasedCompensation",
             "value": 40836000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "GainLossOnInvestments",
+            "label_jp": "投資持分証券関連損益",
             "label_en": "GainLossOnInvestments",
             "element_id": "us-gaap:GainLossOnInvestments",
             "value": -13066000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee",
+            "label_jp": "子会社および関係会社株式売却損益等",
             "label_en": "GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee",
             "element_id": "us-gaap:GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee",
             "value": 11995000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions",
+            "label_jp": "持分法投資損益（受取配当金控除後）",
             "label_en": "IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions",
             "element_id": "us-gaap:IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions",
             "value": -18662000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "GainLossOnSaleOfPropertyPlantEquipment",
+            "label_jp": "建物、土地、器具備品および設備の処分損益",
             "label_en": "GainLossOnSaleOfPropertyPlantEquipment",
             "element_id": "us-gaap:GainLossOnSaleOfPropertyPlantEquipment",
             "value": -58744000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "DeferredIncomeTaxExpenseBenefit",
+            "label_jp": "繰延税額",
             "label_en": "DeferredIncomeTaxExpenseBenefit",
             "element_id": "us-gaap:DeferredIncomeTaxExpenseBenefit",
             "value": 8349000000,
@@ -1354,84 +1354,84 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "PaymentsForPlacementsOfTimeDeposits",
+            "label_jp": "定期預金の預入による支出",
             "label_en": "PaymentsForPlacementsOfTimeDeposits",
             "element_id": "nmr:PaymentsForPlacementsOfTimeDeposits",
-            "value": 747618000000,
+            "value": -747618000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsFromRedemptionOrMaturityOfTimeDeposits",
+            "label_jp": "定期預金の払戻による収入",
             "label_en": "ProceedsFromRedemptionOrMaturityOfTimeDeposits",
             "element_id": "nmr:ProceedsFromRedemptionOrMaturityOfTimeDeposits",
             "value": 746174000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "label_jp": "建物、土地、器具備品および設備の購入",
             "label_en": "PaymentsToAcquirePropertyPlantAndEquipment",
             "element_id": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-            "value": 353818000000,
+            "value": -353818000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsFromSaleOfPropertyPlantAndEquipment",
+            "label_jp": "建物、土地、器具備品および設備の売却",
             "label_en": "ProceedsFromSaleOfPropertyPlantAndEquipment",
             "element_id": "us-gaap:ProceedsFromSaleOfPropertyPlantAndEquipment",
             "value": 234693000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PaymentsToAcquireOtherInvestments",
+            "label_jp": "エクイティ投資の購入による支出",
             "label_en": "PaymentsToAcquireOtherInvestments",
             "element_id": "us-gaap:PaymentsToAcquireOtherInvestments",
-            "value": 33900000000,
+            "value": -33900000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsFromSalesOfInvestmentsInEquitySecurities",
+            "label_jp": "エクイティ投資の売却による収入",
             "label_en": "ProceedsFromSalesOfInvestmentsInEquitySecurities",
             "element_id": "nmr:ProceedsFromSalesOfInvestmentsInEquitySecurities",
             "value": 23491000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PaymentsForProceedsFromLoansReceivable",
+            "label_jp": "銀行業務貸付金の増加（純額）",
             "label_en": "PaymentsForProceedsFromLoansReceivable",
             "element_id": "us-gaap:PaymentsForProceedsFromLoansReceivable",
-            "value": 131647000000,
+            "value": -131647000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OriginationOfNotesReceivableFromRelatedParties",
+            "label_jp": "トレーディング目的以外の貸付金の増加",
             "label_en": "OriginationOfNotesReceivableFromRelatedParties",
             "element_id": "us-gaap:OriginationOfNotesReceivableFromRelatedParties",
-            "value": 7625952000000,
+            "value": -7625952000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "RepaymentOfNotesReceivableFromRelatedParties",
+            "label_jp": "トレーディング目的以外の貸付金の減少",
             "label_en": "RepaymentOfNotesReceivableFromRelatedParties",
             "element_id": "us-gaap:RepaymentOfNotesReceivableFromRelatedParties",
             "value": 6952187000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PaymentsToAcquireAvailableForSaleSecuritiesDebt",
+            "label_jp": "売却可能負債証券の購入",
             "label_en": "PaymentsToAcquireAvailableForSaleSecuritiesDebt",
             "element_id": "us-gaap:PaymentsToAcquireAvailableForSaleSecuritiesDebt",
-            "value": 167408000000,
+            "value": -167408000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PaymentsToAcquireHeldToMaturitySecurities",
+            "label_jp": "その他トレーディング目的以外の負債証券の増加",
             "label_en": "PaymentsToAcquireHeldToMaturitySecurities",
             "element_id": "us-gaap:PaymentsToAcquireHeldToMaturitySecurities",
-            "value": 316858000000,
+            "value": -316858000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsFromSaleAndMaturityOfAvailableForSaleSecurities",
+            "label_jp": "その他トレーディング目的以外の負債証券の減少",
             "label_en": "ProceedsFromSaleAndMaturityOfAvailableForSaleSecurities",
             "element_id": "us-gaap:ProceedsFromSaleAndMaturityOfAvailableForSaleSecurities",
             "value": 226985000000,
@@ -1445,31 +1445,31 @@
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsFromDivestitureOfBusinessesNetOfCashDivested",
+            "label_jp": "事業の売却等による純収入",
             "label_en": "ProceedsFromDivestitureOfBusinessesNetOfCashDivested",
             "element_id": "us-gaap:ProceedsFromDivestitureOfBusinessesNetOfCashDivested",
             "value": 12000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "IncreaseInInvestmentsInAffiliatedCompanies",
+            "label_jp": "関連会社に対する投資の購入による支出",
             "label_en": "IncreaseInInvestmentsInAffiliatedCompanies",
             "element_id": "nmr:IncreaseInInvestmentsInAffiliatedCompanies",
             "value": -11919000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ProceedsFromDivestitureOfInterestInSubsidiariesAndAffiliates",
+            "label_jp": "関連会社に対する投資の売却による収入",
             "label_en": "ProceedsFromDivestitureOfInterestInSubsidiariesAndAffiliates",
             "element_id": "us-gaap:ProceedsFromDivestitureOfInterestInSubsidiariesAndAffiliates",
             "value": 1684000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PaymentsForProceedsFromOtherInvestingActivities",
+            "label_jp": "その他（純額）",
             "label_en": "PaymentsForProceedsFromOtherInvestingActivities",
             "element_id": "us-gaap:PaymentsForProceedsFromOtherInvestingActivities",
-            "value": 20015000000,
+            "value": -20015000000,
             "unit": "JPY"
           },
           {
