@@ -120,105 +120,105 @@
         ],
         "liabilitiesAndEquity": [
           {
-            "label_jp": "ShortTermBorrowings",
+            "label_jp": "短期借入",
             "label_en": "ShortTermBorrowings",
             "element_id": "us-gaap:ShortTermBorrowings",
             "value": 1117292000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PayablesToCustomers",
+            "label_jp": "顧客に対する支払債務",
             "label_en": "PayablesToCustomers",
             "element_id": "srt:PayablesToCustomers",
             "value": 1377222000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherPayables",
+            "label_jp": "顧客以外に対する支払債務",
             "label_en": "OtherPayables",
             "element_id": "nmr:OtherPayables",
             "value": 2766112000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "Deposits",
+            "label_jp": "受入銀行預金",
             "label_en": "Deposits",
             "element_id": "us-gaap:Deposits",
             "value": 3105581000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "SecuritiesSoldUnderAgreementsToRepurchase",
+            "label_jp": "買戻条件付売却有価証券",
             "label_en": "SecuritiesSoldUnderAgreementsToRepurchase",
             "element_id": "us-gaap:SecuritiesSoldUnderAgreementsToRepurchase",
             "value": 16287758000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "SecuritiesLoaned",
+            "label_jp": "貸付有価証券担保金",
             "label_en": "SecuritiesLoaned",
             "element_id": "us-gaap:SecuritiesLoaned",
             "value": 1964682000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherSecuredFinancings",
+            "label_jp": "その他の担保付借入",
             "label_en": "OtherSecuredFinancings",
             "element_id": "us-gaap:OtherSecuredFinancings",
             "value": 393420000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "TradingLiabilities",
+            "label_jp": "トレーディング負債",
             "label_en": "TradingLiabilities",
             "element_id": "us-gaap:TradingLiabilities",
             "value": 11378828000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherLiabilities",
+            "label_jp": "その他の負債",
             "label_en": "OtherLiabilities",
             "element_id": "us-gaap:OtherLiabilities",
             "value": 1456598000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "LongTermDebt",
+            "label_jp": "長期借入",
             "label_en": "LongTermDebt",
             "element_id": "us-gaap:LongTermDebt",
             "value": 13373678000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "CommonStockValue",
+            "label_jp": "資本金",
             "label_en": "CommonStockValue",
             "element_id": "us-gaap:CommonStockValue",
             "value": 594493000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "AdditionalPaidInCapital",
+            "label_jp": "資本剰余金",
             "label_en": "AdditionalPaidInCapital",
             "element_id": "us-gaap:AdditionalPaidInCapital",
             "value": 704877000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "RetainedEarningsAccumulatedDeficit",
+            "label_jp": "利益剰余金",
             "label_en": "RetainedEarningsAccumulatedDeficit",
             "element_id": "us-gaap:RetainedEarningsAccumulatedDeficit",
             "value": 1867379000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+            "label_jp": "累積的その他の包括利益",
             "label_en": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
             "element_id": "us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax",
             "value": 447808000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "TreasuryStockValue",
+            "label_jp": "自己株式（取得価額）",
             "label_en": "TreasuryStockValue",
             "element_id": "us-gaap:TreasuryStockValue",
             "value": -143678000000,
@@ -344,105 +344,105 @@
         ],
         "liabilitiesAndEquity": [
           {
-            "label_jp": "ShortTermBorrowings",
+            "label_jp": "短期借入",
             "label_en": "ShortTermBorrowings",
             "element_id": "us-gaap:ShortTermBorrowings",
             "value": 1752669000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PayablesToCustomers",
+            "label_jp": "顧客に対する支払債務",
             "label_en": "PayablesToCustomers",
             "element_id": "srt:PayablesToCustomers",
             "value": 1598758000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherPayables",
+            "label_jp": "顧客以外に対する支払債務",
             "label_en": "OtherPayables",
             "element_id": "nmr:OtherPayables",
             "value": 3432040000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "Deposits",
+            "label_jp": "受入銀行預金",
             "label_en": "Deposits",
             "element_id": "us-gaap:Deposits",
             "value": 3667090000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "SecuritiesSoldUnderAgreementsToRepurchase",
+            "label_jp": "買戻条件付売却有価証券",
             "label_en": "SecuritiesSoldUnderAgreementsToRepurchase",
             "element_id": "us-gaap:SecuritiesSoldUnderAgreementsToRepurchase",
             "value": 15233838000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "SecuritiesLoaned",
+            "label_jp": "貸付有価証券担保金",
             "label_en": "SecuritiesLoaned",
             "element_id": "us-gaap:SecuritiesLoaned",
             "value": 2448284000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherSecuredFinancings",
+            "label_jp": "その他の担保付借入",
             "label_en": "OtherSecuredFinancings",
             "element_id": "us-gaap:OtherSecuredFinancings",
             "value": 384156000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "TradingLiabilities",
+            "label_jp": "トレーディング負債",
             "label_en": "TradingLiabilities",
             "element_id": "us-gaap:TradingLiabilities",
             "value": 12915584000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherLiabilities",
+            "label_jp": "その他の負債",
             "label_en": "OtherLiabilities",
             "element_id": "us-gaap:OtherLiabilities",
             "value": 1813635000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "LongTermDebt",
+            "label_jp": "長期借入",
             "label_en": "LongTermDebt",
             "element_id": "us-gaap:LongTermDebt",
             "value": 15544956000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "CommonStockValue",
+            "label_jp": "資本金",
             "label_en": "CommonStockValue",
             "element_id": "us-gaap:CommonStockValue",
             "value": 594493000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "AdditionalPaidInCapital",
+            "label_jp": "資本剰余金",
             "label_en": "AdditionalPaidInCapital",
             "element_id": "us-gaap:AdditionalPaidInCapital",
             "value": 706261000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "RetainedEarningsAccumulatedDeficit",
+            "label_jp": "利益剰余金",
             "label_en": "RetainedEarningsAccumulatedDeficit",
             "element_id": "us-gaap:RetainedEarningsAccumulatedDeficit",
             "value": 2013986000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+            "label_jp": "累積的その他の包括利益",
             "label_en": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
             "element_id": "us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax",
             "value": 548221000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "TreasuryStockValue",
+            "label_jp": "自己株式（取得価額）",
             "label_en": "TreasuryStockValue",
             "element_id": "us-gaap:TreasuryStockValue",
             "value": -155093000000,
