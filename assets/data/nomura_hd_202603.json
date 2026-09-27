@@ -1212,7 +1212,7 @@
             "label_jp": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
             "label_en": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
             "element_id": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-            "value": 4299022000000,
+            "value": 4425441000000,
             "unit": "JPY"
           }
         ]
@@ -1595,7 +1595,7 @@
             "label_jp": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
             "label_en": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
             "element_id": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-            "value": 4425441000000,
+            "value": 4318722000000,
             "unit": "JPY"
           }
         ]
