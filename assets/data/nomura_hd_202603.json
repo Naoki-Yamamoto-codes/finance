@@ -459,175 +459,175 @@
         "date": "2025-03-31",
         "items": [
           {
-            "label_jp": "BrokerageCommissionsRevenue",
+            "label_jp": "委託・投信募集手数料",
             "label_en": "BrokerageCommissionsRevenue",
             "element_id": "us-gaap:BrokerageCommissionsRevenue",
             "value": 407011000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "InvestmentBankingRevenue",
+            "label_jp": "投資銀行業務手数料",
             "label_en": "InvestmentBankingRevenue",
             "element_id": "us-gaap:InvestmentBankingRevenue",
             "value": 212234000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "AssetManagementFeesAndCustodyFee",
+            "label_jp": "アセットマネジメント業務手数料",
             "label_en": "AssetManagementFeesAndCustodyFee",
             "element_id": "nmr:AssetManagementFeesAndCustodyFee",
             "value": 378196000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "TradingGainsLosses",
+            "label_jp": "トレーディング損益",
             "label_en": "TradingGainsLosses",
             "element_id": "us-gaap:TradingGainsLosses",
             "value": 580099000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PrincipalInvestmentGainsLosses",
+            "label_jp": "プライベートエクイティ・デット投資関連損益",
             "label_en": "PrincipalInvestmentGainsLosses",
             "element_id": "us-gaap:PrincipalInvestmentGainsLosses",
             "value": 7634000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "InterestAndDividendIncomeOperating",
+            "label_jp": "金融収益",
             "label_en": "InterestAndDividendIncomeOperating",
             "element_id": "us-gaap:InterestAndDividendIncomeOperating",
             "value": 2927861000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "GainLossOnInvestmentsInEquitySecurities",
+            "label_jp": "投資持分証券関連損益",
             "label_en": "GainLossOnInvestmentsInEquitySecurities",
             "element_id": "nmr:GainLossOnInvestmentsInEquitySecurities",
             "value": 444000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherIncome",
+            "label_jp": "その他",
             "label_en": "OtherIncome",
             "element_id": "us-gaap:OtherIncome",
             "value": 223264000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "InterestExpense",
+            "label_jp": "金融費用",
             "label_en": "InterestExpense",
             "element_id": "us-gaap:InterestExpense",
             "value": -2844258000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "LaborAndRelatedExpense",
+            "label_jp": "人件費",
             "label_en": "LaborAndRelatedExpense",
             "element_id": "us-gaap:LaborAndRelatedExpense",
             "value": -732390000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "FloorBrokerageExchangeAndClearanceFees",
+            "label_jp": "支払手数料",
             "label_en": "FloorBrokerageExchangeAndClearanceFees",
             "element_id": "us-gaap:FloorBrokerageExchangeAndClearanceFees",
             "value": -177452000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "CommunicationsAndInformationTechnology",
+            "label_jp": "情報・通信関連費用",
             "label_en": "CommunicationsAndInformationTechnology",
             "element_id": "us-gaap:CommunicationsAndInformationTechnology",
             "value": -227018000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OccupancyNet",
+            "label_jp": "不動産関係費",
             "label_en": "OccupancyNet",
             "element_id": "us-gaap:OccupancyNet",
             "value": -70166000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "BusinessDevelopment",
+            "label_jp": "事業促進費用",
             "label_en": "BusinessDevelopment",
             "element_id": "us-gaap:BusinessDevelopment",
             "value": -27055000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherNoninterestExpense",
+            "label_jp": "その他",
             "label_en": "OtherNoninterestExpense",
             "element_id": "us-gaap:OtherNoninterestExpense",
             "value": -186440000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "IncomeTaxExpenseBenefit",
+            "label_jp": "法人所得税等",
             "label_en": "IncomeTaxExpenseBenefit",
             "element_id": "us-gaap:IncomeTaxExpenseBenefit",
             "value": -124709000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentBeforeTax",
+            "label_jp": "為替換算調整額",
             "label_en": "OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentBeforeTax",
             "element_id": "us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentBeforeTax",
             "value": -35768000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherComprehensiveIncomeLossForeignCurrencyTranslationAdjustmentTax",
+            "label_jp": "繰延税額",
             "label_en": "OtherComprehensiveIncomeLossForeignCurrencyTranslationAdjustmentTax",
             "element_id": "us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTranslationAdjustmentTax",
             "value": -1569000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentBeforeTax",
+            "label_jp": "年金債務調整額",
             "label_en": "OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentBeforeTax",
             "element_id": "us-gaap:OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentBeforeTax",
             "value": 17734000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansTax",
+            "label_jp": "繰延税額",
             "label_en": "OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansTax",
             "element_id": "us-gaap:OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansTax",
             "value": -5327000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentBeforeTax",
+            "label_jp": "トレーディング目的以外の負債証券の未実現損益",
             "label_en": "OtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentBeforeTax",
             "element_id": "us-gaap:OtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentBeforeTax",
             "value": -1675000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherComprehensiveIncomeLossAvailableForSaleSecuritiesTax",
+            "label_jp": "繰延税額",
             "label_en": "OtherComprehensiveIncomeLossAvailableForSaleSecuritiesTax",
             "element_id": "us-gaap:OtherComprehensiveIncomeLossAvailableForSaleSecuritiesTax",
             "value": 528000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherComprehensiveIncomeLossOwnCreditAdjustmentsBeforeTax",
+            "label_jp": "自己クレジット調整額",
             "label_en": "OtherComprehensiveIncomeLossOwnCreditAdjustmentsBeforeTax",
             "element_id": "nmr:OtherComprehensiveIncomeLossOwnCreditAdjustmentsBeforeTax",
             "value": 20636000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherComprehensiveIncomeLossOwnCreditTax",
+            "label_jp": "繰延税額",
             "label_en": "OtherComprehensiveIncomeLossOwnCreditTax",
             "element_id": "nmr:OtherComprehensiveIncomeLossOwnCreditTax",
             "value": -7978000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ComprehensiveIncomeNetOfTaxIncludingPortionAttributableToNoncontrollingInterest",
+            "label_jp": "包括利益",
             "label_en": "ComprehensiveIncomeNetOfTaxIncludingPortionAttributableToNoncontrollingInterest",
             "element_id": "us-gaap:ComprehensiveIncomeNetOfTaxIncludingPortionAttributableToNoncontrollingInterest",
             "value": 333836000000,
@@ -639,175 +639,175 @@
         "date": "2026-03-31",
         "items": [
           {
-            "label_jp": "BrokerageCommissionsRevenue",
+            "label_jp": "委託・投信募集手数料",
             "label_en": "BrokerageCommissionsRevenue",
             "element_id": "us-gaap:BrokerageCommissionsRevenue",
             "value": 455289000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "InvestmentBankingRevenue",
+            "label_jp": "投資銀行業務手数料",
             "label_en": "InvestmentBankingRevenue",
             "element_id": "us-gaap:InvestmentBankingRevenue",
             "value": 200548000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "AssetManagementFeesAndCustodyFee",
+            "label_jp": "アセットマネジメント業務手数料",
             "label_en": "AssetManagementFeesAndCustodyFee",
             "element_id": "nmr:AssetManagementFeesAndCustodyFee",
             "value": 468600000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "TradingGainsLosses",
+            "label_jp": "トレーディング損益",
             "label_en": "TradingGainsLosses",
             "element_id": "us-gaap:TradingGainsLosses",
             "value": 696894000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PrincipalInvestmentGainsLosses",
+            "label_jp": "プライベートエクイティ・デット投資関連損益",
             "label_en": "PrincipalInvestmentGainsLosses",
             "element_id": "us-gaap:PrincipalInvestmentGainsLosses",
             "value": 12604000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "InterestAndDividendIncomeOperating",
+            "label_jp": "金融収益",
             "label_en": "InterestAndDividendIncomeOperating",
             "element_id": "us-gaap:InterestAndDividendIncomeOperating",
             "value": 2669640000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "GainLossOnInvestmentsInEquitySecurities",
+            "label_jp": "投資持分証券関連損益",
             "label_en": "GainLossOnInvestmentsInEquitySecurities",
             "element_id": "nmr:GainLossOnInvestmentsInEquitySecurities",
             "value": 13066000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherIncome",
+            "label_jp": "その他",
             "label_en": "OtherIncome",
             "element_id": "us-gaap:OtherIncome",
             "value": 241845000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "InterestExpense",
+            "label_jp": "金融費用",
             "label_en": "InterestExpense",
             "element_id": "us-gaap:InterestExpense",
             "value": -2590773000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "LaborAndRelatedExpense",
+            "label_jp": "人件費",
             "label_en": "LaborAndRelatedExpense",
             "element_id": "us-gaap:LaborAndRelatedExpense",
             "value": -829502000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "FloorBrokerageExchangeAndClearanceFees",
+            "label_jp": "支払手数料",
             "label_en": "FloorBrokerageExchangeAndClearanceFees",
             "element_id": "us-gaap:FloorBrokerageExchangeAndClearanceFees",
             "value": -221857000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "CommunicationsAndInformationTechnology",
+            "label_jp": "情報・通信関連費用",
             "label_en": "CommunicationsAndInformationTechnology",
             "element_id": "us-gaap:CommunicationsAndInformationTechnology",
             "value": -248439000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OccupancyNet",
+            "label_jp": "不動産関係費",
             "label_en": "OccupancyNet",
             "element_id": "us-gaap:OccupancyNet",
             "value": -71523000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "BusinessDevelopment",
+            "label_jp": "事業促進費用",
             "label_en": "BusinessDevelopment",
             "element_id": "us-gaap:BusinessDevelopment",
             "value": -33679000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherNoninterestExpense",
+            "label_jp": "その他",
             "label_en": "OtherNoninterestExpense",
             "element_id": "us-gaap:OtherNoninterestExpense",
             "value": -222892000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "IncomeTaxExpenseBenefit",
+            "label_jp": "法人所得税等",
             "label_en": "IncomeTaxExpenseBenefit",
             "element_id": "us-gaap:IncomeTaxExpenseBenefit",
             "value": -165439000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentBeforeTax",
+            "label_jp": "為替換算調整額",
             "label_en": "OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentBeforeTax",
             "element_id": "us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentBeforeTax",
             "value": 149812000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherComprehensiveIncomeLossForeignCurrencyTranslationAdjustmentTax",
+            "label_jp": "繰延税額",
             "label_en": "OtherComprehensiveIncomeLossForeignCurrencyTranslationAdjustmentTax",
             "element_id": "us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTranslationAdjustmentTax",
             "value": -2074000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentBeforeTax",
+            "label_jp": "年金債務調整額",
             "label_en": "OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentBeforeTax",
             "element_id": "us-gaap:OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentBeforeTax",
             "value": 11653000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansTax",
+            "label_jp": "繰延税額",
             "label_en": "OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansTax",
             "element_id": "us-gaap:OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansTax",
             "value": -4670000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentBeforeTax",
+            "label_jp": "トレーディング目的以外の負債証券の未実現損益",
             "label_en": "OtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentBeforeTax",
             "element_id": "us-gaap:OtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentBeforeTax",
             "value": -3233000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherComprehensiveIncomeLossAvailableForSaleSecuritiesTax",
+            "label_jp": "繰延税額",
             "label_en": "OtherComprehensiveIncomeLossAvailableForSaleSecuritiesTax",
             "element_id": "us-gaap:OtherComprehensiveIncomeLossAvailableForSaleSecuritiesTax",
             "value": 1018000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherComprehensiveIncomeLossOwnCreditAdjustmentsBeforeTax",
+            "label_jp": "自己クレジット調整額",
             "label_en": "OtherComprehensiveIncomeLossOwnCreditAdjustmentsBeforeTax",
             "element_id": "nmr:OtherComprehensiveIncomeLossOwnCreditAdjustmentsBeforeTax",
             "value": -57597000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherComprehensiveIncomeLossOwnCreditTax",
+            "label_jp": "繰延税額",
             "label_en": "OtherComprehensiveIncomeLossOwnCreditTax",
             "element_id": "nmr:OtherComprehensiveIncomeLossOwnCreditTax",
             "value": 10718000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ComprehensiveIncomeNetOfTaxIncludingPortionAttributableToNoncontrollingInterest",
+            "label_jp": "包括利益",
             "label_en": "ComprehensiveIncomeNetOfTaxIncludingPortionAttributableToNoncontrollingInterest",
             "element_id": "us-gaap:ComprehensiveIncomeNetOfTaxIncludingPortionAttributableToNoncontrollingInterest",
             "value": 480009000000,
