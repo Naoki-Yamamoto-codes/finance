@@ -6,112 +6,112 @@
         "date": "2025-03-31",
         "assets": [
           {
-            "label_jp": "CashAndCashEquivalentsAtCarryingValue",
+            "label_jp": "現金および現金同等物",
             "label_en": "CashAndCashEquivalentsAtCarryingValue",
             "element_id": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
             "value": 4424462000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "TimeDepositsCurrent",
+            "label_jp": "定期預金",
             "label_en": "TimeDepositsCurrent",
             "element_id": "nmr:TimeDepositsCurrent",
             "value": 642388000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "RestrictedCashAndCashEquivalents",
+            "label_jp": "取引所預託金およびその他の顧客分別金",
             "label_en": "RestrictedCashAndCashEquivalents",
             "element_id": "us-gaap:RestrictedCashAndCashEquivalents",
             "value": 447846000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "LoansReceivable",
+            "label_jp": "貸付金",
             "label_en": "LoansReceivable",
             "element_id": "nmr:LoansReceivable",
             "value": 6025008000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ReceivablesFromCustomers",
+            "label_jp": "顧客に対する受取債権",
             "label_en": "ReceivablesFromCustomers",
             "element_id": "us-gaap:ReceivablesFromCustomers",
             "value": 410722000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherReceivables",
+            "label_jp": "顧客以外に対する受取債権",
             "label_en": "OtherReceivables",
             "element_id": "us-gaap:OtherReceivables",
             "value": 1030023000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "AllowanceForDoubtfulAccountsReceivable",
+            "label_jp": "貸倒引当金",
             "label_en": "AllowanceForDoubtfulAccountsReceivable",
             "element_id": "us-gaap:AllowanceForDoubtfulAccountsReceivable",
             "value": -16920000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "SecuritiesPurchasedUnderAgreementsToResell",
+            "label_jp": "売戻条件付買入有価証券",
             "label_en": "SecuritiesPurchasedUnderAgreementsToResell",
             "element_id": "us-gaap:SecuritiesPurchasedUnderAgreementsToResell",
             "value": 14004757000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "SecuritiesBorrowedTotal",
+            "label_jp": "借入有価証券担保金",
             "label_en": "SecuritiesBorrowedTotal",
             "element_id": "nmr:SecuritiesBorrowedTotal",
             "value": 4658828000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "FinancialInstrumentsOwnedAtFairValue",
+            "label_jp": "トレーディング資産",
             "label_en": "FinancialInstrumentsOwnedAtFairValue",
             "element_id": "us-gaap:FinancialInstrumentsOwnedAtFairValue",
             "value": 22372339000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PrivateEquityInvestments",
+            "label_jp": "プライベートエクイティ・デット投資",
             "label_en": "PrivateEquityInvestments",
             "element_id": "nmr:PrivateEquityInvestments",
             "value": 151710000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PropertyPlantAndEquipmentNet",
+            "label_jp": "建物、土地、器具備品および設備",
             "label_en": "PropertyPlantAndEquipmentNet",
             "element_id": "us-gaap:PropertyPlantAndEquipmentNet",
             "value": 436454000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "DebtSecuritiesAvailableForSaleAndHeldToMaturity",
+            "label_jp": "トレーディング目的以外の負債証券",
             "label_en": "DebtSecuritiesAvailableForSaleAndHeldToMaturity",
             "element_id": "us-gaap:DebtSecuritiesAvailableForSaleAndHeldToMaturity",
             "value": 485290000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "InvestmentsInEquitySecurities",
+            "label_jp": "投資持分証券",
             "label_en": "InvestmentsInEquitySecurities",
             "element_id": "nmr:InvestmentsInEquitySecurities",
             "value": 98401000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+            "label_jp": "関連会社に対する投資および貸付金",
             "label_en": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
             "element_id": "us-gaap:InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
             "value": 506389000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherAssets",
+            "label_jp": "その他",
             "label_en": "OtherAssets",
             "element_id": "us-gaap:OtherAssets",
             "value": 1124473000000,
@@ -230,112 +230,112 @@
         "date": "2026-03-31",
         "assets": [
           {
-            "label_jp": "CashAndCashEquivalentsAtCarryingValue",
+            "label_jp": "現金および現金同等物",
             "label_en": "CashAndCashEquivalentsAtCarryingValue",
             "element_id": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
             "value": 4298693000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "TimeDepositsCurrent",
+            "label_jp": "定期預金",
             "label_en": "TimeDepositsCurrent",
             "element_id": "nmr:TimeDepositsCurrent",
             "value": 709639000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "RestrictedCashAndCashEquivalents",
+            "label_jp": "取引所預託金およびその他の顧客分別金",
             "label_en": "RestrictedCashAndCashEquivalents",
             "element_id": "us-gaap:RestrictedCashAndCashEquivalents",
             "value": 640642000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "LoansReceivable",
+            "label_jp": "貸付金",
             "label_en": "LoansReceivable",
             "element_id": "nmr:LoansReceivable",
             "value": 7745214000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "ReceivablesFromCustomers",
+            "label_jp": "顧客に対する受取債権",
             "label_en": "ReceivablesFromCustomers",
             "element_id": "us-gaap:ReceivablesFromCustomers",
             "value": 470341000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherReceivables",
+            "label_jp": "顧客以外に対する受取債権",
             "label_en": "OtherReceivables",
             "element_id": "us-gaap:OtherReceivables",
             "value": 1345631000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "AllowanceForDoubtfulAccountsReceivable",
+            "label_jp": "貸倒引当金",
             "label_en": "AllowanceForDoubtfulAccountsReceivable",
             "element_id": "us-gaap:AllowanceForDoubtfulAccountsReceivable",
             "value": -18381000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "SecuritiesPurchasedUnderAgreementsToResell",
+            "label_jp": "売戻条件付買入有価証券",
             "label_en": "SecuritiesPurchasedUnderAgreementsToResell",
             "element_id": "us-gaap:SecuritiesPurchasedUnderAgreementsToResell",
             "value": 13210236000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "SecuritiesBorrowedTotal",
+            "label_jp": "借入有価証券担保金",
             "label_en": "SecuritiesBorrowedTotal",
             "element_id": "nmr:SecuritiesBorrowedTotal",
             "value": 4339659000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "FinancialInstrumentsOwnedAtFairValue",
+            "label_jp": "トレーディング資産",
             "label_en": "FinancialInstrumentsOwnedAtFairValue",
             "element_id": "us-gaap:FinancialInstrumentsOwnedAtFairValue",
             "value": 26128073000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PrivateEquityInvestments",
+            "label_jp": "プライベートエクイティ・デット投資",
             "label_en": "PrivateEquityInvestments",
             "element_id": "nmr:PrivateEquityInvestments",
             "value": 214014000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "PropertyPlantAndEquipmentNet",
+            "label_jp": "建物、土地、器具備品および設備",
             "label_en": "PropertyPlantAndEquipmentNet",
             "element_id": "us-gaap:PropertyPlantAndEquipmentNet",
             "value": 543847000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "DebtSecuritiesAvailableForSaleAndHeldToMaturity",
+            "label_jp": "トレーディング目的以外の負債証券",
             "label_en": "DebtSecuritiesAvailableForSaleAndHeldToMaturity",
             "element_id": "us-gaap:DebtSecuritiesAvailableForSaleAndHeldToMaturity",
             "value": 761267000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "InvestmentsInEquitySecurities",
+            "label_jp": "投資持分証券",
             "label_en": "InvestmentsInEquitySecurities",
             "element_id": "nmr:InvestmentsInEquitySecurities",
             "value": 123191000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+            "label_jp": "関連会社に対する投資および貸付金",
             "label_en": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
             "element_id": "us-gaap:InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
             "value": 535402000000,
             "unit": "JPY"
           },
           {
-            "label_jp": "OtherAssets",
+            "label_jp": "その他",
             "label_en": "OtherAssets",
             "element_id": "us-gaap:OtherAssets",
             "value": 1598457000000,
