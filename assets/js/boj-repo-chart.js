@@ -176,7 +176,7 @@ async function drawStackedBarChart(canvas) {
     const key = canvas.dataset.key;
     const rawdata = jsonData[key];
 
-    const itemKeys = Object.keys(rawdata.items)
+    const itemKeys = Object.keys(rawdata.items);
     const datasets = itemKeys.map(key => ({ 
         label: key,
         data: rawdata.items[key].map(x => x.value),
