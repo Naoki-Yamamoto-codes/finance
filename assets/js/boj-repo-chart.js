@@ -188,7 +188,7 @@ async function drawStackedBarChart(canvas) {
     const labels = rawdata.items[keys[0]].map(x => x.date)
 
     //canvas.width = 400;
-    //canvas.height = 400;
+    canvas.height = 500;
 
     new Chart(canvas, {
         type: 'bar',
@@ -201,7 +201,10 @@ async function drawStackedBarChart(canvas) {
             maintainAspectRatio: false,
             scales: {
                 x: { stacked: true },
-                y: { stacked: true }
+                y: { 
+                    stacked: true,
+                    beginAtZero: true 
+                }
             },
             plugins: {
                 legend: { position: 'bottom' },
