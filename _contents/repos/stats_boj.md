@@ -35,17 +35,17 @@ title: FSBレポ統計の日本分集計結果 Statistics on Securities Financin
 
 <canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_jpy" data-chart-type="line" > </canvas>
 
-資金調達サイド本邦居住者(2026/07)
-<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_jpy_borrowing_res"> </canvas>
+#### 資金調達サイド本邦居住者
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_jpy_borrowing_res" data-chart-type="stackedbar"> </canvas>
 
-資金調達サイド非居住者等(2026/07)
-<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_jpy_borrowing_nonres"> </canvas>
+#### 資金調達サイド非居住者等
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_jpy_borrowing_nonres" data-chart-type="stackedbar"> </canvas>
 
-資金運用サイド本邦居住者(2026/07)
-<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_jpy_lending_res"> </canvas>
+#### 資金運用サイド本邦居住者
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_jpy_lending_res" data-chart-type="stackedbar"> </canvas>
 
-資金運用サイド非居住者等(2026/07)
-<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_jpy_lending_nonres"> </canvas>
+#### 資金運用サイド非居住者等
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_jpy_lending_nonres" data-chart-type="stackedbar"> </canvas>
 
 ### 現先取引及び証券貸借取引 外貨取引
 
@@ -55,14 +55,14 @@ title: FSBレポ統計の日本分集計結果 Statistics on Securities Financin
 
 <canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_for_ccy" data-chart-type="line" > </canvas>
 
-資金調達サイド非居住者等(2026/07)
-<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_for_ccy_borrowing"> </canvas>
+#### 資金調達サイド非居住者等
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_for_ccy_borrowing" data-chart-type="stackedbar"> </canvas>
 
-資金調達サイド通貨別(2026/07)
-<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_repo_for_ccy_borrowing"> </canvas>
+#### 資金調達サイド通貨別
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_for_ccy_by_ccy_borrowing" data-chart-type="stackedbar"> </canvas>
 
-資金運用サイド通貨別(2026/07)
-<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_repo_for_ccy_lending"> </canvas>
+#### 資金運用サイド通貨別
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_for_ccy_by_ccy_lending" data-chart-type="stackedbar"> </canvas>
 
 ### 現先取引 日本円／日本国債等
 
@@ -70,20 +70,20 @@ title: FSBレポ統計の日本分集計結果 Statistics on Securities Financin
 
 <canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_repo_jpy_jgb" data-chart-type="line" > </canvas>
 
-資金運用サイドGCレポ取引取引相手別(2026/07)
-<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_repo_jpy_jgb_gc_cp"> </canvas>
+#### 資金運用サイドGCレポ取引取引相手別
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_repo_jpy_jgb_gc_cp" data-chart-type="stackedbar"> </canvas>
 
-資金運用サイドGCレポ取引当初マチュリティ別(2026/07)
-<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_repo_jpy_jgb_gc_maturity"> </canvas>
+#### 資金運用サイドGCレポ取引当初マチュリティ別
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_repo_jpy_jgb_gc_maturity" data-chart-type="stackedbar"> </canvas>
 
-資金運用サイドGCレポ取引清算別(2026/07)
-<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_repo_jpy_jgb_gc_clearing"> </canvas>
+#### 資金運用サイドGCレポ取引清算別
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_repo_jpy_jgb_gc_clearing" data-chart-type="stackedbar"> </canvas>
 
-資金運用サイドSCレポ取引取引相手別(2026/07)
-<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_repo_jpy_jgb_sc_cp"> </canvas>
+#### 資金運用サイドSCレポ取引取引相手別
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_repo_jpy_jgb_sc_cp" data-chart-type="stackedbar"> </canvas>
 
-資金運用サイドSCレポ取引清算別(2026/07)
-<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_repo_jpy_jgb_sc_clearing"> </canvas>
+#### 資金運用サイドSCレポ取引清算別
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_repo_jpy_jgb_sc_clearing" data-chart-type="stackedbar"> </canvas>
 
 ### 現先取引 外貨／債券
 
@@ -91,8 +91,8 @@ title: FSBレポ統計の日本分集計結果 Statistics on Securities Financin
 
 <canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_repo_for_ccy" data-chart-type="line" > </canvas>
 
-資金調達サイド外貨建て債券(2026/07)
-<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_repo_for_ccy_sec"> </canvas>
+#### 資金調達サイド外貨建て債券
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_repo_for_ccy_sec" data-chart-type="stackedbar"> </canvas>
 
 ### 証券貸借取引 日本国債／日本円
 
@@ -100,20 +100,20 @@ title: FSBレポ統計の日本分集計結果 Statistics on Securities Financin
 
 <canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_lending_jgb" data-chart-type="line" > </canvas>
 
-資金運用サイドGCレポ取引取引相手別(2026/07)
-<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_lending_jgb_gc_cp"> </canvas>
+#### 資金運用サイドGCレポ取引取引相手別
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_lending_jgb_gc_cp" data-chart-type="stackedbar"> </canvas>
 
-資金運用サイドGCレポ取引当初マチュリティ別(2026/07)
-<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_lending_jgb_gc_maturity"> </canvas>
+#### 資金運用サイドGCレポ取引当初マチュリティ別
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_lending_jgb_gc_maturity" data-chart-type="stackedbar"> </canvas>
 
-資金運用サイドGCレポ取引清算別(2026/07)
-<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_lending_jgb_gc_clearing"> </canvas>
+#### 資金運用サイドGCレポ取引清算別
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_lending_jgb_gc_clearing" data-chart-type="stackedbar"> </canvas>
 
-資金運用サイドSCレポ取引取引相手別(2026/07)
-<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_lending_jgb_sc_cp"> </canvas>
+#### 資金運用サイドSCレポ取引取引相手別
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_lending_jgb_sc_cp" data-chart-type="stackedbar"> </canvas>
 
-資金運用サイドSCレポ取引清算別(2026/07)
-<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_lending_jgb_sc_clearing"> </canvas>
+#### 資金運用サイドSCレポ取引清算別
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_lending_jgb_sc_clearing" data-chart-type="stackedbar"> </canvas>
 
 ### 証券貸借取引 日本株／現金及び代用有価証券
 
@@ -121,15 +121,14 @@ title: FSBレポ統計の日本分集計結果 Statistics on Securities Financin
 
 <canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_lending_equity" data-chart-type="line" > </canvas>
 
-株式調達サイド取引相手別(2026/07)
-<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_lending_equity_cp"> </canvas>
+#### 株式調達サイド取引相手別
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_lending_equity_cp" data-chart-type="stackedbar"> </canvas>
 
-株式調達サイド当初マチュリティ別(2026/07)
-<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_lending_equity_maturity"> </canvas>
+#### 株式調達サイド当初マチュリティ別
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_lending_equity_maturity" data-chart-type="stackedbar"> </canvas>
 
-株式調達サイド貸借料率別(2026/07)
-<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="slice" data-chart-type="pie" data-slice-key="stock_lending_equity_fee"> </canvas>
-
+#### 株式調達サイド貸借料率別
+<canvas data-json="/finance/assets/data/boj_repo_202607.json" data-key="stock_lending_equity_fee" data-chart-type="stackedbar"> </canvas>
 
 
 ### 取引レート レポレート

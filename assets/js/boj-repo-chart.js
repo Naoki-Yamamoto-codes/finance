@@ -14,6 +14,10 @@ document.addEventListener("DOMContentLoaded", () => {
             case "pie":
                 drawPieChart(canvas);
                 break;    
+            
+            case "stackedbar":
+                drawStackedBarChart(canvas);
+                break;   
         }
     });
 });
@@ -163,4 +167,42 @@ async function drawPieChart(canvas) {
             }
         }
     );
+}
+
+async function drawStackedBarChart(canvas) {
+    const jsonPath = canvas.dataset.json;
+    const response = await fetch(jsonPath);
+    const jsonData = await response.json();
+    const key = canvas.dataset.key;
+    const rawdata = jsonData[key];
+
+    const keys = Object.keys(rawdata.items)
+    const datasets = keys.map(key => ({ 
+        label: key,
+        data: rawdata.items[key].map(x => x.value)
+    }));
+
+    const labels = rawdata.items[keys[0]].map(x => x.date)
+
+    //canvas.width = 400;
+    //canvas.height = 400;
+
+    new Chart(canvas, {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: datasets
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                x: { stacked: true },
+                y: { stacked: true }
+            },
+            plugins: {
+                legend: { position: 'bottom' },
+            }
+        }
+    });
 }
