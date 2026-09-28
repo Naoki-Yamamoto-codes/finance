@@ -179,7 +179,10 @@ async function drawStackedBarChart(canvas) {
     const keys = Object.keys(rawdata.items)
     const datasets = keys.map(key => ({ 
         label: key,
-        data: rawdata.items[key].map(x => x.value)
+        data: rawdata.items[key].map(x => x.value),
+        stack: 'total',
+        borderWidth: 1,
+        borderColor: '#ffffff'
     }));
 
     const labels = rawdata.items[keys[0]].map(x => x.date)
