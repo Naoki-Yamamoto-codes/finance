@@ -195,7 +195,6 @@ async function drawStackedBarChart(canvas) {
         },
         options: {
             responsive: true,
-            maintainAspectRatio: false,
             scales: {
                 x: { stacked: true },
                 y: { 
